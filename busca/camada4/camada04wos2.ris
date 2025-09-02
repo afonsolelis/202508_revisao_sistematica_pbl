@@ -1,0 +1,17 @@
+﻿TY  - JOUR
+AU  - Naseer, M
+AU  - Zhang, W
+AU  - Zhu, WH
+TI  - Early Prediction of a Team Performance in the Initial Assessment Phases of a Software Project for Sustainable Software Engineering Education
+T2  - SUSTAINABILITY
+AB  - Software engineering is a competitive field in education and practice. Software projects are key elements of software engineering courses. Software projects feature a fusion of process and product. The process reflects the methodology of performing the overall software engineering practice. The software product is the final product produced by applying the process. Like any other academic domain, an early evaluation of the software product being developed is vital to identify the at-risk teams for sustainable education in software engineering. Guidance and instructor attention can help overcome the confusion and difficulties of low performing teams. This study proposed a hybrid approach of information gain feature selection with a J48 decision tree to predict the earliest possible phase for final performance prediction. The proposed technique was compared with the state-of-the-art machine learning (ML) classifiers, naive Bayes (NB), artificial neural network (ANN), logistic regression (LR), simple logistic regression (SLR), repeated incremental pruning to produce error reduction (RIPPER), and sequential minimal optimization (SMO). The goal of this process is to predict the teams expected to obtain a below-average grade in software product development. The proposed technique outperforms others in the prediction of low performing teams at an early assessment stage. The proposed J48-based technique outperforms others by making 89% correct predictions.
+SN  - 2071-1050
+DA  - JUN
+PY  - 2020
+VL  - 12
+IS  - 11
+C7  - 4663
+DO  - 10.3390/su12114663
+AN  - WOS:000543391800326
+ER  -
+

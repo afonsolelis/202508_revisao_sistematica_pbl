@@ -1,0 +1,403 @@
+﻿TY  - JOUR
+AU  - Chen, HM
+AU  - Nguyen, BA
+AU  - Dow, CR
+TI  - Code-quality evaluation scheme for assessment of student contributions to programming projects
+T2  - JOURNAL OF SYSTEMS AND SOFTWARE
+AB  - Project-based learning is the most common approach to software engineering education, due to its emphasis on the teamwork skills essential to real-world collaborations. This study developed an automated programming assessment system (APAS) featuring a code-quality evaluation scheme to overcome difficulties in assessing the contribution of individual team members. Team participation is visualized on a weekly basis to provide insights pertaining to team dynamics, and metrics based on code quality allow the segmentation of students by level of contribution. Insights provided by the proposed system were also shown to facilitate interventions aimed at improving code quality. Empirical analysis based on submission data from 146 students (41 teams) demonstrated the feasibility of the proposed system in monitoring group-based learning projects at the university level, particularly in detecting free-riders. (C) 2022 Published by Elsevier Inc.
+SN  - 0164-1212
+SN  - 1873-1228
+DA  - JUN
+PY  - 2022
+VL  - 188
+C7  - 111273
+DO  - 10.1016/j.jss.2022.111273
+C6  - MAR 2022
+AN  - WOS:000783133900004
+ER  -
+
+TY  - CPAPER
+AU  - Serban, C
+AU  - Vescan, A
+ED  - Vanderose, B
+ED  - Frenay, B
+ED  - Henry, J
+ED  - Devroey, X
+TI  - Advances in Designing a Student-Centered Learning Process using Cutting-Edge Methods, Tools, and Artificial Intelligence: An E-Learning Platform
+T2  - PROCEEDINGS OF THE 1ST ACM SIGSOFT INTERNATIONAL WORKSHOP ON EDUCATION THROUGH ADVANCED SOFTWARE ENGINEERING AND ARTIFICIAL INTELLIGENCE (EASEAI '19)
+CP  - 1st ACM SIGSOFT International Workshop on Education through Advanced Software Engineering and Artificial Intelligence (EASEAI)
+AB  - It is well known the fact that learning process is difficult for learners and at the same time it raises problems for those who teach. Teaching Software Engineering for undergraduate students is an assiduous and a challenging task due to its level of abstraction, to frequently changes that appear in programming paradigms and in software development methodologies.
+   In this paper we provide a novel approach in teaching Advanced Programming Methods, the third introductory course in Software Engineering that is being taught at our faculty within the Computer Science Curriculum for undergraduate students.
+   The contribution of this paper is threefold: firstly, we design a student-centered learning process intertwining cutting edge methods like for instance project-based learning, self assessment-based learning and students engagement. Secondly, we design an E-learning platform to provide for students an automated assessment and appropriate feedback and, most important, to offer them support throughout the learning process. Thirdly, we provide a quantitative and qualitative analysis over 3 years of teaching Advanced Programming Methods course, by applying the proposed methodology.
+   Our analysis results show the effectiveness of our approach. Key contributions in this paper are our proposed E-learning platform and the analysis findings.
+SN  - 978-1-4503-6852-0
+PY  - 2019
+SP  - 39
+EP  - 45
+DO  - 10.1145/3340435.3342716
+AN  - WOS:000525442200009
+ER  -
+
+TY  - JOUR
+AU  - Sangpom, N
+AU  - Sangpom, W
+TI  - Project-Based Learning Combined with Inquiry-Based Learning Using Solver Tools to Promote Computational Thinking Among Undergraduate Students
+T2  - TEM JOURNAL-TECHNOLOGY EDUCATION MANAGEMENT INFORMATICS
+AB  - This research aims to 1) Study the management of learning units on linear programming for undergraduate students, 2) Develop and verify the quality of the learning model, and 3) Examine the effects of the model on 24 undergraduate students at the Rajamangala University of Technology Suvarnabhumi using purposive sampling. This research was a research and development study. The research tools included the learning management model, lesson plans, classroom observation forms, and computational thinking assessment tools. Data were analyzed using percentage, mean, standard deviation, and t-test. The research findings were as follows: 1) The learning management was characterized by collaborative learning, studying, planning, practicing, expanding students' concepts to summarize mathematical concepts, and assessing the results. The instructor guided, stimulated learning, supported, facilitated, and reinforced learning. 2) The combined Project-Based Learning and Inquiry-Based Learning model using Solver tools included principles, objectives, learning management processes, measurement and evaluation, and essential conditions for successful implementation. The model was of high quality with an effectiveness index of 0.561; 3) Implementing the model significantly increased students' computational thinking skills in all five areas with a statistical significance level of 0.001.
+SN  - 2217-8309
+SN  - 2217-8333
+DA  - FEB
+PY  - 2025
+VL  - 14
+IS  - 1
+SP  - 602
+EP  - 611
+DO  - 10.18421/TEM141-53
+AN  - WOS:001439813900049
+ER  -
+
+TY  - CPAPER
+AU  - Terragni, V
+AU  - Giacaman, N
+ED  - Fasolino, AR
+ED  - Panichella, S
+ED  - Aleti, A
+ED  - Mesbah, A
+TI  - A System-Level Testing Framework for Automated Assessment of Programming Assignments Allowing Students Object-Oriented Design Freedom
+T2  - 2025 IEEE CONFERENCE ON SOFTWARE TESTING, VERIFICATION AND VALIDATION, ICST
+CP  - 18th International Conference on Software Testing Verification and Validation-ICST-Annual
+AB  - Automated assessment of programming assignments is essential in software engineering education, especially for large classes where manual grading is impractical. While static analysis can evaluate code style and syntax correctness, it cannot assess the functional correctness of students' implementations. Dynamic analysis through software testing can verify program behavior and provide automated feedback to students. However, traditional unit and integration tests often restrict students' design freedom by requiring predefined interfaces and method declarations. In this paper, we present SYSCLI, a novel testing framework for system-level testing of JAVA-based command-Line interface applications. SYSCLI enables test suites that evaluate the functional correctness of students' implementations without limiting their design choices. We also share our experience using SYSCLI in a second-year programming course at the University of Auckland, which focuses on object-oriented programming and design patterns and enrolls over 300 students each offering. Analysis of student assignments from 2023 and 2024 shows that SYSCLI is effective in automating grading, allows software design flexibility, and provides actionable feedback to students. Our experience report offers valuable insights into assessing students' implementation of object-oriented concepts and design patterns.
+SN  - 2159-4848
+SN  - 979-8-3315-0814-2
+PY  - 2025
+SP  - 687
+EP  - 698
+DO  - 10.1109/ICST62969.2025.10989046
+AN  - WOS:001506893900067
+ER  -
+
+TY  - JOUR
+AU  - Cipriano, BP
+AU  - Baltazar, B
+AU  - Fachada, N
+AU  - Vourvopoulos, A
+AU  - Alves, P
+TI  - Bridging the Gap between Project-Oriented and Exercise-Oriented Automatic Assessment Tools
+T2  - COMPUTERS
+AB  - In this study, we present the DP Plugin for IntelliJ IDEA, designed to extend the Drop Project (DP) Automatic Assessment Tool (AAT) by making it more suitable for handling small exercises in exercise-based learning environments. Our aim was to address the limitations of DP in supporting small assignments while retaining its strengths in project-based learning. The plugin leverages DP's REST API to streamline the submission process, integrating assignment instructions and feedback directly within the IDE. A student survey conducted during the 2022/23 academic year revealed a positive reception, highlighting benefits such as time efficiency and ease of use. Students also provided valuable feedback, leading to various improvements that have since been integrated into the plugin. Despite these promising results, the study is limited by the relatively small percentage of survey respondents. Our findings suggest that an IDE plugin can significantly improve the usability of project-oriented AATs for small exercises, informing the development of future educational tools suitable for mixed project-based and exercise-based learning environments.
+SN  - 2073-431X
+DA  - JUL
+PY  - 2024
+VL  - 13
+IS  - 7
+C7  - 162
+DO  - 10.3390/computers13070162
+AN  - WOS:001276445200001
+ER  -
+
+TY  - JOUR
+AU  - Kazerouni, AM
+AU  - Davis, JC
+AU  - Basak, A
+AU  - Shaffer, CA
+AU  - Servant, F
+AU  - Edwards, SH
+TI  - Fast and accurate incremental feedback for students' software tests using selective mutation analysis
+T2  - JOURNAL OF SYSTEMS AND SOFTWARE
+AB  - As incorporating software testing into programming assignments becomes routine, educators have begun to assess not only the correctness of students' software, but also the adequacy of their tests. In practice, educators rely on code coverage measures, though its shortcomings are widely known. Mutation analysis is a stronger measure of test adequacy, but it is too costly to be applied beyond the small programs developed in introductory programming courses. We demonstrate how to adapt mutation analysis to provide rapid automated feedback on software tests for complex projects in large programming courses. We study a dataset of 1389 student software projects ranging from trivial to complex. We begin by showing that although the state-of-the-art in mutation analysis is practical for providing rapid feedback on projects in introductory courses, it is prohibitively expensive for the more complex projects in subsequent courses. To reduce this cost, we use a statistical procedure to select a subset of mutation operators that maintains accuracy while minimizing cost. We show that with only 2 operators, costs can be reduced by a factor of 2-3 with negligible loss in accuracy. Finally, we evaluate our approach on open-source software and report that our findings may generalize beyond our educational context. (c) 2021 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+SN  - 0164-1212
+SN  - 1873-1228
+DA  - MAY
+PY  - 2021
+VL  - 175
+C7  - 110905
+DO  - 10.1016/j.jss.2021.110905
+C6  - FEB 2021
+AN  - WOS:000623099500004
+ER  -
+
+TY  - CPAPER
+AU  - Ma, K
+AU  - Liu, K
+AU  - Du, LX
+A1  - IEEE Comp Soc
+TI  - Automated Assessment and Evaluation of Contribution of Collaborative Software Engineering Development Process
+T2  - 2020 27TH ASIA-PACIFIC SOFTWARE ENGINEERING CONFERENCE (APSEC 2020)
+CP  - 27th Asia-Pacific Software Engineering Conference (APSEC)
+AB  - In the context of New Generation of Information Technology (NGIT) and Emerging Engineering Education (3E) in China, it is a new research hot topic to in evaluating students involvements and skills in engineering practice. Many automated assessment systems were developed specifically for the use case of grading student work. Sometimes, it is subjective evaluation and not always correct. These systems usually emphasize the training results, but neglects the process tracking od the result. In this paper, our automated assessment and evaluation of the contribution of collaborative software engineering training is proposed to evaluate student involving in software engineering training against a rubric feedback. Contributions of our method are automated assessment of laboratory environment and collaborative software development process, and cooperative development contribution model. Finally, the results of automated assessment of workload and its balance is analyzed to illustrate the effect of our software engineering training.
+SN  - 978-1-7281-9553-7
+PY  - 2020
+SP  - 500
+EP  - 504
+DO  - 10.1109/APSEC51365.2020.00064
+AN  - WOS:000662668700057
+ER  -
+
+TY  - CPAPER
+AU  - Katan, S
+AU  - Anstead, E
+ED  - Cardoso, A
+ED  - Alves, GR
+ED  - Restivo, MT
+TI  - Work In Progress: Sleuth, a programming environment for testing gamification
+T2  - PROCEEDINGS OF THE 2020 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON 2020)
+CP  - IEEE Global Engineering Education Conference (IEEE EDUCON)
+AB  - Sleuth is a gamified platform developed as a practical tool for teaching introductory programming to large student cohorts. It focuses on building fluency through repeated practice whilst developing syntactic and conceptual knowledge. The platform is currently used for online and campus-based teaching with around 1200 active students at any given time. In this paper we discuss Sleuth as an iterative testbed for empirically testing theoretical considerations around gamification and automated feedback generation. Further to this, we introduce ongoing research investigating effects of varying feedback types on student attainment and optimising student progression.
+SN  - 2165-9567
+SN  - 978-1-7281-0930-5
+PY  - 2020
+SP  - 1503
+EP  - 1507
+DO  - 10.1109/educon45650.2020.9125098
+AN  - WOS:000617739900226
+ER  -
+
+TY  - JOUR
+AU  - Insa, D
+AU  - Pérez, S
+AU  - Silva, J
+AU  - Tamarit, S
+TI  - Semiautomatic generation and assessment of Java exercises in engineering education
+T2  - COMPUTER APPLICATIONS IN ENGINEERING EDUCATION
+AB  - Continuous assessment is essential in education. It should be an integral part of education that provides immediate feedback to students. Unfortunately, the assessment of programming source code is still a hand-operated and error-prone task, and can take weeks before the student gets feedback. This study presents a semiautomatic code assessment method able to automatically apply black-box assessment (which relies on the comparison of input-output pairs) and white-box assessment (which relies on checking different source code properties). The method proposed is a general-purpose assessment system that was originally designated to be used in engineering education, but that can be used in other educational contexts to assist the assessment of any Java programming assignments or exams. The main advantage of this system is that the assessment made is quicker, exhaustive, and objective; and it does not produce false positives. After the application of this method over two years in several real university courses, we have released a public and free implementation. An empirical evaluation of this system estimates that the amount of assessment work automatically done by the tool is over 48%. Additionally, the system has been used to measure the average subjective influence (i.e., assessment errors) introduced by teachers when they assess exams manually.
+SN  - 1061-3773
+SN  - 1099-0542
+DA  - SEP
+PY  - 2021
+VL  - 29
+IS  - 5
+SP  - 1034
+EP  - 1050
+DO  - 10.1002/cae.22356
+C6  - OCT 2020
+AN  - WOS:000582838100001
+ER  -
+
+TY  - CPAPER
+AU  - Pawelczak, D
+A1  - IEEE
+TI  - Benefits and drawbacks of source code plagiarism detection in engineering education
+T2  - PROCEEDINGS OF 2018 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON) - EMERGING TRENDS AND CHALLENGES OF ENGINEERING EDUCATION
+CP  - IEEE Global Engineering Education Conference (EDUCON) - Emerging Trends and Challenges of Engineering Education
+AB  - Source code plagiarism is wide spread in beginners' programming courses. Especially, if programming is a minor subject, as for instance in engineering degrees. It is very tempting for students during a programming assignment to use a working copy of a fellow student rather than struggling with the time-consuming coding by themselves. But as learning programming requires a significant personal commitment, we confirm the results of other studies, that cheating leads to higher failure rates and lower scores in the examination. Automatic plagiarism detection systems are therefore measures against cheating. We analyzed the students' achievements and opinions during the last 5 years of operating an automated assessment system with plagiarism detection. The paper discusses in detail the benefits of such a system, e.g. the equal treatment of all students compared to manual plagiarism checks, and shows also the disadvantages, e.g. code obfuscation, that students perform in order to circumvent the system.
+SN  - 2165-9567
+SN  - 978-1-5386-2957-4
+PY  - 2018
+SP  - 1048
+EP  - 1056
+AN  - WOS:000434866100147
+ER  -
+
+TY  - CPAPER
+AU  - Noble, J
+AU  - Streader, D
+AU  - Gariano, IO
+AU  - Samarakoon, M
+ED  - Deshmukh, JV
+ED  - Havelund, K
+ED  - Perez, I
+TI  - More Programming Than Programming: Teaching Formal Methods in a Software Engineering Programme
+T2  - NASA FORMAL METHODS (NFM 2022)
+CP  - 14th International NASA Formal Methods Symposium (NFM)
+AB  - Formal methods for software correctness are critical to the future of software engineering-and so must be an essential part of software engineering education. Unfortunately, formal methods are often resisted by students due to perceived difficulty, mathematicity, and practical irrelevance. We redeveloped our software correctness course by taking a programming intensive approach, using the solver-aided language Dafny to provide instant formative feedback via automated assessment. Our redeveloped course increased student retention and resulted in the best evaluation for the course for at least ten years.
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 978-3-031-06773-0
+SN  - 978-3-031-06772-3
+PY  - 2022
+VL  - 13260
+SP  - 431
+EP  - 450
+DO  - 10.1007/978-3-031-06773-0_23
+AN  - WOS:000876362100023
+ER  -
+
+TY  - CPAPER
+AU  - Miller, H
+AU  - Haller, P
+AU  - Rytz, L
+AU  - Odersky, M
+ED  - Jalote, P
+ED  - Briand, L
+ED  - VanDerHoek, A
+TI  - Functional Programming For All! Scaling a MOOC for Students and Professionals Alike
+T2  - 36TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING (ICSE COMPANION 2014)
+CP  - 36th International Conference on Software Engineering (ICSE)
+AB  - Massive open online courses (MOOCs) have launched a scale shift in higher education, with several individual MOOCs now boasting tens or hundreds of thousands of participants worldwide. Our MOOC on the principles of functional programming has more than 100,000 registered students to date, and boasts one of the highest rates of completion (19.2%) for its size. In this paper, we describe our experience organizing this popular MOOC, and demonstrate how providing innovative supporting tools (IDE plugins, testing frameworks, interactive build tools, automated cloud-based graders, style checkers) and considering key human-computer interaction factors potentially contributed to this markedly high completion rate. We collect an unprecedented volume of course statistics and survey results and have made them available, along with scripts for generating interactive web-based visualizations, as an open-source project.
+SN  - 978-1-4503-2768-8
+PY  - 2014
+SP  - 256
+EP  - 263
+DO  - 10.1145/2591062.2591161
+AN  - WOS:000380902900030
+ER  -
+
+TY  - CPAPER
+AU  - Quah, JTS
+AU  - Lim, LR
+AU  - Budi, H
+AU  - Lua, KT
+A1  - IEEE
+TI  - Towards Automated Assessment of Engineering Assignments
+T2  - IJCNN: 2009 INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS, VOLS 1- 6
+CP  - International Joint Conference on Neural Networks
+AB  - This paper reports an automated engineering assignments marking system using Support Vector Machines (SVMs). A typical engineering assignment consists of more than just text. It may also contain mathematical equations, pictures, diagrams, charts, algorithms, or even programming source codes. These elements have to be taken into consideration in the marking process. The automated marking process is more consistent. The system learns how to mark based on grades given for the first few scripts. The system would learn the marking scheme and mark the subsequent scripts automatically. A prototype system to mark equations and short answers is prototyped and evaluated. This system forms the foundation to be expanded into a full fledge automated assessment system.
+SN  - 2161-4393
+SN  - 978-1-4244-3549-4
+PY  - 2009
+SP  - 1411
+EP  - 1418
+AN  - WOS:000280591600205
+ER  -
+
+TY  - CPAPER
+AU  - Nagumo, H
+AU  - Oomori, Y
+AU  - Takemura, Y
+A1  - IEEE
+TI  - Mutual Improvement between Teaching Materials and Assessment Tools for K-12 Programming Education
+T2  - 2021 IEEE FRONTIERS IN EDUCATION CONFERENCE (FIE 2021)
+CP  - IEEE Frontiers in Education Conference (FIE)
+AB  - This Innovative Practice Full Paper presents an approach to improve teaching materials and assessment tools for K-12 programming education together by creating a virtuous cycle. Improving teaching materials for computing education is in line with the conference theme " Creating a convergence in engineering education and workforce development". In this research, coding sheets are used as a part of the teaching materials, and the assessment tools are used to assess the algorithmic thinking ability of the students. The assumption here is that there is a mutual impact between the improvement of teaching materials and that of assessment tools. This kind of strategy is important, especially in the setting of elementary school education in Japan in which conducting a pilot study is difficult. In Japan, the new curriculum guidelines were fully implemented in April 2020 in elementary schools and in April 2021 in junior high schools respectively. They will be implemented in April 2022 in high schools. Since the announcement of the new curriculum guidelines, the boards of education in the local governments have been preparing for the programming education in the schools. However, there are still remaining problems, including the shortage of trained teachers and the lack of good assessment tools. In order to remedy the shortage of trained teachers, we designed some coding sheets for the teaching materials consisting of block parts, servo motors, DC-motors, LEDs, and sensors. In our assessment tools which are supposed to assess students' Computational Thinking ability, we included only the questions for assessing algorithmic thinking ability, as there is a limited amount of time for the assessment in schools. We have used our teaching materials and our assessment tools in some elementary schools. Based on the results of the teaching activities, we discuss the strategy to improve the teaching materials and the assessment tools together.
+SN  - 978-1-6654-3851-3
+PY  - 2021
+DO  - 10.1109/FIE49875.2021.9637257
+AN  - WOS:000821947700146
+ER  -
+
+TY  - JOUR
+AU  - Eslami, E
+AU  - Bassir, SH
+AU  - Sadr-Eshkevari, P
+TI  - Current State of the Effectiveness of Problem-Based Learning in Prosthodontics: A Systematic Review
+T2  - JOURNAL OF DENTAL EDUCATION
+AB  - The aim of this study was to systematically review the available literature on the effectiveness of problem-based learning (PBL) in prosthodontics. Both electronic and manual searches were performed by two reviewers. Of the 440 studies identified, ten met the inclusion criteria (Kappa=0.83). Various assessment tools such as standardized examinations (National Board Dental Examination and North East Regional Board of Dental Examiners exam) (22 percent), tutor evaluation (practical and examinations performance) (20 percent), curriculum time (20 percent) and number of units (10 percent), peer evaluation (10 percent), and self-evaluation (100 percent) were used in the included studies. Thirty percent of the studies adopted a control group for all measurements, 30 percent did for only some measurements, and the others lacked any control group. Although 30 percent of the studies implemented a hybrid PBL, the other studies did not mention the type of PBL. Based on the Effective Public Health Practice Project (EPHPP), all of the included studies were rated as being of weak quality. Heterogeneity across these studies in outcome variables, study designs, levels of PBL intervention, and study population limits any attempt to generalize the outcomes. The generally poor quality assessment outcomes warrant further studies on the effectiveness of PBL in prosthodontics education compared to a non-PBL curriculum.
+SN  - 0022-0337
+SN  - 1930-7837
+DA  - MAY
+PY  - 2014
+VL  - 78
+IS  - 5
+SP  - 723
+EP  - 734
+AN  - WOS:000336009100008
+ER  -
+
+TY  - JOUR
+AU  - Li, Y
+AU  - Wang, X
+AU  - Zhu, XR
+AU  - Zhu, YX
+AU  - Sun, J
+TI  - Effectiveness of problem-based learning on the professional communication competencies of nursing students and nurses: A systematic review
+T2  - NURSE EDUCATION IN PRACTICE
+AB  - The objective of this systematic review was to estimate the effectiveness of problem-based learning (PBL) in developing the professional communication competences of nursing students and nurses. We have searched PubMed, EMBASE, MEDLINE, PsycINFO, Cochrane Library, China National Knowledge Infrastructure, Wanfang Data Knowledge Service Platform, and VIP Database for Chinese Technical Periodicals to identify all the English and Chinese language studies that used PBL to determine the effectiveness of developing professional communication competences of nursing students and nurses. Then two reviewers independently assessed eligibility and extracted data. Quality assessment using the Cochrane Collaboration's risk of bias tool for randomized controlled trials and Joanna Briggs Institute Meta Analysis of Statistics Assessment and Review Instrument (JBI-MAStARI) for quasi-experimental studies. A total of 12 studies were included, all of which were inclined to low bias. Eleven articles showed that PBL developed the communication skills of nursing students or nurses, while only one article revealed no significant difference between PBL and the traditional method. Owing to differences in experimental design and the method and duration of intervention, some of these studies combined PBL with other methods, and the evaluation tools were different. This systematic review cautiously supports the outcomes of PBL compared with traditional learning.
+SN  - 1471-5953
+DA  - MAY
+PY  - 2019
+VL  - 37
+SP  - 45
+EP  - 55
+DO  - 10.1016/j.nepr.2019.04.015
+AN  - WOS:000473840000007
+ER  -
+
+TY  - JOUR
+AU  - Cañas, JM
+AU  - Martín-Martín, D
+AU  - Arias, P
+AU  - Vega, J
+AU  - Roldán-Alvarez, D
+AU  - García-Pérez, L
+AU  - Fernández-Conde, J
+TI  - Open-Source Drone Programming Course for Distance Engineering Education
+T2  - ELECTRONICS
+AB  - This article presents a full course for autonomous aerial robotics inside the RoboticsAcademy framework. This "drone programming" course is open-access and ready-to-use for any teacher/student to teach/learn drone programming with it for free. The students may program diverse drones on their computers without a physical presence in this course. Unmanned aerial vehicles (UAV) applications are essentially practical, as their intelligence resides in the software part. Therefore, the proposed course emphasizes drone programming through practical learning. It comprises a collection of exercises resembling drone applications in real life, such as following a road, visual landing, and people search and rescue, including their corresponding background theory. The course has been successfully taught for five years to students from several university engineering degrees. Some exercises from the course have also been validated in three aerial robotics competitions, including an international one. RoboticsAcademy is also briefly presented in the paper. It is an open framework for distance robotics learning in engineering degrees. It has been designed as a practical complement to the typical online videos of massive open online courses (MOOCs). Its educational contents are built upon robot operating system (ROS) middleware (de facto standard in robot programming), the powerful 3D Gazebo simulator, and the widely used Python programming language. Additionally, RoboticsAcademy is a suitable tool for gamified learning and online robotics competitions, as it includes several competitive exercises and automatic assessment tools.
+SN  - 2079-9292
+DA  - DEC
+PY  - 2020
+VL  - 9
+IS  - 12
+C7  - 2163
+DO  - 10.3390/electronics9122163
+AN  - WOS:000602033400001
+ER  -
+
+TY  - CPAPER
+AU  - Krugel, J
+AU  - Hubwieser, P
+AU  - Goedicke, M
+AU  - Striewe, M
+AU  - Talbot, M
+AU  - Olbricht, C
+AU  - Schypula, M
+AU  - Zettler, S
+ED  - Cardoso, A
+ED  - Alves, GR
+ED  - Restivo, MT
+TI  - Automated Measurement of Competencies and Generation of Feedback in Object-Oriented Programming Courses
+T2  - PROCEEDINGS OF THE 2020 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON 2020)
+CP  - IEEE Global Engineering Education Conference (IEEE EDUCON)
+AB  - To overcome the shortage of computer specialists, there is an increased need for correspondent study and training offers, in particular for learning programming. The automated assessment of solutions to programming tasks could relieve teachers of time-consuming corrections and provide individual feedback even in online courses without any personal teacher. The e-assessment system JACK has been successfully applied for more than 12 years up to now, e.g., in a CS1 lecture. However, there are only few solid research results on competencies and competence models for object-oriented programming (OOP), which could be used as a foundation for high-quality feedback.
+   In a joint research project of research groups at two universities, we aim to empirically define competencies for OOP using a mixed-methods approach. In a first step, we performed a qualitative content analysis of source code (sample solutions and students' solutions) and as a result identified a set of suitable competency components that forms the core of further investigations. Semi-structured interviews with learners will be used to identify difficulties and misconceptions of the learners and to adapt the set of competency components. Based on that we will use Item Response Theory (IRT) to develop an automatically evaluable test instrument for the implementation of abstract data types. We will further develop empirically founded and competency-based feedback that can be used in e-assessment systems and MOOCs.
+SN  - 2165-9559
+SN  - 978-1-7281-0930-5
+PY  - 2020
+SP  - 329
+EP  - 338
+DO  - 10.1109/educon45650.2020.9125323
+AN  - WOS:000617739900057
+ER  -
+
+TY  - CPAPER
+AU  - Petrov, M
+AU  - Totev, P
+AU  - Aleksieva-Petrova, A
+ED  - Chova, LG
+ED  - Martinez, AL
+ED  - Torres, IC
+TI  - SOFTWARE AUTOMATION OF HOMEWORK EVALUATION BY USING VIRTUAL ENVIRONMENTS
+T2  - 11TH INTERNATIONAL CONFERENCE OF EDUCATION, RESEARCH AND INNOVATION (ICERI2018)
+CP  - 11th Annual International Conference of Education, Research and Innovation (ICERI)
+AB  - Current paper investigates innovative approaches of homework evaluation in the area of computer science and software engineering education. Homework evaluation in mass-courses, not to mention massive online courses, is crucial for successful knowledge and skills acquisition by students. The solving of software tasks is an essential element in the training of software engineers assisting the acquisition of basic principles in analysis, design and software development. Evaluating 'by hand' computer code can be a tedious and error prone task, and with tens or hundreds of students things get worse. The use of automated tests may significantly improve the process by verifying the correctness of the submitted solution. On other hand the secure and isolated execution of a user submitted code is a significant technical challenge. Virtual machines are used for a long time to isolate code execution but they introduce significant overhead and are not practical solution to run small programs. That is why the majority of the traditional solutions for automated evaluation of coding problems are using sandbox environments instead. The downside of such environments is that they are very restrictive - for example the programs running inside them could not open sockets or files. In the recent years containers emerge as a lightweight solution for isolated execution of processes. Containers are a method of operating system virtualization that allow you running an application and its dependencies in resource-isolated processes. Our solution is one attempt to demonstrate usage of containers as a way of isolation of testing process for homework tasks. We analyse and design a software architecture based on which a software tool has been developed that facilitates the isolation of homework and retrieval of the results. The system is tested with several types of tasks and the results are promising. Conclusions and specifics on design, implementation and usage are discussed and limitations are pointed out.
+SN  - 2340-1095
+SN  - 978-84-09-05948-5
+PY  - 2018
+SP  - 6492
+EP  - 6501
+AN  - WOS:000568991701117
+ER  -
+
+TY  - JOUR
+AU  - Canas, JM
+AU  - Perdices, E
+AU  - García-Pérez, L
+AU  - Fernández-Conde, J
+TI  - A ROS-Based Open Tool for Intelligent Robotics Education
+T2  - APPLIED SCIENCES-BASEL
+AB  - This paper presents an open-access platform for practical learning of intelligent robotics in engineering degrees: Robotics-Academy. It comprises a collection of exercises including recent service robot applications in real life, with different robots such as autonomous cars, drones or vacuum cleaners. It uses Robot Operating System (ROS) middleware, the de facto standard in robot programming, the 3D Gazebo simulator and the Python programming language. For each exercise, a software template has been developed, performing all the auxiliary tasks such as the graphical interface, connection to the sensors and actuators, timing of the code, etc. This also hosts the student's code. Using this template, the student just focuses on the robot intelligence (for instance, perception and control algorithms) without wasting time on auxiliary details which have little educational value. The templates are coded as ROS nodes or as Jupyter Notebooks ready to use in the web browser. Reference solutions for illustrative purposes and automatic assessment tools for gamification have also been developed. An introductory course to intelligent robotics has been elaborated and its contents are available and ready to use at Robotics-Academy, including reactive behaviors, path planning, local/global navigation, and self-localization algorithms. Robotics-Academy provides a valuable complement to master classes in blended learning, massive online open courses (MOOCs) and online video courses, devoted to addressing theoretical content. This open educational tool connects that theory with practical robot applications and is suitable to be used in distance education. Robotics-Academy has been successfully used in several subjects on undergraduate and master's degree engineering courses, in addition to a pre-university pilot course.
+SN  - 2076-3417
+DA  - NOV
+PY  - 2020
+VL  - 10
+IS  - 21
+C7  - 7419
+DO  - 10.3390/app10217419
+AN  - WOS:000588957000001
+ER  -
+
+TY  - CPAPER
+AU  - Subburaj, VH
+AU  - Subburaj, AS
+AU  - Urban, JE
+A1  - IEEE
+TI  - Introduction to Computing: Interdisciplinary Course Design
+T2  - 2018 IEEE FRONTIERS IN EDUCATION CONFERENCE (FIE)
+CP  - 48th IEEE Frontiers in Education Conference (FIE)
+AB  - This Innovative Practice Category Work In Progress paper presents course design for an interdisciplinary course that can be offered to engineering and computer science students. Engineering disciplines use technology and engineers deal with computing machines to perform day to day activities. The engineers who use such technologies have to be informed users of technology and also are expected to aid in the advancement of technology. Engineers must have sufficient computer skills. An engineering curriculum must help students acquire these skill sets. Employers note that except for a few, most engineering graduates struggle with learning new technologies and putting them to practice. Computer science students who are technically strong are not getting enough exposure to interdisciplinary projects within their curriculum. Computer science students often note not having enough experience working with diverse problem sets inside their curriculum, which is a key for being successful in any industry after graduation. This paper is about introducing an interdisciplinary course across engineering and computer science disciplines that aims at fixing the above two deficiencies. The course is designed for freshman and will enroll students from computer science and engineering disciplines. The curriculum design will aim at teaching computing concepts with interdisciplinary engineering problem sets. This approach is a unique effort as the objectives of the course are completely different from the typical courses offered within the computer science and engineering disciplines. This course will focus on teaching basic computing skills, basic programming, implementing solutions to interdisciplinary problems sets, choice and use of software tools that aid problem solving, and effectively working across interdisciplinary teams. Designing instructional materials and assessment tools to develop this unique mix of skill sets will be addressed in this paper. This effort is just underway; the interdisciplinary course developed will aim at getting used across institutions to serve a similar purpose.
+SN  - 0190-5848
+SN  - 978-1-5386-1174-6
+PY  - 2018
+AN  - WOS:000468396900038
+ER  -
+

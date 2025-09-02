@@ -1,0 +1,363 @@
+﻿TY  - CPAPER
+AU  - Wolfschwenger, P
+AU  - Sabitzer, B
+AU  - Lavicza, Z
+A1  - IEEE
+TI  - Design and Evaluation of an Agile Framework for Continuous Education in Software Engineering
+T2  - 2022 IEEE FRONTIERS IN EDUCATION CONFERENCE, FIE
+CP  - IEEE Frontiers in Education Conference (FIE)
+AB  - This Research-To-Practice Full Paper presents an agile framework that was created and evaluated in the context of a continuous professional training and development program in the IT industry. It was designed with the values and principles of Agile Software Development in mind and provides a learning concept to become acquainted with DevOps and Cloud Computing practices. While DevOps promises to build, test and release software faster and more reliably through methods like continuous integration, continuous deployment/delivery, automated testing and infrastructure-as-code, the integration of Cloud Computing services empowers each step of the agile life cycle through ubiquitous access to computing resources that can be provisioned with minimal effort. The paper describes the experiences of creating and applying the didactic concept as well as observations of conducted work, learning progress, motivation and achievements.
+SN  - 0190-5848
+SN  - 978-1-6654-6244-0
+PY  - 2022
+DO  - 10.1109/FIE56618.2022.9962411
+AN  - WOS:001204427600038
+ER  -
+
+TY  - JOUR
+AU  - Odell, MRL
+AU  - Kennedy, TJ
+AU  - Stocks, E
+TI  - The Impact of PBL as a STEM School Reform Model
+T2  - INTERDISCIPLINARY JOURNAL OF PROBLEM-BASED LEARNING
+AB  - Project/problem-based learning (PBL) can provide an effective model for school reform when implemented with fidelity. In the report, Rising Above the Gathering Storm, it was recommended that if the U.S. is to remain competitive in the 21st-century economy, there must be a serious effort to "enlarge the pipeline of students who are prepared to enter college and graduate with a degree in STEM" (National Academy of Sciences, National Academy of Engineering, & Institute of Medicine, 2007, p. 6). The report included the recommendation that states develop statewide specialty STEM high schools (National Academy of Sciences, National Academy of Engineering, & Institute of Medicine, 2007, p. 6). In 2010, the Texas Science, Technology, Engineering, and Mathematics Academy (T-STEM) initiative was implemented to develop specialty STEM schools similar to those described in Rising Above the Gathering Storm. The primary instructional strategy of T-STEM academies is problem- and project-based learning. In the STEM context, PBL is well suited as a primary pedagogy for STEM learning. This paper examines the following questions: What outcomes occur when PBL is implemented in a low performing school district? What is the role of PBL in school improvement? What are the challenges to implementing PBL with high fidelity?
+SN  - 1541-5015
+PY  - 2019
+VL  - 13
+IS  - 2
+C7  - 4
+DO  - 10.7771/1541-5015.1846
+AN  - WOS:000484341800004
+ER  -
+
+TY  - CPAPER
+AU  - Irabedra, JI
+AU  - Solari, M
+ED  - Ciampi, MM
+ED  - Brito, CD
+TI  - Active Learning Methodology for Advanced Agile Software Engineering and DevOps Practices
+T2  - 2025 IEEE ENGINEERING EDUCATION WORLD CONFERENCE, EDUNINE
+CP  - 2025 World Conference on Engineering Education-EDUNINE-Annual
+AB  - Creation of digital products and services requires today high-performance interdisciplinary teams that respond quickly to customer needs. This context presents a great challenge for software engineering education, where it seeks to give students an active learning environment of professionally relevant and technologically updated skills. This report presents a classroom experience with a focus on active learning pedagogical strategies for advanced agile software engineering and DevOps practices. The instructional design of the course was based on two main pedagogical methodologies: Team-Based Learning and Project-Based Learning. The course was developed on digital platforms that support both the pedagogical approach and software engineering teamwork and software quality practices. Evaluation was carried out from both teacher's and student's perspectives, using quantitative and qualitative analysis. Lessons learned from the experience are presented to enable adoption of these active learning methodologies in other software engineering courses.
+SN  - 979-8-3315-4279-5
+SN  - 979-8-3315-4278-8
+PY  - 2025
+DO  - 10.1109/EDUNINE62377.2025.10981332
+AN  - WOS:001514396100026
+ER  -
+
+TY  - JOUR
+AU  - Bennett, KP
+AU  - Erickson, JS
+AU  - Svirsky, A
+AU  - Seddon, JC
+TI  - A Mathematics Pipeline to Student Success in Data Analytics through Course-Based Undergraduate Research
+T2  - MATHEMATICS ENTHUSIAST
+AB  - This paper reports on Data Analytics Research (DAR), a course-based undergraduate research experience (CURE) in which undergraduate students conduct data analysis research on open real-world problems for industry, university, and community clients. We describe how DAR, offered by the Mathematical Sciences Department at Rensselaer Polytechnic Institute (RPI), is an essential part of an early low-barrier pipeline into data analytics studies and careers for diverse students. Students first take a foundational course, typically Introduction to Data Mathematics, that teaches linear algebra, data analytics, and R programming simultaneously using a project-based learning (PBL) approach. Then in DAR, students work in teams on open applied data analytics research problems provided by the clients. We describe the DAR organization which is inspired in part by agile software development practices. Students meet for coaching sessions with instructors multiple times a week and present to clients frequently. In a fully remote format during the pandemic, the students continued to be highly successful and engaged in COVID-19 research producing significant results as indicated by deployed online applications, refereed papers, and conference presentations. Formal evaluation shows that the pipeline of the single on-ramp course followed by DAR addressing real-world problems with societal benefits is highly effective at developing students' data analytics skills, advancing creative problem solvers who can work both independently and in teams, and attracting students to further studies and careers in data science.
+SN  - 1551-3440
+DA  - DEC
+PY  - 2022
+VL  - 19
+IS  - 3
+SP  - 730
+EP  - 750
+AN  - WOS:000738619400003
+ER  -
+
+TY  - CPAPER
+AU  - Hamer, S
+AU  - Quesada-López, C
+AU  - Jenkins, M
+ED  - Paiva, ACR
+ED  - Cavalli, AR
+ED  - Martins, PV
+ED  - Perez-Castillo, R
+TI  - Students Projects' Source Code Changes Impact on Software Quality Through Static Analysis
+T2  - QUALITY OF INFORMATION AND COMMUNICATIONS TECHNOLOGY, QUATIC 2021
+CP  - 14th International Conference on the Quality of Information and Communications Technology (QUATIC)
+AB  - Monitoring and examining source code and quality metrics is an essential task in software development projects. Still, it is challenging to evaluate for educational projects due to the time and effort required by instructors, and constant change during the software project evolution. In this paper, we used an automated approach to analyze source code and quality metrics' evolution and impact in software engineering projects using static code analysis on each software change (commits and merges). We examined five undergraduate software engineering projects' changed modules, compilability, and source code and quality metrics (size, complexity, duplication, maintainability, and security). In total, we assessed 12,103 changes from 103 students contributing to the projects. Our approach allowed us to identify students' project trends in the impact of the source code changes, providing insights into behaviors such as technology knowledge deficiencies, issues in continuous integration practices, and software quality degradation. We believe that the early, constant feedback on student software engineering project quality can help instructors improve their courses and students enhance their development practices. Tracking of source code evolution could be done via static analysis and instructors could use the analysis results for teaching.
+SN  - 1865-0929
+SN  - 1865-0937
+SN  - 978-3-030-85346-4
+SN  - 978-3-030-85347-1
+PY  - 2021
+VL  - 1439
+SP  - 553
+EP  - 564
+DO  - 10.1007/978-3-030-85347-1_39
+AN  - WOS:001359449900039
+ER  -
+
+TY  - CPAPER
+AU  - Tenbergen, B
+AU  - Mead, NR
+ED  - Bollin, A
+ED  - Bosnic, I
+ED  - Brings, J
+ED  - Daun, M
+ED  - Manjunath, M
+TI  - Technology Acquisition Plans to Foster Supply Chain Risk Management Learning Outcomes in Project-Based Software Development Courses
+T2  - 2024 36TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING EDUCATION AND TRAINING, CSEE & T 2024
+CP  - 36th International Conference on Software Engineering Education and Training (CSEE and T)
+AB  - From theory and technical skills to self-management and interpersonal skills, and to role-specific knowledge such as DevOps or Requirements Engineering, students struggle to become proficient in all aspects to Software Engineering before graduating, while instructors struggle to prepare students for industry. Project-based instruction has become a de-facto standard to teach skills and knowledge. Many project-based courses focus on implementation, wherein students tend to adopt third-party technologies without critical reflection. This leads to insufficient knowledge about supply chain risk management (SCRM). The result is that students are inadequately prepared to handle risks to project success due to third-party acquisitions, including usage rights, introduction of security vulnerabilities, or their ability to identify and mitigate acquisition risks. In this paper, we present a capstone-style project-based course to deliver an industry-realistic and teamwork-centric software development approach. We propose incorporating Technology Acquisition Plans, which are based on an existing SCRM curriculum, and add acquisition planning, bidding, and risk monitoring activities to the project and development activities. Empirical evaluation and classroom observations show that while students' ability to justify the need for third-party acquisitions remains the same, self-reported ability to evaluate and bid on alternatives is improved. Furthermore, statistically significant improvement can be seen in areas pertaining to risk monitoring, problem detection, and problem resolution.
+SN  - 1093-0175
+SN  - 2377-570X
+SN  - 979-8-3503-7898-6
+SN  - 979-8-3503-7897-9
+PY  - 2024
+DO  - 10.1109/CSEET62301.2024.10663048
+AN  - WOS:001325262600049
+ER  -
+
+TY  - CPAPER
+AU  - Moldovan, R
+AU  - Porumb, C
+AU  - Orza, B
+AU  - Meza, S
+ED  - Chang, M
+ED  - Chen, NS
+ED  - Huang, R
+ED  - Kinshuk
+ED  - Sampson, DG
+ED  - Vasiu, R
+TI  - Blended Assessment Concepts for Formal and Informal Engineering Education
+T2  - 2017 IEEE 17TH INTERNATIONAL CONFERENCE ON ADVANCED LEARNING TECHNOLOGIES (ICALT)
+CP  - 17th IEEE International Conference on Advanced Learning Technologies (ICALT)
+AB  - Multiple assessment options have been adopted in engineering education in the last years due to different reasons. Most of them are related to increasing the efficiency of the evaluation process applied in each activity performed by students/trainees and decreasing stress among them. The assessment methodology implemented in the formal and informal education programs mentioned in the article includes the automated evaluation approach consisting of assessment of conceptual/theoretical knowledge, as well as competences achieved within individual and/or team projects, hands-on laboratory, or simulation work. An analysis of the assessment scores reveals that end-of-programs assessments looks better if continuous evaluation methods are applied during the whole study act while students and trainees develop their own modes of learning and working based on the assessment results.
+SN  - 2161-3761
+SN  - 978-1-5386-3870-5
+PY  - 2017
+SP  - 248
+EP  - 250
+DO  - 10.1109/ICALT.2017.112
+AN  - WOS:000427129000074
+ER  -
+
+TY  - JOUR
+AU  - Knezek, G
+AU  - Christensen, R
+TI  - Project-based learning for middle school students monitoring standby power: replication of impact on stem knowledge and dispositions
+T2  - ETR&D-EDUCATIONAL TECHNOLOGY RESEARCH AND DEVELOPMENT
+AB  - Middle school students participating in energy-monitoring activities guided by their teachers during 2009-2011 gained (p < .05) in content knowledge and became more positive in their dispositions toward STEM (science, technology, engineering, and mathematics). No comparison group data were gathered for this initial study. Activities were replicated with a new group of treatment students during 2013-2014, adding a comparison group not receiving the treatment. Matched pre-post data from 2013 to 2014 confirmed gains in knowledge of environmental science and vampire power (p < .0001, effect size = .86). Aggregate dispositions toward science, mathematics, engineering and technology became more positive for treatment versus comparison group students (p = .023). Gains in STEM dispositions for girls were more positive (effect size = .37) than for boys. Implications of these findings are that hands-on, inquiry-based science activities may help increase the STEM career pipeline in ways that can lead to broader participation in STEM careers in the future.
+SN  - 1042-1629
+SN  - 1556-6501
+DA  - FEB
+PY  - 2020
+VL  - 68
+IS  - 1
+SP  - 137
+EP  - 162
+DO  - 10.1007/s11423-019-09674-3
+AN  - WOS:000513352400007
+ER  -
+
+TY  - JOUR
+AU  - Vincenti, G
+TI  - Integrating Open Challenges in the Curriculum: Lessons Learned from an Experience with NASA
+T2  - INFORMATICS IN EDUCATION
+AB  - Preparing students for the workforce is a balancing act that involves theory, practice, and assessment. As students navigate an educational experience that is, however, often distant from real-world needs, it is imperative that academia finds a novel way to bridge the gap. As many orga nizations utilize open challenges to attract ideas and talent, academia can easily create such bridge, leading to greater engagement, greater student preparation, and a potential employment pipeline. This paper describes the experience of our students and faculty advisors who participated to the NASA SUITS (Spacesuit User Interface Technologies for Students) Design Challenge. In partic ular, we review the pedagogical value of the solution that they created and the changes that were implemented in the curriculum of an undergraduate degree program in Information Technology. This open-source, multi-year project is also a flexible platform that can be utilized for engagement in K-12 education as well as graduate research projects.
+SN  - 1648-5831
+SN  - 2335-8971
+DA  - DEC
+PY  - 2022
+VL  - 21
+IS  - 4
+SP  - 695
+EP  - 731
+DO  - 10.15388/infedu.2022.29
+AN  - WOS:000905276300008
+ER  -
+
+TY  - JOUR
+AU  - Zhang, YM
+AU  - Okamura, L
+AU  - Yoshihara, T
+TI  - An Energy Efficiency 4-bit Multiplier with Two-Phase Non-overlap Clock Driven Charge Recovery Logic
+T2  - IEICE TRANSACTIONS ON ELECTRONICS
+AB  - A novel charge-recovery logic structure called Pulse Boost Logic (PBL) is proposed in this paper. PBL is a high-speed low-energy-dissipation charge-recovery logic with dual-rail evaluation tree structure. It is driven by 2-phase non-overlap clock, and requires no DC power supply. PBL belongs to boost logic family, which includes boost logic, enhanced boost logic and subthreshold boost logic. In this paper, PBL has been compared with other charge-recovery logic technologies. To demonstrate the performance of PBL structure, a 4-bit pipeline multiplier is designed and fabricated with 0.18 mu m CMOS process technology. The simulation results indicate that the 4-bit multiplier can work at a frequency of 1.8 GHz, while the measurement of test chip is at operation frequency of 161 MHz, and the power dissipation at 161 MHz is 772 mu W.
+SN  - 1745-1353
+DA  - APR
+PY  - 2011
+VL  - E94C
+IS  - 4
+SP  - 605
+EP  - 612
+DO  - 10.1587/transele.E94.C.605
+AN  - WOS:000293259000027
+ER  -
+
+TY  - JOUR
+AU  - Circi, R
+AU  - Hicks, J
+AU  - Sikali, E
+TI  - Automatic item generation: foundations and machine learning-based approaches for assessments
+T2  - FRONTIERS IN EDUCATION
+AB  - This mini review summarizes the current state of knowledge about automatic item generation in the context of educational assessment and discusses key points in the item generation pipeline. Assessment is critical in all learning systems and digitalized assessments have shown significant growth over the last decade. This leads to an urgent need to generate more items in a fast and efficient manner. Continuous improvements in computational power and advancements in methodological approaches, specifically in the field of natural language processing, provide new opportunities as well as new challenges in automatic generation of items for educational assessment. This mini review asserts the need for more work across a wide variety of areas for the scaled implementation of AIG.
+SN  - 2504-284X
+DA  - MAY 10
+PY  - 2023
+VL  - 8
+C7  - 858273
+DO  - 10.3389/feduc.2023.858273
+AN  - WOS:000992179600001
+ER  -
+
+TY  - JOUR
+AU  - Cutucache, CE
+AU  - Luhr, JL
+AU  - Nelson, KL
+AU  - Grandgenett, NF
+AU  - Tapprich, WE
+TI  - NE STEM 4U: an out-of-school time academic program to improve achievement of socioeconomically disadvantaged youth in STEM areas
+T2  - INTERNATIONAL JOURNAL OF STEM EDUCATION
+AB  - Background: The Nebraska Science, Technology, Engineering, and Mathematics 4U (NE STEM 4U) program was initiated at the University of Nebraska at Omaha (UNO) in 2013. NE STEM 4U is a student-run, faculty-led program facilitating problem-based learning (PBL) sessions in science, technology, engineering, and mathematics (STEM) for socioeconomically disadvantaged kindergarten through grade 8 (K-8) students. PBL sessions are provided throughout the academic year in a twice-weekly, after-school, informal education program. The instructional material provided after school builds upon the curricula of the school day. Importantly, this program is a partnership between faculty members and administrators in higher education at UNO with community partners of Omaha including Collective for Youth, Beyond School Bells, and Omaha Public Schools. We focus on engaging K-8 youth in after-school immersion experiences in STEM fields using undergraduate students as mentors and facilitators using a model of problem-based learning.
+   Results: This program fosters an educational pipeline for students with hands-on experience in problem-solving and critical thinking. The partnerships among the community provide the foundation for success for students across the K-16 pipeline.
+   Conclusions: Herein, we describe the model of this program as documented by demonstrated successes to date in an effort to guide others in developing such a model in their city or region. We also provide models for implementation of assessment instruments.
+SN  - 2196-7822
+PY  - 2016
+VL  - 3
+C7  - 6
+DO  - 10.1186/s40594-016-0037-0
+AN  - WOS:000442751500006
+ER  -
+
+TY  - JOUR
+AU  - Danks, RP
+AU  - Bano, S
+AU  - Orishko, A
+AU  - Tan, HJ
+AU  - Sancho, FM
+AU  - D'Aiuto, F
+AU  - Stoyanov, D
+TI  - Automating Periodontal bone loss measurement via dental landmark localisation
+T2  - INTERNATIONAL JOURNAL OF COMPUTER ASSISTED RADIOLOGY AND SURGERY
+AB  - Purpose Periodontitis is the sixth most prevalent disease worldwide and periodontal bone loss (PBL) detection is crucial for its early recognition and establishment of the correct diagnosis and prognosis. Current radiographic assessment by clinicians exhibits substantial interobserver variation. Computer-assisted radiographic assessment can calculate bone loss objectively and aid in early bone loss detection. Understanding the rate of disease progression can guide the choice of treatment and lead to early initiation of periodontal therapy. Methodology We propose an end-to-end system that includes a deep neural network with hourglass architecture to predict dental landmarks in single, double and triple rooted teeth using periapical radiographs. We then estimate the PBL and disease severity stage using the predicted landmarks. We also introduce a novel adaptation of MixUp data augmentation that improves the landmark localisation. Results We evaluate the proposed system using cross-validation on 340 radiographs from 63 patient cases containing 463, 115 and 56 single, double and triple rooted teeth. The landmark localisation achieved Percentage Correct Keypoints (PCK) of 88.9%, 73.9% and 74.4%, respectively, and a combined PCK of 83.3% across all root morphologies, outperforming the next best architecture by 1.7%. When compared to clinicians' visual evaluations of full radiographs, the average PBL error was 10.69%, with a severity stage accuracy of 58%. This simulates current interobserver variation, implying that diverse data could improve accuracy. Conclusions The system showed a promising capability to localise landmarks and estimate periodontal bone loss on periapical radiographs. An agreement was found with other literature that non-CEJ (Cemento-Enamel Junction) landmarks are the hardest to localise. Honing the system's clinical pipeline will allow for its use in intervention applications.
+SN  - 1861-6410
+SN  - 1861-6429
+DA  - JUL
+PY  - 2021
+VL  - 16
+IS  - 7
+SP  - 1189
+EP  - 1199
+DO  - 10.1007/s11548-021-02431-z
+C6  - JUN 2021
+AN  - WOS:000664021000001
+ER  -
+
+TY  - CPAPER
+AU  - Alique, D
+AU  - de Tuesta, JLD
+ED  - REDINE
+TI  - Teaching Methodologies in 'Simulation and Optimization of Chemical Processes'
+T2  - 9TH VIRTUAL INTERNATIONAL CONFERENCE ON EDUCATION, INNOVATION AND ICT, EDUNOVATIC 2024
+CP  - 9th Virtual International Conference on Education Innovation and ICT
+AB  - The development of skills and competencies in chemical processes simulation is of key relevance for students enrolled in Chemical Engineering, due to process modelling allows for the analysis of complex systems and cheap evaluation of multiple configurations and operating conditions without risk of accidents or damage to real facilities. Thus, students taking the course "Simulation and Optimization of Chemical Processes," which is placed on the seventh semester of the Chemical Engineering Degree at the Universidad Rey Juan Carlos, must master a series of basic operations to design systems that simulate real-life situations in the chemical industry. To reach this goal, active learning methodologies, such as Problem-Based Learning (PBL), are often used, especially those based on open-ended problem cases. However, their complexity makes difficult to reach a numerical solution within the given time, in addition to representing a significant workload for instructors because the necessity of continuous supervision and support. To address these issues, the present proposal suggests combining the PBL approach with gamification through Genially. This strategy offers students a highly interactive and dynamic guide to solve the proposed cases, providing immediate feedback and promoting the development of critical competencies. An example can be seen in Figure 1a, which shows a gamification example carried out during the last academic year 2023/24.This activity aimed to facilitate decision-making in the design and simulation of a pumping, cooling, and piping system based on real gas pipeline data. After completing the activity, a survey about the proposed task was contemplated (Figure 1b), showing a high level of satisfaction between the students while highlighting how appealing they found this methodology. This resulted in a better understanding of the concepts intended to be practiced, making the resolution of the practice case more enjoyable and effective compared to traditional methods or those based solely on PBL used in previous academic years.
+   [GRAPHICS]
+   .
+SN  - 978-84-126060-5-8
+PY  - 2024
+SP  - 376
+EP  - 379
+AN  - WOS:001435826800105
+ER  -
+
+TY  - JOUR
+AU  - Rao, CHD
+AU  - Saha, SK
+TI  - Generation of Multiple-Choice Questions From Textbook Contents of School-Level Subjects
+T2  - IEEE TRANSACTIONS ON LEARNING TECHNOLOGIES
+AB  - Multiple-choice question (MCQ) plays a significant role in educational assessment. Automatic MCQ generation has been an active research area for years, and many systems have been developed for MCQ generation. Still, we could not find any system that generates accurate MCQs from school-level textbook contents that are useful in real examinations. This observation motivated us to develop a system that generates MCQs to assess the student's recall of factual information. Also, the available systems are often domain, subject, or application-specific in nature. Although the MCQ generation task demands a specific setup, we expect a level of generalization can be achieved. In this development, we also focus on this issue. We propose a pipeline for automatic generation of MCQs from textbooks of middle-school level subjects, and the pipeline is partially subject-independent. The proposed pipeline comprises four core modules: preprocessing, sentence selection, key selection, and distractor generation. Several techniques have been employed to implement individual modules. These include sentence simplification, syntactic and semantic processing of the sentences, entity recognition, semantic relationship extraction among entities, WordNet, neural word embedding, neural sentence embedding, and computation of intersentence similarity. The system is evaluated using the National Council of Educational Research and Training (NCERT), India, textbooks for three subjects. The quality of system-generated questions is assessed by human experts using various system-level and individual module-level metrics. The experimental results demonstrate that the proposed system is capable of generating quality questions that could be useful in a real examination.
+SN  - 1939-1382
+DA  - FEB 1
+PY  - 2023
+VL  - 16
+IS  - 1
+SP  - 40
+EP  - 52
+DO  - 10.1109/TLT.2022.3224232
+AN  - WOS:000937152500004
+ER  -
+
+TY  - JOUR
+AU  - Filion, YR
+TI  - Developing and Teaching a Course in "Applied Sustainability and Public Health in Civil Engineering Design" at Queen's University, Kingston, Canada
+T2  - JOURNAL OF PROFESSIONAL ISSUES IN ENGINEERING EDUCATION AND PRACTICE
+AB  - This paper presents the writer's pedagogical development and delivery of a new undergraduate course in applied sustainability and public health in civil engineering design in the Department of Civil Engineering at Queen's University in Kingston, Canada. This innovative course introduces undergraduate civil engineering students to methods in sustainability indicators, life-cycle analysis, environmental input-output analysis, and risk analysis to evaluate the environmental impacts and public health impacts of civil engineering design. The paper discusses the learning objectives and course themes of preventive design, multicriteria decision making, and systems-level analysis. The course syllabus and the design project in which students were asked to design a water transmission pipeline and evaluate its environmental impacts are discussed in detail. An overview of the pedagogical methods and student evaluation tools employed in the course is given. An evaluation of learning outcomes and student impressions of the course suggest that topics on design for environment, sustainable development in an international context, and the interface between sustainability, engineering, and policy development should be included in future editions of the course.
+SN  - 1052-3928
+DA  - OCT
+PY  - 2010
+VL  - 136
+IS  - 4
+SP  - 197
+EP  - 205
+DO  - 10.1061/(ASCE)EI.1943-5541.0000027
+AN  - WOS:000281857900004
+ER  -
+
+TY  - JOUR
+AU  - Kussainov, G
+AU  - Zhumabayeva, S
+AU  - Iskakova, A
+AU  - Smailov, S
+AU  - Dyussenbayeva, A
+TI  - Future workforce formation: relationship between the emotional well-being and readiness for external assessment of academic achievements among the school students (an evidence from Kazakhstan)
+T2  - ECONOMIC ANNALS-XXI
+AB  - This study examines the critical intersection between emotional well-being, educational assessment, and future workforce development in Kazakhstan. Kazakhstan's educational system serves as the primary pipeline for developing human capital necessary for economic advancement, with standardized testing mechanisms like the Unified National Testing (UNT) functioning as gateway mechanisms determining access to higher education and subsequent labor market opportunities. With Generation Z students (born 1997-2012) currently comprising the majority of test-takers, their psychological readiness for assessment directly impacts Kazakhstan's future workforce composition, sectoral distribution, and economic competitiveness. This research addresses critical gaps in understanding psychological factors affecting standardized testing performance within Kazakhstan's unique educational and cultural context during 2022-2023, with particular focus on the high-stakes Unified National Testing (UNT) system. A sequential explanatory mixed-methods design was employed, collecting data from 1,247 students across 28 schools in 14 regions of Kazakhstan. Quantitative instruments included the Student Emotional Well-being Inventory and Assessment Readiness Profile. We found out significant correlations emerged between emotional well-being and assessment performance. Students with higher emotional well-being demonstrated 34% greater resilience to test anxiety and 28% improved performance on standardized assessments. Contrary to expectations, rural students showed higher anxiety management capacity than urban students. Structural equation modeling identified self-efficacy as the primary mediator between emotional well-being and assessment outcomes. The findings revealed concerning longitudinal patterns with emotional well-being declining throughout the academic year despite improvements in assessment readiness. Intervention analysis demonstrated that cognitive-behavioral techniques and integrated approaches were most effective for enhancing emotional well-being and assessment readiness. Regional variations persisted even after controlling for socioeconomic factors, suggesting geographical location represents an independent influence on assessment-related psychological factors. This research provides the first comprehensive empirical investigation of emotional well-being's role in assessment readiness within Kazakhstan's educational system, introducing a novel conceptual framework that integrates psychological, institutional, and regional factors to explain assessment outcomes. The identification of rural protective factors challenges conventional assumptions about educational resource distribution.
+SN  - 1728-6220
+SN  - 1728-6239
+SN  - 1728-6239
+DA  - AUG 27
+PY  - 2024
+VL  - 210
+IS  - 7-8
+SP  - 56
+EP  - 69
+DO  - 10.21003/ea.v210-07
+DO  - 10.21003/ea.V210-07
+AN  - WOS:001511120300007
+ER  -
+
+TY  - JOUR
+AU  - Zeng, ZH
+AU  - Gu, YQ
+AU  - Xu, GJ
+TI  - A Tensor-EM Method for Large-Scale Latent Class Analysis with Binary Responses
+T2  - PSYCHOMETRIKA
+AB  - Latent class models are powerful statistical modeling tools widely used in psychological, behavioral, and social sciences. In the modern era of data science, researchers often have access to response data collected from large-scale surveys or assessments, featuring many items (large J) and many subjects (large N). This is in contrary to the traditional regime with fixed J and large N. To analyze such large-scale data, it is important to develop methods that are both computationally efficient and theoretically valid. In terms of computation, the conventional EM algorithm for latent class models tends to have a slow algorithmic convergence rate for large-scale data and may converge to some local optima instead of the maximum likelihood estimator (MLE). Motivated by this, we introduce the tensor decomposition perspective into latent class analysis with binary responses. Methodologically, we propose to use a moment-based tensor power method in the first step and then use the obtained estimates as initialization for the EM algorithm in the second step. Theoretically, we establish the clustering consistency of the MLE in assigning subjects into latent classes when N and J both go to infinity. Simulation studies suggest that the proposed tensor-EM pipeline enjoys both good accuracy and computational efficiency for large-scale data with binary responses. We also apply the proposed method to an educational assessment dataset as an illustration.
+SN  - 0033-3123
+SN  - 1860-0980
+DA  - JUN
+PY  - 2023
+VL  - 88
+IS  - 2
+SP  - 580
+EP  - 612
+DO  - 10.1007/s11336-022-09887-1
+C6  - OCT 2022
+AN  - WOS:000862524400001
+ER  -
+
+TY  - JOUR
+AU  - Foldes, R
+AU  - Del Corpo, A
+AU  - Napoletano, G
+AU  - Pietropaolo, E
+AU  - Vellante, M
+TI  - Automatic detection of field line resonance frequencies in the Earth's plasmasphere
+T2  - RENDICONTI LINCEI-SCIENZE FISICHE E NATURALI
+AB  - Ground-based magnetometer stations represent a multi-viewpoint and easy-to-access system for sounding Earth's magnetic field disturbances in the inner magnetosphere. Using Ultra-Low Frequency (ULF) measurements recorded from pairs of meridionally aligned stations, it is possible to determine the Field Line Resonance (FLR) frequencies, which are directly related to the equatorial magnetospheric plasma mass density. Recently, it has been shown by Foldes et al. (J Geophys Res 126(5):e2020JA029008. https://doi.org/10.1029/2020JA029008, 2021) that the Machine Learning (ML) algorithms are valuable tools for detecting FLRs by exploiting the useful information provided by cross-phase Fourier spectra, which are at the heart of the ULF technique for inferring the magnetospheric mass density. The main shortcoming of this approach is that it is not possible to discriminate between active and quiet times in terms of resonances. It is commonly known that detecting FLRs using cross-phase spectra may often be unfeasible due to data gaps, noisy signals, and/or quiescent ULF wave periods. To handle these situations, we implement an ML classification algorithm to identify periods when the resonance frequencies are observable and thus easily estimated. Our algorithm can distinguish samples into three main classes: periods with observed frequency ("Freq" class) from others ("NoFreq"), and, in addition, it can determine whether the considered field line crosses the plasmasphere boundary layer (PBL or plasmapause) at a given time. The results of our method are validated for a particular pair of stations (at L = 2.9) along the Equatorial quasi-Meridional Magnetometer Array (EMMA), using a large dataset comprising different geomagnetic conditions. The proposed approach might be combined with a regression algorithm (such as those proposed in Foldes et al. (J Geophys Res 126(5):e2020JA029008. https:// doi.org/10.1029/2020JA0290 08, 2021)) in a two-stage ML pipeline, with the ultimate goal of implementing a completely automated system for the real-time monitoring of the plasmasphere dynamics from ground-based magnetometer stations.
+SN  - 2037-4631
+SN  - 1720-0776
+DA  - DEC
+PY  - 2023
+VL  - 34
+IS  - 4
+SP  - 1077
+EP  - 1088
+C7  - s12210-023-01196-8
+DO  - 10.1007/s12210-023-01196-8
+C6  - OCT 2023
+AN  - WOS:001074512500001
+ER  -
+

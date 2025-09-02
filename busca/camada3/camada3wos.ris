@@ -1,0 +1,16 @@
+﻿TY  - CPAPER
+AU  - Browning, JW
+AU  - Bustard, J
+A1  - ASSOC COMPUTING MACHINERY
+TI  - Data Science Course Design for a Large-Scale Cohort using Individual Project-Based Learning
+T2  - PROCEEDINGS OF THE 7TH CONFERENCE ON COMPUTING EDUCATION PRACTICE, CEP 2023
+CP  - 7th Conference on Computing Education Practice (CEP)
+AB  - Being an effective data scientist includes mastering many skills, both technical and analytical. There are many great teaching resources for learning technical skills. However, the analytical skills of understanding customer values, proposing causal relationships and gathering datasets are less common. This paper describes a new data science course designed to emphasize these analytical skills using individual project-based learning (PBL). PBL is considered to be a valuable teaching approach in computer science education. However, such courses typically have large-scale cohorts, resulting in PBL being used as group work. Our approach using individual PBL, circumvents issues concerning team dynamics and individual student assessment within group work. This course is designed to work for a large-scale (75+) postgraduate cohort of both full- and part-time students. To facilitate the large-scale cohort the course makes use of a virtual learning environment (VLE) and recorded lectures. Students were able to choose the subject of their project and what software they would use to create visualizations. This paper provides details of a novel approach to teaching data science using individual PBL for a large-scale cohort while maintaining education quality.
+SN  - 978-1-4503-9821-3
+PY  - 2023
+SP  - 17
+EP  - 20
+DO  - 10.1145/3573260.3573265
+AN  - WOS:001108946300005
+ER  -
+

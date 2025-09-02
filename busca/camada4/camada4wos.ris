@@ -1,0 +1,637 @@
+﻿TY  - JOUR
+AU  - Wang, XM
+AU  - Yu, XH
+AU  - Hwang, GJ
+AU  - Hu, QN
+TI  - An online progressive peer assessment approach to project-based learning: a constructivist perspective
+T2  - ETR&D-EDUCATIONAL TECHNOLOGY RESEARCH AND DEVELOPMENT
+AB  - How to improve students' problem-solving skills and creativity and adapt them to the new situation of the twenty-first century is a rather important educational objective at present, and is expected to be for a long time to come. Project-based learning (PBL) is considered to be an approach that can develop students' higher-order thinking skills, while peer assessment is a strategy that helps students to interact and reflect. To improve the quality of peer assessment in PBL and to further promote learning by using the feedback of peer assessment, this study proposes an online progressive peer assessment (OPPA)-based PBL approach using constructivism as the theoretical framework for instructional design. The aim of the proposed approach is to organise progressive peer-assessment activities for students as they complete the project, thereby promoting high-quality peer evaluations and continuous reflective improvement of the project. To test the effect of the OPPA-based PBL approach, a quasi-experiment was carried out in an educational game development course with 49 university students from two classes. Students in the experimental group used the OPPA-based PBL approach to develop their game projects, while students in the control group used the conventional PBL approach to develop their game projects. The findings show that the OPPA-based PBL approach significantly improved students' learning achievement, self-efficacy, collective efficacy, problem-solving, and creativity awareness, while also reducing their anxiety levels compared to the conventional PBL approach. The results of this study provide a reference for improving project-based learning, and further demonstrate the importance and validity of constructivist learning theory.
+SN  - 1042-1629
+SN  - 1556-6501
+DA  - OCT
+PY  - 2023
+VL  - 71
+IS  - 5
+SP  - 2073
+EP  - 2101
+DO  - 10.1007/s11423-023-10257-6
+C6  - JUN 2023
+AN  - WOS:001014475600001
+ER  -
+
+TY  - CPAPER
+AU  - Heberle, A
+AU  - Neumann, R
+AU  - Stengel, I
+AU  - Regier, S
+A1  - IEEE
+TI  - Teaching Agile Principles and Software Engineering Concepts through Real-Life Projects
+T2  - PROCEEDINGS OF 2018 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON) - EMERGING TRENDS AND CHALLENGES OF ENGINEERING EDUCATION
+CP  - IEEE Global Engineering Education Conference (EDUCON) - Emerging Trends and Challenges of Engineering Education
+AB  - Today employees in IT related areas are expected to know the newest technologies and to be able to apply it independently in their projects. This requires a deeper understanding and additional competences that are not taught in lectures or addressed by Project Based Learning (PBL) approaches. In this paper, an approach to teach software engineering concepts using the Scrum framework in real life projects is presented. It extends the PBL concept with respect to competences. Feedback from students, customers as well as our own experience confirm the benefits of the presented approach.
+SN  - 2165-9567
+SN  - 978-1-5386-2957-4
+PY  - 2018
+SP  - 1723
+EP  - 1728
+AN  - WOS:000434866100238
+ER  -
+
+TY  - CPAPER
+AU  - Pérez, B
+AU  - Rubio, AL
+A1  - ASSOC COMP MACHINERY
+TI  - A Project-Based Learning Approach for Enhancing Learning Skills and Motivation in Software Engineering
+T2  - SIGCSE 2020: PROCEEDINGS OF THE 51ST ACM TECHNICAL SYMPOSIUM ON COMPUTER SCIENCE EDUCATION
+CP  - 51st ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE)
+AB  - Software engineers must be able to manage complex projects, so that skills such as teamwork, leadership or initiative are critical to their successful development. Because of this, it is fundamental that the learning of software engineering as an academic discipline provides solid links between theory and practice. Educational frameworks such as those derived from the European Higher Education Area state that student-centered approaches are a useful tool for achieving these objectives. In this context, we present a project-based learning (PBL) experience report in a software engineering program of a Spanish university. The experience is based on the formation of small heterogeneous teams, which face the initial phases of a software methodology during the development of a project close to a real one. Through a strategy of role rotation and documentation transfer, all students perform different tasks and face different challenges throughout the project. Summative assessment is also adopted, considering not only teacher ratings but also students' peer assessment. The results prove the positive effect of using PBL to improve the training of students in acquiring different skills as future software engineers.
+SN  - 978-1-4503-6793-6
+PY  - 2020
+SP  - 309
+EP  - 315
+DO  - 10.1145/3328778.3366891
+AN  - WOS:000810169400050
+ER  -
+
+TY  - JOUR
+AU  - Hiranrat, C
+AU  - Harncharnchai, A
+AU  - Duangjan, C
+TI  - Students' Communication Self-efficacy and Its Impact on the Enhancement of Communication Skills in Software Engineering Project Courses
+T2  - TEM JOURNAL-TECHNOLOGY EDUCATION MANAGEMENT INFORMATICS
+AB  - - Developing the communication skills of software engineering graduates to meet industry requirements is a challenge for educators. This study presents a project-based learning framework that promotes students' communication skills in a software engineering project course. The questionnaire on selfefficacy for software development (CSESD) was designed for students' self-assessment of their confidence in communication skills. Findings indicate that students' CSESD increased significantly after the course ended. Educators can apply the designed framework to software development-related project courses. The CSESD questionnaire can be used to assess students' confidence in their communication skills and assist educators in preparing students' readiness before graduation.
+SN  - 2217-8309
+SN  - 2217-8333
+DA  - AUG
+PY  - 2023
+VL  - 12
+IS  - 3
+SP  - 1687
+EP  - 1696
+DO  - 10.18421/TEM123-50
+AN  - WOS:001059428400050
+ER  -
+
+TY  - CPAPER
+AU  - Setiawan, AW
+ED  - Ashmawy, AK
+ED  - Schreiter, S
+TI  - Detailed Comparison of Instructor and Student-based Assessment in Project Based Learning
+T2  - PROCEEDINGS OF 2019 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON)
+CP  - 10th IEEE Global Engineering Education Conference (EDUCON)
+AB  - Mixed-mode approach, that combines project-based learning and traditional learning, is introduced in biosignal measurement and instrumentation course. The course outline consists of lecture for 11 weeks and PBL for the last six weeks. In PBL assessment, only a few studies explore the detailed differences or similarities of the criteria in instructor and student-based (self and peer) assessment. In this research, Tukey's HSD is used to determine the mean difference between two specific pair of assessment criterion. Differences of instructor-self, instructor-peer, and self-peer assessment pairs for introduction, project demonstration, and answer during Q&A session criteria are not statistically significant. For literature review, specifications, block diagram, design, conclusion, citations, and clarity of writing criteria; the differences of self-peer assessment pair is not statistically significant. it means that the students assess their own work and other groups in a similar manner. For these seven criteria, the difference of instructor-self and instructor-peer assessment pairs is statistically significant. In this study, Pearson's correlation (r) is used to measure the strength of correlation between instructor-self, instructor-peer, and self-peer assessment. In project demonstration and answer during Q&A session criteria, all these pairs have strong correlation. In the introduction, block diagram, and citations criteria; only instructor-peer assessment pair that has strong correlation. In the design criterion, only self-peer assessment pair has strong correlation.
+SN  - 2165-9567
+SN  - 978-1-5386-9506-7
+PY  - 2019
+SP  - 557
+EP  - 560
+DO  - 10.1109/educon.2019.8725126
+AN  - WOS:000475690400082
+ER  -
+
+TY  - CPAPER
+AU  - Fagerholm, F
+AU  - Vihavainen, A
+A1  - IEEE
+TI  - Peer Assessment in Experiential Learning Assessing Tacit and Explicit Skills in Agile Software Engineering Capstone Projects
+T2  - 2013 IEEE FRONTIERS IN EDUCATION CONFERENCE
+CP  - 43rd Annual Frontiers in Education Conference (FIE)
+AB  - To prepare students for real-life software engineering projects, many higher-education institutions offer courses that simulate working life to varying degrees. As software engineering requires not only technical, but also inter-and intrapersonal skills, these skills should also be assessed. Assessing soft skills is challenging, especially when project-based and experiential learning are the primary pedagogical approaches. Previous work suggests that including students in the assessment process can yield a more complete picture of student performance. This paper presents experiences with developing and using a peer assessment framework that provides a 360-degree view on students' project performance. Our framework has been explicitly constructed to accommodate and evaluate tacit skills that are relevant in agile software development. The framework has been evaluated with 18 bachelors- and 11 masters-level capstone projects, totaling 176 students working in self-organized teams. We found that the framework eases teacher workload and allows a more thorough assessment of students' skills. We suggest including self- and peer assessment into software capstone projects alongside other, more traditional schemes like productivity metrics, and discuss challenges and opportunities in defining learning goals for tacit and social skills.
+SN  - 0190-5848
+SN  - 978-1-4673-5261-1
+PY  - 2013
+AN  - WOS:000330839100363
+ER  -
+
+TY  - JOUR
+AU  - Wengrowicz, N
+AU  - Dori, YJ
+AU  - Dori, D
+TI  - Meta-assessment in a project-based systems engineering course
+T2  - ASSESSMENT & EVALUATION IN HIGHER EDUCATION
+AB  - Project-based learning (PBL) facilitates significant learning, but it poses a major assessment challenge for assessing individual content knowledge. We developed and implemented an assessment approach and tool for a mandatory undergraduate systems engineering PBL-based course. We call this type of assessment student-oriented meta-assessment. Research participants included 131 undergraduate engineering students who carried out team projects requiring conceptual modelling of complex systems. Next, individual students assessed their peer team projects. Finally, the course staff assessed students individually, based on the content knowledge that was reflected in students' comments to their peers, by using the new meta-assessment tool. The research findings validated the meta-assessment tool which can serve for assessing various PBL courses. Our contribution is twofold: a new approach for assessing project-based undergraduate engineering courses, and classification of meta-assessment methods into three types, where a student-oriented meta-assessment as one of the three meta-assessment methods is our newly introduced and validated method.
+SN  - 0260-2938
+SN  - 1469-297X
+PY  - 2017
+VL  - 42
+IS  - 4
+SP  - 607
+EP  - 624
+DO  - 10.1080/02602938.2016.1173648
+AN  - WOS:000395103400008
+ER  -
+
+TY  - CPAPER
+AU  - Pernia-Espinoza, A
+AU  - Sanz-Garcia, A
+AU  - Martinez-de-Pison-Ascacibar, FJ
+AU  - Peciña-Marqueta, S
+AU  - Blanco-Fernandez, J
+ED  - Cardoso, A
+ED  - Alves, GR
+ED  - Restivo, MT
+TI  - Technical projects with social commitment for teaching-learning intervention in STEM students
+T2  - PROCEEDINGS OF THE 2020 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON 2020)
+CP  - IEEE Global Engineering Education Conference (IEEE EDUCON)
+AB  - We present a teaching methodology based on active learning that faces new social challenges to obtain better levels of students' motivation and promote their social responsibility. It consists of a project-based learning core that organizes students in teams to design and manufacture autonomy-oriented products capable of assisting people in a dependency situation. We mainly combine open-source software and low-cost machines to make the products. The first experience was implemented in a subject shared by all the 2nd-year engineering degrees during the 2018-19 academic year. We programmed a series of short oral presentations to (i) improve students' time management skills, and (ii) receive periodical feedback across the whole semester. Herein, we report the results from the self-assessment and peer evaluation surveys of the first year of this experience. Peer evaluation was incorporated into the subject's final score. Results showed that our methodology could positively influence students' self-perception of their acquired soft-skills and technical knowledge. The high quality of the deliverables, together with the outstanding final ratings and success rates achieved, seem to be related to the extraordinary levels of students' motivation after this experience.
+SN  - 2165-9567
+SN  - 978-1-7281-0930-5
+PY  - 2020
+SP  - 579
+EP  - 586
+DO  - 10.1109/educon45650.2020.9125176
+AN  - WOS:000617739900090
+ER  -
+
+TY  - CPAPER
+AU  - Pohlak, M
+AU  - Kase, K
+AU  - Sergejev, F
+AU  - Pahk, L
+ED  - Ruutmann, T
+ED  - Auer, ME
+TI  - Enhancing Project-Based Learning Through the Integration of Computer Aided Manufacturing and Metal Shaping Technologies Courses
+T2  - FUTUREPROOFING ENGINEERING EDUCATION FOR GLOBAL RESPONSIBILITY, ICL2024, VOL 3
+CP  - 27th International Conference on Interactive Collaborative Learning-ICL
+AB  - In engineering education, integrating practical skills with theoretical knowledge is essential for developing competent professionals. This study investigates the benefits of linking Computer Aided Manufacturing and Metal Forming Technologies courses to enhance project-based learning. The primary objective was to assess whether this integration could improve student retention and effectiveness in PBL environments. Using a mixed-methods approach, data were collected from postgraduate mechanical engineering students through surveys, project evaluations, and performance metrics. The integration of these courses resulted in increased student engagement and retention, as well as enhanced quality and innovation in student projects. The findings support the hypothesis that interdisciplinary course integration fosters a more collaborative and engaging learning experience, bridging the gap between theoretical knowledge and practical application. These results align with educational research advocating for experiential and applied learning models, suggesting that such approaches improve retention rates and problem-solving skills, ultimately preparing students more effectively for professional challenges.
+SN  - 2367-3370
+SN  - 2367-3389
+SN  - 978-3-031-83522-3
+SN  - 978-3-031-83523-0
+PY  - 2025
+VL  - 1280
+SP  - 430
+EP  - 441
+DO  - 10.1007/978-3-031-83523-0_40
+AN  - WOS:001485244600040
+ER  -
+
+TY  - JOUR
+AU  - Hayashi, V
+AU  - Dutra, J
+AU  - Almeida, F
+AU  - Arakaki, R
+AU  - Midorikawa, E
+AU  - Canovas, S
+AU  - Cugnasca, P
+AU  - Ruggiero, W
+TI  - Implementation of PjBL With Remote Lab Enhances the Professional Skills of Engineering Students
+T2  - IEEE TRANSACTIONS ON EDUCATION
+AB  - Contribution:This article describes one approach to foster technical skills (Digital Electronics) and professional skills (critical thinking, problem solving, communication, and collaboration) for Computer Engineering students in a fully remote way. Background:Engineering competencies development requires practical activities. Besides the technical skills, professional skills such as communication are necessary in the workplace. Intended Outcomes:When compared to face-to-face offering, the fully remote course must have no statistically relevant differences in terms of student performance. The course must also support the enhancement of professional skills (e.g., collaboration). Application Design:This study presents a comparison of the face-to-face (one year) and the fully remote (two years) Digital Electronics lab offerings. A course organization framework is proposed with two blocks: 1) controlled experiments and 2) projects in groups of two students. The study investigates how Project-Based Learning and Peer Assessment are perceived by students in the fully remote offering. A total of 110 students participated in the years 2019 (face-to-face), 2020, and 2021 (fully remote). Findings:Students in the second remote course offering (2021) presented a higher performance in their projects than face-to-face students (2019). Besides the student performance and technical skills development, it was observed that problem solving and collaboration, professional skills could be enhanced according to the students' perceptions. However, the same did not occur for critical thinking or communication professional skills even with the Peer Assessment and project pitches. The main concern is the high workload for students.
+SN  - 0018-9359
+SN  - 1557-9638
+DA  - AUG
+PY  - 2023
+VL  - 66
+IS  - 4
+SP  - 369
+EP  - 378
+DO  - 10.1109/TE.2023.3243532
+C6  - FEB 2023
+AN  - WOS:000940189400001
+ER  -
+
+TY  - CPAPER
+AU  - Karstina, S
+ED  - Auer, ME
+ED  - Pachatz, W
+ED  - Ruutmann, T
+TI  - The Role of Group Project-Based Learning in Engineering Training
+T2  - LEARNING IN THE AGE OF DIGITAL AND GREEN TRANSITION, ICL2022, VOL 2
+CP  - 25th International Conference on Interactive Collaborative Learning
+AB  - Reforming education, changing its role and priorities, stimulating scientific research and innovation has led to the need to find new models of engineering training. In these conditions group project-based learning for both students and engineering teachers seems to be promising. With this in mind, the purpose of this paper is to analyze the specifics of group project-based learning in engineering training and to develop a toolkit for building a graduate profile based on assessments of various key stakeholders. The paper analyzes the opinion of experts, the results of questionnaire survey and interviewing of teachers and students of engineering specialties of universities and colleges in different regions of Kazakhstan about the role of group project-based learning in the integration of engineering educational programs with industry, the results of students' self-assessment of their competencies and skills formed in the process of learning. The results of students' self-assessment and expert assessment ranking allowed to identify five main groups of competencies. Groups 1 and 2 contain interdisciplinary competences, group 3 - organizational competences, self-reflection and control competences, professional and didactic competences, group 4 includes mainly communication and teamwork competences, group 5 - information and analytical competences. The approach used in the work allows highlighting those competences and skills which are underdeveloped within the educational program. The good correlation between the results of students' self-assessment of their formed competences and skills in the process of group project-based learning and the results of expert assessment allows us to consider the method of group project-based learning effective and reliable in maintaining educational goals and achieving the best results in engineers' training. The application of the organizational forms, methods, and tools of group project-based learning proposed in the article allowed us to propose a model of graduate profile creation adapted to the constantly changing requirements for specialists' qualifications and gradation of their skills.
+SN  - 2367-3370
+SN  - 2367-3389
+SN  - 978-3-031-26189-3
+SN  - 978-3-031-26190-9
+PY  - 2023
+VL  - 634
+SP  - 239
+EP  - 245
+DO  - 10.1007/978-3-031-26190-9_24
+AN  - WOS:001463123800024
+ER  -
+
+TY  - CPAPER
+AU  - Triantafyllou, E
+AU  - Timcenko, O
+ED  - Cao, Y
+ED  - Valjataga, T
+ED  - Tang, JKT
+ED  - Leung, H
+ED  - Laanpere, M
+TI  - Peer Assessment in Engineering Group Projects: A Literature Survey
+T2  - NEW HORIZONS IN WEB BASED LEARNING, ICWL 2014
+CP  - ICWL Workshop
+AB  - Peer review has proved to be beneficial in project-based environments by involving students in the process and encouraging them to take ownership of their learning. This article reviews how peer assessment has been employed within group work for different engineering programs. Since the administrative burden is one of the common reported challenges of peer assessment, computer assisted peer assessment is also briefly reviewed. Finally, opportunities and challenges in applying peer assessment in a project-based creative engineering program are presented based on the review of the literature.
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 978-3-319-13296-9
+SN  - 978-3-319-13295-2
+PY  - 2014
+VL  - 8699
+SP  - 66
+EP  - 71
+DO  - 10.1007/978-3-319-13296-9_7
+AN  - WOS:000354703900007
+ER  -
+
+TY  - CPAPER
+AU  - Brown, N
+ED  - Klinger, T
+ED  - Kollmitzer, C
+ED  - Pester, A
+TI  - Assessing individuals within teams in project-based learning courses - Strategies, evaluation and lessons learnt
+T2  - PROCEEDINGS OF THE 2021 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON)
+CP  - IEEE Global Engineering Education Conference (IEEE EDUCON)
+AB  - Teamwork is an important professional skill for engineers. To ensure that skills like teamwork are a key focus a series of project-based learning courses were introduced throughout the Bachelor of Engineering programme at Massey University. These project-based courses start in first year and continue each year until the final year where they complete a capstone design project. One difficulty identified was how to effectively assess an individual's contribution to a team-based assessment. This paper reports on the strategies used, evaluation of our approach and a reflection on lessons learnt after 5 years of team-based assessment. An example of the strategies used in a first-year course is given as a case study. Data was gathered from final year students over a three-year period to assess their opinions on teamwork and assessment within project-based learning courses. Students reported both positive and negative aspects of working in teams. Over the 3-year period being studied, the number of negative impacts reduced. This may be due to changes to the courses and/or staff becoming more effective facilitators. Half the students felt peer evaluation fairly distributed grades and half felt it did not. The most frequent comment was that marks were not adjusted enough. Success of individual teams often relies on a combination of careful course design, monitoring by staff, early intervention when needed and creating an environment where students feel they can ask for advice.
+SN  - 2165-9567
+SN  - 978-1-7281-8478-4
+PY  - 2021
+SP  - 852
+EP  - 856
+DO  - 10.1109/EDUCON46332.2021.9453881
+AN  - WOS:000689064100124
+ER  -
+
+TY  - JOUR
+AU  - Solís, M
+AU  - Romero, A
+TI  - PBL from Real Projects and Students Initiative: A Case Study
+T2  - INTERNATIONAL JOURNAL OF ENGINEERING EDUCATION
+AB  - The benefits of Project Based Learning (PBL) to acquire technological knowledge as well as transversal skills by students are well known. However, the implementation of PBL requires additional efforts from teachers and students, as well as additional teaching resources when compared to traditional teaching. This paper presents a case study of a singular PBL experience developed within a subject entitled Experimental Structural Analysis. This subject had PBL already implemented. However, the paper describes a new PBL experience that was suggested by some students that were part of the Formula Student (FS) team from the University of Seville. 24 students and 2 teachers took part in this new experience. The proposed PBL introduced some new challenges in the subject. The paper describes how the subject was organized in terms of theoretical and practical lessons, tutorials and assessment (including the introduction of a novel Self Assessment Factor). The paper analyzes the results from an academic point of view and describes the benefits, difficulties, advantages and opportunities arising from a PBL approach in which students play a new role as real promoters of a real project. Results from academic scores, surveys from students and teachers' perceptions are analyzed. The percentage of students who ask the teachers of the subject to supervise their final degree project is used as a new satisfaction indicator from students. The paper shows that this PBL methodolodogy is enriching and suitable for the learning process of most the students. However, new challenges arise such as encouraging all the students to be actually involved in the cooperative work and ensuring that the main theoretical concepts are learned. The FS competition is proven to be a good opportunity for implementing PBL based on a real project.
+SN  - 0949-149X
+PY  - 2017
+VL  - 33
+IS  - 6
+SP  - 1726
+EP  - 1736
+AN  - WOS:000445577900003
+ER  -
+
+TY  - CPAPER
+AU  - Watanabe, H
+AU  - Sato, M
+AU  - Miwa, M
+AU  - Imamura, M
+AU  - Hosoai, S
+AU  - Ogura, N
+AU  - Nakamura, H
+AU  - Hisazumi, K
+A1  - IEEE
+TI  - Multidisciplinary Skill Assessment for Embedded Software Development Education via a Robot Contest
+T2  - PROCEEDINGS 2018 IEEE/ACM 40TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING - COMPANION (ICSE-COMPANION
+CP  - 40th ACM/IEEE International Conference on Software Engineering (ICSE)
+AB  - This article introduces a multidisciplinary skill assessment for learning embedded software development. In the industry, software engineers and mechanical engineers have to communicate with each other, and hence, these engineers need to have multidisciplinary skills. For learning such skills, we need to give an occasion to work with different field students. To this end, we have been organizing a robot contest with embedded software development education. One of the goals of the contest is to inculcate multidisciplinary skills. However, we have not clarified the contribution. Thus, we construct a multidisciplinary skill assessment map based on the experiences gained through these contests. The map consists of (1) integration skill, (2) performing skill, and (3) cross-understanding skill.
+SN  - 2574-1926
+SN  - 978-1-4503-5663-3
+PY  - 2018
+SP  - 151
+EP  - 152
+DO  - 10.1145/3183440.3195059
+AN  - WOS:000450109000046
+ER  -
+
+TY  - CPAPER
+AU  - Hassan, A
+AU  - Rault, V
+AU  - Truchot, P
+ED  - Fraanje, R
+ED  - Duivenvoorden, H
+TI  - Implementing of Project-Based and Skill Assessment Pedagogy in Mechatronics Course
+T2  - PROCEEDINGS OF THE 2018 19TH INTERNATIONAL CONFERENCE ON RESEARCH AND EDUCATION IN MECHATRONICS (REM 2018)
+CP  - 19th International Conference on Research and Education in Mechatronics (REM)
+AB  - This paper describes the implementation of a project-based learning (PjBL) approach in mechatronics course for the first-year engineering students at ENSGSI (Ecole Nationale Superieure en Genie des Systemes et de l'Innovation) in France. The pedagogy is designed to meet the education plan in forming future innovation engineers. The adopted educational model combines classroom, PjBL and skill-based assessment. The project prototypes are realized using FabLab equipment and Arduino kits. The student skills are assessed by a self-evaluation, a written exam, and a project jury evaluation. Individual competencies of each student are assessed at the beginning of the course and then compared to his/her competencies at the end of the course. The results show how the PjBL with various skill assessments can be applied and how they can improve learning efficiency and student attitudes. The feedback from students is positive, which encourage us to adopt and pursue this pedagogy.
+SN  - 978-1-5386-5413-2
+PY  - 2018
+SP  - 69
+EP  - 74
+AN  - WOS:000652331400013
+ER  -
+
+TY  - CPAPER
+AU  - Fernández-Raga, M
+AU  - Villard, T
+AU  - Palencia, C
+AU  - Castañón, AM
+AU  - Viejo, J
+AU  - Fernández, FG
+ED  - Gonzalez, MAC
+ED  - Sedano, FJR
+ED  - Llamas, CF
+ED  - GarciaPenalvo, FJ
+TI  - Virtual Exchange in Engineering to realize a learning experience based on projects using ICTs
+T2  - TEEM'19: SEVENTH INTERNATIONAL CONFERENCE ON TECHNOLOGICAL ECOSYSTEMS FOR ENHANCING MULTICULTURALITY
+CP  - 7th International Conference on Technological Ecosystems for Enhancing Multiculturality (TEEM)
+AB  - The specificity of this Project, based on project-based learning (ABP) in the subjects of Fluid Mechanical Engineering in the Degree of Electrical Engineering and Degree of Measurement Engineering, is that it includes collaborative work in teams with foreign students. It incorporates virtual exchange activities carried in English, which allow to improve a large number of soft skills developed thanks to the ABP combination with intercultural interaction. This aims at increasing the motivation of the students, and improving their communicative capacity in English. This proposal will also involve strengthening their teamwork skills, and using new technologies that are basic to enable communication between team members in two different countries. Other skills will also be developed, such as better time management, individual responsibility in the tasks assigned and improved communication for non-experts, since the work has been developed with students of different degrees. Finally, this proposal will be completed by peer assessment making them more aware of their ability and their performance in the tasks.
+SN  - 978-1-4503-7191-9
+PY  - 2019
+SP  - 689
+EP  - 695
+DO  - 10.1145/3362789.3362790
+AN  - WOS:000525516700108
+ER  -
+
+TY  - JOUR
+AU  - Caswell, CA
+TI  - Recursive Reflective Reports: Embedded Assessment in PBL Courses for Second Language Teacher Education
+T2  - INTERDISCIPLINARY JOURNAL OF PROBLEM-BASED LEARNING
+AB  - This conceptual article begins with a general definition of reflection and the soft skills of PBL: collaboration, agency, and metacognition. Then it presents theoretical frameworks for reflection from second language teacher education (SLTE) (Farrell, 2015; Pennington & Richards, 2016) and illustrates six types of reflection with examples from the field of SLTE. The article features a reflective self- and peer-assessment instrument, utilized in a graduate SLTE program. The standard yet flexible template of the reflective teaching report (RTR) allows these teacher educators to interact with their students' development in the soft skills and the content of the SLTE knowledge base. As a recursive tool, instructors use it at the end of each module in most of the courses. Its embedded, recurrent positioning in the program's curriculum system is displayed in diagrams. Data from the program are provided to show how items in the shared RTR template support the types of reflection encouraged theoretically in the field of SLTE and PBL. The reliability and validity of this reflective report is discussed in the context of language assessment qualities of usefulness (Bachman & Palmer, 1996).
+SN  - 1541-5015
+PY  - 2019
+VL  - 13
+IS  - 2
+C7  - 3
+DO  - 10.7771/1541-5015.1810
+AN  - WOS:000484341800003
+ER  -
+
+TY  - CPAPER
+AU  - Serban, C
+AU  - Vescan, A
+ED  - Vanderose, B
+ED  - Frenay, B
+ED  - Henry, J
+ED  - Devroey, X
+TI  - Advances in Designing a Student-Centered Learning Process using Cutting-Edge Methods, Tools, and Artificial Intelligence: An E-Learning Platform
+T2  - PROCEEDINGS OF THE 1ST ACM SIGSOFT INTERNATIONAL WORKSHOP ON EDUCATION THROUGH ADVANCED SOFTWARE ENGINEERING AND ARTIFICIAL INTELLIGENCE (EASEAI '19)
+CP  - 1st ACM SIGSOFT International Workshop on Education through Advanced Software Engineering and Artificial Intelligence (EASEAI)
+AB  - It is well known the fact that learning process is difficult for learners and at the same time it raises problems for those who teach. Teaching Software Engineering for undergraduate students is an assiduous and a challenging task due to its level of abstraction, to frequently changes that appear in programming paradigms and in software development methodologies.
+   In this paper we provide a novel approach in teaching Advanced Programming Methods, the third introductory course in Software Engineering that is being taught at our faculty within the Computer Science Curriculum for undergraduate students.
+   The contribution of this paper is threefold: firstly, we design a student-centered learning process intertwining cutting edge methods like for instance project-based learning, self assessment-based learning and students engagement. Secondly, we design an E-learning platform to provide for students an automated assessment and appropriate feedback and, most important, to offer them support throughout the learning process. Thirdly, we provide a quantitative and qualitative analysis over 3 years of teaching Advanced Programming Methods course, by applying the proposed methodology.
+   Our analysis results show the effectiveness of our approach. Key contributions in this paper are our proposed E-learning platform and the analysis findings.
+SN  - 978-1-4503-6852-0
+PY  - 2019
+SP  - 39
+EP  - 45
+DO  - 10.1145/3340435.3342716
+AN  - WOS:000525442200009
+ER  -
+
+TY  - JOUR
+AU  - Borroni, C
+AU  - Pimentel-Avila, A
+AU  - Stoore, C
+AU  - Hidalgo, C
+AU  - Diamond, K
+AU  - Vásquez-Carrillo, C
+AU  - Landerer, E
+AU  - Paredes, R
+TI  - A Unique Approach to Project-Based Learning (PjBL) in a Veterinary Anatomy Course
+T2  - MEDICAL SCIENCE EDUCATOR
+AB  - Introduction Project-based learning (PjBL) is a teaching methodology designed to engage students in solving real-world problems, acknowledging that students are active agents of their learning process. This methodology has historically been popular in architecture and industrial sciences; however, its use in teaching veterinary anatomy is scarcely published. Methods Using information and communication technologies, the PjBL methodology was implemented in a first-year veterinary anatomy course. The methodology included teamwork and the selection of a routine object in the veterinary clinic at the beginning of the academic semester. The project's goal was to analyze the object and associate it with both a domestic animal species and an anatomical region, along with making and presenting a video or a simulation model about the object. Results More than 80% of students prefer active learning classes compared to traditional classes. In addition, 66% and 86% of students indicate that PjBL allowed them to improve their understanding of theoretical content for the first and second years of post-implementation, respectively. Students' self-assessment indicates that more than 80% of the students (first and second year post-implementation) felt they were responsible for the execution of the project, able to conduct research, and able to develop autonomous learning skills. After 2 years of PjBL implementation, failure rates in the course decreased by 21%. Discussion In general, PjBL results show that veterinary students prefer active learning activities that allow them to learn in a team-based learning process as well as to develop soft skills such as self-learning, responsibility, and teamwork.
+SN  - 2156-8650
+DA  - APR
+PY  - 2021
+VL  - 31
+IS  - 2
+SP  - 511
+EP  - 517
+DO  - 10.1007/s40670-021-01205-1
+AN  - WOS:000649467800037
+ER  -
+
+TY  - JOUR
+AU  - Barzdenas, V
+AU  - Grazulevicius, G
+AU  - Vasjanov, A
+TI  - A New Approach for the Successful Team Building in VLSI Design Projects
+T2  - INTERNATIONAL JOURNAL OF ENGINEERING EDUCATION
+AB  - The functionality and complexity of modern electronic systems increases every year and poses new challenges not only to the industry, but to universities as well. Due to such a rapid development of complex electronics devices and systems, university lecturers and professors are forced to deliver more advanced projects based on teamwork. In order for the students to accomplish projects successfully, university professors should have knowledge and practical skills in social psychology, project management, successful team building. This article discusses an original and interactive successful team building method, called "Puzzle'' method-applicable with a self-assessment test, based on M. R. Belbin methodology. This team building method has been tested and applied for four years in Vilnius Gediminas Technical University Faculty of Electronics, accomplishing VLSI chip design projects. Data collected within four years from 64 students indicates, that the most successful projects were carried out by teams consisting of dominant Chairman, Implementer, Completer-Finisher, and Specialist team roles, and as many as 84.4% of the surveyed students (26.6%-well, 57.8%-excellent) positively accepted a synergy of the team that carried out the project.
+SN  - 0949-149X
+PY  - 2017
+VL  - 33
+IS  - 5
+SP  - 1618
+EP  - 1626
+AN  - WOS:000410792800019
+ER  -
+
+TY  - CPAPER
+AU  - Staubitz, T
+AU  - Meinel, C
+ED  - Cardoso, A
+ED  - Alves, GR
+ED  - Restivo, MT
+TI  - A Systematic Quantitative and Qualitative Analysis of Participants' Opinions on Peer Assessment in Surveys and Course Forum Discussions of MOOCs
+T2  - PROCEEDINGS OF THE 2020 IEEE GLOBAL ENGINEERING EDUCATION CONFERENCE (EDUCON 2020)
+CP  - IEEE Global Engineering Education Conference (IEEE EDUCON)
+AB  - Peer assessment has become a regular feature of many MOOC1 platforms and also has potential for other contexts where learning and teaching are required to scale because of growing numbers of students. Where manual grading is not possible due to the large number of submissions and the tasks to be assessed are to complex or open-ended to be assessed by machines, peer assessment offers a valuable alternative. However, particularly in the context of MOOCS, courses featuring peer assessments often have lower completion rates. Furthermore, participants with negative expectations and opinions about this form of assessment are generally 'louder' in their communication with the teaching teams than their counterparts who respond more positively. We have, therefore, set out to establish a broader understanding how the participants perceive the appropriateness and effectiveness of peer assessed tasks, and the quality of the received reviews on the X1, X2, and X32 MOOC platforms. For this purpose, we have conducted post-course surveys in a large number of courses that included peer assessments. Additionally, we analyzed the discussions in the forums of these courses as the post-course surveys often are biased due to the low proportion of unsuccessful participants that are still around at the end of a course.
+SN  - 2165-9567
+SN  - 978-1-7281-0930-5
+PY  - 2020
+SP  - 962
+EP  - 971
+AN  - WOS:000617739900147
+ER  -
+
+TY  - JOUR
+AU  - Fernandes, S
+AU  - Flores, MA
+AU  - Lima, RM
+TI  - Students' views of assessment in project-led engineering education: findings from a case study in Portugal
+T2  - ASSESSMENT & EVALUATION IN HIGHER EDUCATION
+AB  - According to the demands of the Bologna process, new educational methods and strategies are needed in order to enhance student-centred learning. Project work is one of those approaches. This paper aims to evaluate the impact of project-led education (PLE) on students' learning processes and outcomes, within the context of a first-year engineering programme. It explores students' perceptions about assessment procedures and processes. Data collection was based on individual surveys at the end and the beginning of each PLE edition and through focus groups, after a period of six months. Findings are presented according to emerging themes from the data analysis, focusing mainly on students' perspectives of learning and assessment, the role of formative and summative assessments in PLE and their impact on learning. Implications for improving assessment practices are discussed.
+SN  - 0260-2938
+SN  - 1469-297X
+PY  - 2012
+VL  - 37
+IS  - 2
+SP  - 163
+EP  - 178
+DO  - 10.1080/02602938.2010.515015
+AN  - WOS:000301529500003
+ER  -
+
+TY  - CPAPER
+AU  - Dori, D
+AU  - Wengrowicz, N
+AU  - Dori, YJ
+A1  - IEEE
+TI  - A Comparative Study of Languages for Model-Based Systems-of-Systems Engineering (MBSSE)
+T2  - 2014 WORLD AUTOMATION CONGRESS (WAC): EMERGING TECHNOLOGIES FOR A NEW PARADIGM IN SYSTEM OF SYSTEMS ENGINEERING
+CP  - World Automation Congress (WAC) on Emerging Technologies for a New Paradigm in System of Systems Engineering
+AB  - Teaching model-based systems engineering has become more challenging as research and development has shifted from systems to include systems-of-systems (SoSs). SoSs involve primarily combination of hardware and software, as well as humans and organizations. The need to teach model-based system-of-systems engineering has thus raised the need to determine what the most suitable language for modeling and teaching SoSs is. We developed a new course format, in which groups jointly reverse-engineer and model Web-based information systems in two different modeling languages, UML and OPM, and then individually assess their peers' projects. The goal of this study was to compare UML with OPM as two candidates. We developed and evaluated an online peer assessment tool which students used. About 130 undergraduate students in groups of six divided into teams of three modeled 23 systems in both UML and OPM. They then evaluated, compared, and ranked the clarity & understandability and the completeness of the four models of two systems that their peers had constructed. Findings demonstrate that neither the order of the models assessment nor the assessor gender affected the grading, indicating assessment reliability. We found significant differences in model clarity and understandability in favor of OPM and no differences in completeness between OPM and UML models. These findings validate our approach of teaching both conceptual modeling languages and using peer assessment in large-scale project-based undergraduate information systems engineering courses.
+SN  - 2154-4824
+SN  - 978-1-889335-49-0
+PY  - 2014
+AN  - WOS:000349117400147
+ER  -
+
+TY  - JOUR
+AU  - Sanatbay, P
+AU  - Smailova, G
+AU  - Shalgynbayeva, K
+AU  - Asilbekova, M
+AU  - Tauekelova, A
+TI  - Problem-Oriented Learning as a Method of Developing Soft Skills Among Students of Pedagogical Specialties
+T2  - EDUCATION SCIENCES
+AB  - In the context of the transformation of the modern higher education system, the supra-professional competencies (soft skills) necessary for future specialists in the humanitarian field, in particular, social educators, are of particular importance. The present study is aimed at studying the effectiveness of problem-based learning (PBL) as a method of forming key soft skills among students of the educational program "Social Pedagogy" of the L.N. Gumilyov Eurasian National University. The theoretical part of the study includes an overview of international and domestic scientific discourse on flexible skills and a problem-oriented approach. In the empirical part, the methods of pedagogical experimentation, questionnaires, self-assessment of competencies, and quantitative analysis of the dynamics of soft skill development during the semester were applied. The results indicate a positive correlation between the intensity of students' participation in PBL practices and the level of development of skills such as critical thinking, teamwork, communicative competence, and time management. The study also identified institutional and methodological barriers to the implementation of PBL in Kazakhstan's educational practice, including the lack of trained facilitators and the lack of adapted cases. Based on the data obtained, a model of a localized PBL strategy integrated into the training of social educators is proposed. The research contributes to the development of the methodological culture of teacher education and opens up prospects for creating a sustainable system of soft skills formation in universities in Kazakhstan.
+SN  - 2227-7102
+DA  - JUL 4
+PY  - 2025
+VL  - 15
+IS  - 7
+C7  - 861
+DO  - 10.3390/educsci15070861
+AN  - WOS:001539771600001
+ER  -
+
+TY  - CPAPER
+AU  - Wolff, KE
+AU  - Coetzer, KM
+AU  - Booysen, MJ
+A1  - IEEE
+TI  - Self-efficacy in engineering design through peer review, self-review, and interactive online tutorials
+T2  - 2022 IEEE IFEES WORLD ENGINEERING EDUCATION FORUM - GLOBAL ENGINEERING DEANS COUNCIL, WEEF-GEDC
+CP  - 2022 World Engineering Education Forum - Global Engineering Deans Council
+AB  - Self-regulated learning is a key attribute in tertiary engineering education, and forms the basis of engineering judgement. The experience of remote learning during the COVID-19 era revealed particular challenges in self-regulated student learning practices, but also resulted in a number of systemic, technology-based interventions to enable improved student learning. Drawing on a 3rd-year electronic design course case study at a contact-based engineering faculty in South Africa, this paper presents an approach to bridging the gap between student perceptions and their actual assessment performance during independent, remote learning. Using scaffolded reflective and peer learning strategies, the research team sought to answer the question: What is the impact on self-efficacy of frequent self- and peer-assessment opportunities across a range of project-based learning tasks? Results were analysed using Bandura's four self-efficacy 'mastery' and experiential domains, and indicate an improvement in alignment between perceptions and actual performance. We suggest that a well-designed, scaffolded set of assignments with reflective and peer-learning opportunities can contribute significantly to the development of student confidence and mastery.
+SN  - 978-1-6654-7528-0
+PY  - 2022
+DO  - 10.1109/WEEF-GEDC54384.2022.9996215
+AN  - WOS:001479681400015
+ER  -
+
+TY  - JOUR
+AU  - Maturana, J
+AU  - Tampier, G
+AU  - Serandour, G
+AU  - Luco, R
+TI  - Developing Teamwork Skills in First and Second Year Engineering Students
+T2  - INTERNATIONAL JOURNAL OF ENGINEERING EDUCATION
+AB  - This paper reports and analyzes a multidisciplinary experience carried out with Informatics and Naval engineering students. Mixed teams were formed to build a self-balancing ship model, mixing naval building techniques and microcontroller programming. The objective was threefold: 1) to develop multidisciplinary skills, 2) to introduce students to professional-style projects and 3) to integrate knowledge from core courses. In order to develop a wider awareness about how they are seen in their environment, an automated peer assessment system focused in feedback was applied. Ahundred students of both disciplines took part in this activity over 6 weeks. The activity was generally well received by students. Mutual dependence from peer's work raised awareness about the importance of responsibility, while leadership was perceived through a different perspective. Skills such as conflict resolution, planning and enthusiasm were identified as key issues to boost teamwork. In conclusion, the professional-like environment allowed students to see how their future activity will be, while access to technology and industrial environments were important drivers to motivate them. Improvement opportunities are identified and are being addressed for similar activities in the future.
+SN  - 0949-149X
+PY  - 2014
+VL  - 30
+IS  - 5
+SP  - 1225
+EP  - 1233
+AN  - WOS:000347640500016
+ER  -
+
+TY  - JOUR
+AU  - Dieck-Assad, G
+AU  - Avila-Ortega, A
+AU  - Peña, OIG
+TI  - Comparing Competency Assessment in Electronics Engineering Education with and without Industry Training Partner by Challenge-Based Learning Oriented to Sustainable Development Goals
+T2  - SUSTAINABILITY
+AB  - This study assessed the "creation of technological solutions for electronic devices " competencies evaluation when faculty-industry liaison is available. This experience at Tecnologico de Monterrey (TEC) was developed with challenge-based learning provided by the automotive electronics industry addressing subjects oriented toward some objectives of the Sustainable Development Goals (SDGs). The Electronics Engineering faculty and project engineers from automotive electronics and instrumentation companies promote design competencies in college students. This study analyzed the competency performance and outcome results of students who took applied electronics courses for the undergraduate level under the "i-Semester with industrial partner " for one semester and compared results with students that took the course under the traditional program. The competence evaluation was classified into three preliminary domain levels: 1 or low-level, 2 or medium-level, and 3 or high-level. Students were exposed to the conceptual, procedural, and attitudinal contents applied to solve the challenge assigned by the industrial partner. Students with an industrial partner showed a higher engagement, and they were more motivated in learning the subject, compared to students having classes in the traditional way. This study showed that in developing the competency "create technological solutions for electronic devices ", 55 students with an industrial partner obtained higher domain levels than 61 students with the traditional course.
+SN  - 2071-1050
+DA  - OCT
+PY  - 2021
+VL  - 13
+IS  - 19
+C7  - 10721
+DO  - 10.3390/su131910721
+AN  - WOS:000709592200001
+ER  -
+
+TY  - JOUR
+AU  - Cerra, PP
+AU  - Alvarez, HF
+AU  - Parra, BB
+AU  - Busón, SC
+TI  - Boosting computer-aided design pedagogy using interactive self-assessment graphical tools
+T2  - COMPUTER APPLICATIONS IN ENGINEERING EDUCATION
+AB  - Computer-aided design (CAD) tools are essential for any engineer and, thus, many researchers have focused on developing the most suitable method for acquiring CAD competences. In recent years, efforts have been devoted to designing new, innovative and helpful methodologies to improve the CAD pedagogy. The presented research aims at showing the advantages of integrating interactive self-assessment tools into CAD learning methodologies, such as problem-based learning (PBL). One hundred and ninety-one first-year Mechanical Engineering students participated in the research. They were evenly and randomly divided into two groups: a control group and an experimental group. Students belonging to the control group made use of PBL. The experimental group made use of PBL and a new interactive tool, called TrainCAD, that allows the self-assessment of 2D-CAD models designed in AutoCAD. The presented results show that experimental group students have considerably improved their academic performance and increased their motivation on the subject. Therefore, the combination of the two proposed approaches seems to be useful for helping students during the CAD learning process. On the other hand, gender was also a factor that has been analysed, to discern whether it influences the proposed academic learning process (based on the applied CAD pedagogy), concluding that there is no significant influence.
+SN  - 1061-3773
+SN  - 1099-0542
+DA  - JAN
+PY  - 2023
+VL  - 31
+IS  - 1
+SP  - 26
+EP  - 46
+DO  - 10.1002/cae.22569
+C6  - SEP 2022
+AN  - WOS:000857929300001
+ER  -
+
+TY  - JOUR
+AU  - Lucena, L
+AU  - Robeson, A
+AU  - Falcao, CJLM
+AU  - Paulina, L
+AU  - Santana, AC
+AU  - Hakamada, R
+TI  - Innovating forest science education through problem-based learning: Insights from a public university in Brazil
+T2  - FOREST POLICY AND ECONOMICS
+AB  - The evolving market's demand for forest science professionals with dynamic skills and interdisciplinary knowledge calls for an urgent and renewed look at forest science education methods to produce professionals ready to tackle 'real world' challenges and climate change issues. Integrating problem-based learning (PBL) in forest science education offers a promising avenue to align the current demand for dynamic forest science professionals and teaching approaches in forest science programs. However, while PBL has been extensively studied in various educational settings, limited research studies document its application in forest sciences education, particularly in the context of Brazilian public universities. This study explores the perceived learning outcomes of a group of forest engineering students exposed to PBL and the challenges associated with implementing it in a public university in Brazil. We developed a survey to assess the perceived learning outcomes of 32 students exposed to the PBL methodology. The survey instrument comprised nine questions designed to measure students' self-assessment of learning outcomes. Overall, we found that students reported the development of skills in field experience, technical knowledge, teamwork, communication, interpersonal relationship, and more. The findings from this study highlight the potential of PBL in forest science education and provide insights into how this approach can better prepare students to become dynamic forest science professionals.
+SN  - 1389-9341
+SN  - 1872-7050
+DA  - MAY
+PY  - 2025
+VL  - 174
+C7  - 103476
+DO  - 10.1016/j.forpol.2025.103476
+C6  - APR 2025
+AN  - WOS:001461132900001
+ER  -
+
+TY  - CPAPER
+AU  - Mitchell, A
+AU  - Greer, T
+AU  - New, W
+AU  - Walton-Rivers, J
+AU  - Watkins, M
+AU  - Brown, D
+AU  - Scott, MJ
+A1  - ASSOC COMP MACHINERY
+TI  - Student Perspectives on the Purpose of Peer Evaluation During Group Game Development Projects
+T2  - UKICER '21: PROCEEDINGS OF THE 2021 UNITED KINGDOM AND IRELAND COMPUTING EDUCATION RESEARCH CONFERENCE
+CP  - 3rd Conference on United Kingdom and Ireland Computing Education Research (UKICER)
+AB  - Being able to work well in a team is valued in industry and beyond. As such, many university educators strive to help their students to collaborate effectively. However, it is typically the case that more than ad-hoc experience is needed to master teamwork. Often, students need to become reflective practitioners who learn from their experiences and enact change. Self and peer evaluation can help evoke such reflection. However, the facilitating conditions for effective learning from peer evaluation during group projects in computing are not yet well-defined. This research is an initial step in identifying these conditions. In this study, students engaged in a long-term multidisciplinary software engineering project in which they produced a digital game. They completed regular exercises in which they reflected upon and wrote about their contributions to the project as well as those of their peers. Thematic analysis of 200 responses to an open-ended question about the purpose of these exercises illustrated student perspectives: giving and receiving feedback; prompting personal reflection and improvement; supporting supervision; aiding marking; informing project planning and management; exploring and reshaping group dynamics; improving project outputs; providing a system to hold group members accountable; and giving a sense of safety to raise issues without repercussion. Giving consideration to these differing perceptions will help educators to address student concerns about group projects, notably standardisation, workload efficiency, and fairness, and will lay the foundations for a model of peer evaluation which improves teamwork.
+SN  - 978-1-4503-8568-8
+PY  - 2021
+C7  - 7
+DO  - 10.1145/3481282.3481294
+AN  - WOS:000767978100010
+ER  -
+
+TY  - BOOK
+AU  - Hees, F
+AU  - Jeschke, S
+AU  - Natho, N
+AU  - Pfeiffer, O
+ED  - Jeschke, S
+ED  - Isenhardt, I
+ED  - Henning, K
+TI  - Developing a PBL-based Rescue Robotics Course
+T2  - AUTOMATION, COMMUNICATION AND CYBERNETICS IN SCIENCE AND ENGINEERING 2009/2010
+AB  - Problem-based learning (PBL) denotes self-determined learning and learning through discovery, activity-based education, interdisciplinary education, and self-assessment. The participants in problem based learning courses learn to analyze a subject or a problem with minimal guidance by their teacher or rather their facilitator of learning. Students find and use the suitable sources of information by themselves, and finally, compare, select and convert the results. The essential highlight of the PBL approach is the examination of authentic (real life) and complex subjects. The origin of the PBL lies in application-based technical engineering subjects and later in medical education.
+   Robotics education is perfectly suited for the application of PBL-scenarios as robotics combines a multitude of technological disciplines (ranging from computer sciences, software engineering, artificial intelligence, electrical engineering up to technology design) and its ubiquitous popularity with a variety soft skills (team skills, complex problem-solving strategies, etc.), required in the development process. The popularity of robots can be easily deduced from the large number of robotic heroes in literature and movies. Thus, robotics is ideally suited as a model project-oriented course of combining communication skills, development of strategies to solve complex interdisciplinary challenges, and different concepts of soft- and hardware engineering.
+   Among the wide range of robotics applications, one field of particular importance is the field of "Rescue Robots". Here, robots are developed that operate in catastrophe-scenarios, e.g. earthquakes or fires. Based on the data obtained from their various sensors (video cameras, infrared sensors, laser scanner and gas sensors), these robots have to manage their tasks autonomously in catastrophe-based scenarios. This comprises detection, rescue, and aid for victims should the situation arise. In order to fulfill these complex tasks, development of basic skills such as exact movements on unstable bedrock, field mapping, positioning and communication in weakly structured environments is necessary. Besides the construction of preferably all-terrain and robust robots, the improvement of innovative analysis procedures for complex sensor data is another focus of development. In addition, conception and realization of novel man-machine-interfaces come to the fore in order to support the operators of robots with their exhausting control tasks.
+   Integrated in the "RoboCup", the "Rescue-Robot League" clarifies the intensified orientation of the "RoboCup initiative" on real life applications. Another hint that rescue robotics represents a ideal playground for PBL scenarios in academic education.
+   Beyond that, robotics is increasing the number of female students in the natural sciences and engineering. It has the potential of attracting girls and young females at their respective levels education by illustrating their own potential in a playful experimental setting. Independent design and construction of robots demonstrates the importance of creativity and social relevance, giving young women more confidence in their technical and scientific skills, facts affecting young women's choice of degree.
+SN  - 978-3-642-16207-7
+PY  - 2011
+SP  - 231
+EP  - 240
+DO  - 10.1007/978-3-642-16208-4_20
+DO  - 10.1007/978-3-642-16208-4
+AN  - WOS:000285168000020
+ER  -
+
+TY  - CPAPER
+AU  - Pernía-Espinoza, A
+AU  - Sodupe-Ortega, E
+AU  - Martinez-de-Pison-Ascacibar, F
+AU  - Urraca-Valle, R
+AU  - Antoñanzas-Torres, J
+AU  - Sanz-García, A
+ED  - Soria, JDI
+ED  - Vela, MCV
+ED  - DeLa Poza, E
+ED  - Blazquez, D
+TI  - Assessment of microproject-based teaching/learning (MicroPBL) experience in industrial engineering degrees
+T2  - PROCEEDINGS OF THE HEAD'17 - 3RD INTERNATIONAL CONFERENCE ON HIGHER EDUCATION ADVANCES
+CP  - 3rd International Conference on Higher Education Advances (HEAd)
+AB  - An assessment program to evaluate microproject-based teaching/ learning (MicroPBL) methodology on the technical subject Manufacturing Technology was implemented for four consecutive academic years. Students from three engineering degrees were involved providing feedback through various surveys that allowed us to perform a proper evaluation. More specifically, students' surveys were anonymous after each academic year, except the last one, which included both non-anonymous pre and postsurveys. The polls were mainly meant to evaluate the acquisition of specific competences (using technical questions about the subject) as well as generic ones (using questions concerning soft-skills). Students' satisfaction with the methodology and with the signature, in general, were also checked. Nonanonymous surveys enabled us to study the correlation between polls results and students' final scores. Note that students' self-assessment concerning their knowledge about technical aspects drastically changed after the course. The average final score of this subject from student's perception was slightly higher than the real value. Moreover, student's self-perception on soft-skills increased at the end of the course. In general, the proposed MicroPBL methodology demonstrated a beneficial impact on students of Manufacturing Technology keeping high-motivation levels in students as well as high success rates and scores.
+SN  - 978-84-9048-590-3
+PY  - 2017
+SP  - 268
+EP  - 276
+DO  - 10.4995/HEAd17.2017.5167
+AN  - WOS:000412809400031
+ER  -
+

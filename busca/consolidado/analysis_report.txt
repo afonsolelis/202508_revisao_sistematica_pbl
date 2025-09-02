@@ -1,0 +1,126 @@
+================================================================================
+RIS ANALYSIS REPORT - PBL ASSESSMENT ARTICLES
+================================================================================
+
+SUMMARY STATISTICS
+----------------------------------------
+Total articles analyzed: 811
+Relevant articles found: 179
+Selection rate: 22.1%
+
+BREAKDOWN BY SOURCE LAYER
+----------------------------------------
+camada5: 3/22 (13.6%)
+camada4: 18/34 (52.9%)
+camada1: 146/334 (43.7%)
+camada3: 3/400 (0.8%)
+camada2: 9/21 (42.9%)
+
+BREAKDOWN BY YEAR
+----------------------------------------
+2025: 16 articles
+2024: 17 articles
+2023: 16 articles
+2022: 18 articles
+2021: 12 articles
+2020: 18 articles
+2019: 19 articles
+2018: 15 articles
+2017: 19 articles
+2016: 21 articles
+2015: 8 articles
+
+TOP THEMES IDENTIFIED
+----------------------------------------
+Assessment: assessment: 118 articles
+PBL: pbl: 112 articles
+PBL: project-based learning: 97 articles
+Assessment: evaluation: 71 articles
+Technology: model: 64 articles
+Technology: system: 52 articles
+Teacher: teacher: 51 articles
+Technology: application: 46 articles
+Technology: tool: 37 articles
+Assessment: feedback: 31 articles
+Assessment: formative assessment: 28 articles
+Technology: technology: 27 articles
+Technology: software: 22 articles
+Technology: framework: 22 articles
+PBL: project based learning: 17 articles
+
+FILES ANALYZED
+----------------------------------------
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada5/camada5wos.ris: 1 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada5/camada5wos2.ris: 21 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada4/camada04wos2.ris: 1 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada4/camada4wos.ris: 33 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada1/camada1wos2.ris: 28 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada1/camada1wos.ris: 306 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada3/camada3wos.ris: 1 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada3/camada3wos2.ris: 399 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada2/camada2wos.ris: 2 articles
+/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/camada2/camada2wos2.ris: 19 articles
+
+SAMPLE RELEVANT ARTICLES
+----------------------------------------
+1. [2022] Code-quality evaluation scheme for assessment of student contributions to programming projects
+   Source: camada5
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning
+   Assessment keywords: assessment, evaluation
+
+2. [2025] Project-Based Learning Combined with Inquiry-Based Learning Using Solver Tools to Promote Computational Thinking Among Undergraduate Students
+   Source: camada5
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning
+   Assessment keywords: assessment, evaluation, measurement
+
+3. [2024] Bridging the Gap between Project-Oriented and Exercise-Oriented Automatic Assessment Tools
+   Source: camada5
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning
+   Assessment keywords: assessment, feedback
+
+4. [2023] An online progressive peer assessment approach to project-based learning: a constructivist perspective
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning, pbl
+   Assessment keywords: assessment, evaluation, feedback, peer assessment
+
+5. [2018] Teaching Agile Principles and Software Engineering Concepts through Real-Life Projects
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project based learning, pbl
+   Assessment keywords: feedback
+
+6. [2020] A Project-Based Learning Approach for Enhancing Learning Skills and Motivation in Software Engineering
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning, pbl
+   Assessment keywords: assessment, summative assessment, peer assessment
+
+7. [2023] Students' Communication Self-efficacy and Its Impact on the Enhancement of Communication Skills in Software Engineering Project Courses
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning
+   Assessment keywords: assessment, self-assessment
+
+8. [2017] Meta-assessment in a project-based systems engineering course
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning, pbl
+   Assessment keywords: assessment, evaluation
+
+9. [2020] Technical projects with social commitment for teaching-learning intervention in STEM students
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning
+   Assessment keywords: assessment, evaluation, feedback, self-assessment
+
+10. [2023] Implementation of PjBL With Remote Lab Enhances the Professional Skills of Engineering Students
+   Source: camada4
+   Relevance: Contains PBL and assessment keywords, Also contains teacher/technology support aspects
+   PBL keywords: project-based learning
+   Assessment keywords: assessment, peer assessment
+
+... and 169 more articles

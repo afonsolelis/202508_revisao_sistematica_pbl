@@ -1,0 +1,568 @@
+﻿TY  - JOUR
+AU  - Al-Qora'n, LF
+AU  - Jawarneh, A
+AU  - Nganji, JT
+TI  - Toward Creating Software Architects Using Mobile Project-Based Learning Model (Mobile-PBL) for Teaching Software Architecture
+T2  - MULTIMODAL TECHNOLOGIES AND INTERACTION
+AB  - Project-based learning (PBL) promotes increased levels of learning, deepens student understanding of acquired knowledge, and improves learning motivation. Students develop their ability to think and learn independently through depending on themselves in searching for knowledge, planning, exploration, and looking for solutions to practical problems. Information availability, student engagement, and motivation to learn all increase with mobile learning. The teaching process may be enhanced by combining the two styles. This paper proposes and evaluates a teaching model called Mobile Project-Based Learning (Mobile-PBL) that combines the two learning styles. The paper investigates how significantly Mobile-PBL can benefit students. The traditional lecture method used to teach the software architecture module in the classroom is not sufficient to provide students with the necessary practical experience to earn a career as software architects in the future. Therefore, the first author tested the use of the model for teaching the software architecture module at Philadelphia University's Software Engineering Department on 62 students who registered for a software architecture course over three semesters. She compared the results of using the model for teaching with those results that were obtained when using the project-based learning (PBL) approach alone. The students' opinions regarding the approach, any problems they had, and any recommendations for improvement were collected through a focus group session after finishing each semester and by distributing a survey to students to evaluate the effectiveness of the used model. Comments from the students were positive, according to the findings. The projects were well-received by the students, who agreed that it gave them a good understanding of several course ideas and concepts, as well as providing them with the required practical experience. The students also mentioned a few difficulties encountered while working on the projects, including student distraction from social media and the skills that educators and learners in higher education institutions are expected to have.
+SN  - 2414-4088
+DA  - MAR
+PY  - 2023
+VL  - 7
+IS  - 3
+C7  - 31
+DO  - 10.3390/mti7030031
+AN  - WOS:000958636300001
+ER  -
+
+TY  - JOUR
+AU  - Vidoni, M
+AU  - Montagna, JM
+AU  - Vecchietti, A
+TI  - Project and Team-Based Strategies for Teaching Software Architecture
+T2  - INTERNATIONAL JOURNAL OF ENGINEERING EDUCATION
+AB  - Software Architecture remains a difficult topic to teach. This is because of the problem's complexity, and the integration of interpersonal and technical skills with knowledge from different areas. This paper presents the introduction of Project-Based Learning (PBL) and Team-Based Learning (TBL) in a Software Architecture undergraduate course. The goal for students is to apply in practice the concepts learned using ATAM (Architecture Tradeoff Analysis Method) to evaluate case studies of real-world architecture. PBL is known for allowing students to experiment with realistic problems and improve their negotiation and communication skills. TBL offers a different approach to group-based activities, by using them to determine the structure of the course. This approach is applied in an optional course in a Systems Engineering degree; its results are positive, having increased students' attendance and active participation levels. A student survey also shows acceptance of the new methodology.
+SN  - 0949-149X
+PY  - 2018
+VL  - 34
+IS  - 5
+SP  - 1701
+EP  - 1708
+AN  - WOS:000443171600025
+ER  -
+
+TY  - CPAPER
+AU  - Rad, AM
+AU  - Popa, TH
+AU  - Mihon, VD
+AU  - Iancu, B
+A1  - IEEE
+TI  - Problem-Based Learning And Project-Based Learning Concepts And Their Applications To Engineering Education
+T2  - 2017 16TH ROEDUNET CONFERENCE: NETWORKING IN EDUCATION AND RESEARCH (ROEDUNET)
+CP  - 16th RoEduNet Conference - Networking in Education and Research (RoEduNet)
+AB  - Several technical challenges should be taken into consideration when setting up hands-on laboratories, workshops and projects while the educational service providers need powerful, effective, stable and easy-to-use systems. In order to meet those requirements, such systems are designed and deployed as affordable services that request stability, reliability, availability, autonomy and resilience. This article presents an interactive learning system that complies with microservices architecture and supports individual study and collaborative learning approaches aiming at involving learners in solving problems on their own, then developing complex team projects based on individual contributions.
+SN  - 2068-1038
+PY  - 2017
+DO  - 10.1109/ROEDUNET.2017.8123746
+AN  - WOS:000425040000018
+ER  -
+
+TY  - JOUR
+AU  - Smith, EG
+AU  - Mack, C
+AU  - Gordon, C
+TI  - Use of project-based learning paradigm and telemetry to solve problem of limited resources in undergraduate physiology course
+T2  - FASEB JOURNAL
+CP  - Experimental Biology 2006 Meeting
+SN  - 0892-6638
+DA  - MAR 7
+PY  - 2006
+VL  - 20
+IS  - 5
+SP  - A865
+EP  - A865
+AN  - WOS:000236326200219
+ER  -
+
+TY  - CPAPER
+AU  - Brown, WL
+AU  - Dabipi, I
+AU  - Sharma, D
+AU  - Zhang, L
+AU  - Zhu-Stone, W
+AU  - Mei, LJ
+AU  - Wiggins, UT
+AU  - Cornelius, TT
+AU  - Jones, S
+AU  - Wescott, R
+AU  - Sharp, JA
+AU  - Glenn, F
+A1  - IEEE
+TI  - The Investigation of Logistic Regression Methods Applied to Engineering Education using Project Based Learning for Airport Systems Design
+T2  - 2021 IEEE FRONTIERS IN EDUCATION CONFERENCE (FIE 2021)
+CP  - IEEE Frontiers in Education Conference (FIE)
+AB  - This is a work in progress on the research-to-practice to advance engineering development using logistic regression design methods in engineering education through project-based learning (PBL) activities. The aviation community has witnessed a growing concern with safety and security issues due to system vulnerability of manned and unmanned aircrafts. The implementation PBL in engineering education with major airports identified the benefits of this investigation as a multi-disciplinary approach to address system vulnerabilities and analysis design approaches. This investigation includes defined methods and the factors to assess undergoing efforts of environment threats associated with complex networked systems in aviation through analysis design activities with machine learning. The ability to examine the analysis design allows learners in engineering education to deploy methods that will assess the combination of techniques and security consideration through machine learning. This project comprised of a collected dataset of network traces and malicious traffic that requires a solution and strategic model based on various scenarios to improve the software architecture design. Aviation safety and security standards are critical to the degree in which threats are constituted as each node within the network determined specific case studies for evaluation. This approach will feature a dataset that assess the spam detection categorization from a human behavior perspective and the factors to formulate data mining techniques and models in R programming language. The framework adopts the use of logistic regression and proposed techniques of the performance baseline to explore a systematic approach in the engineering design process. PBL in engineering education revealed a viewpoint from interdisciplinary approach as this study will have a wide range of features in the design analysis (e.g., revealing unwanted electronic information spread causing concerns and environmental threats to the aviation community). This study is developed to examine a common framework for processing and structuring a model using logistic regression analysis to classify key elements in the engineering process and PBL activities.
+SN  - 978-1-6654-3851-3
+PY  - 2021
+DO  - 10.1109/FIE49875.2021.9637205
+AN  - WOS:000821947700094
+ER  -
+
+TY  - CPAPER
+AU  - Cunha, C
+AU  - Morgado, J
+A1  - IEEE
+TI  - What about using a project management Agile methodology supported by online platforms in the classroom?
+T2  - 2018 3RD INTERNATIONAL CONFERENCE OF THE PORTUGUESE SOCIETY FOR ENGINEERING EDUCATION (CISPEE)
+CP  - 3rd International Conference of the Portuguese-Society-for-Engineering-Education (CISPEE)
+AB  - Project-based Learning (PBL) is one of the most heard buzzwords within academic discourses in the last decade. It represents a shift in the way the study of engineering is conducted in undergraduate and even graduate programs. However, despite its popularity, the application of PBL is specific to each engineering area and subject. In this paper, we present our experience in applying PBL to two subjects of computer science: Software Engineering and Distributed Systems. We describe how we use online platforms to implement PBL principles and discuss the impact of our approach on the learning performance of students. The automation of work assignments along with the adoption of an Agile methodology from the software industry for collaboration between students, allowed us to implement a continuous evaluation framework that promotes the motivation and the continuous work of students.
+SN  - 2378-721X
+PY  - 2018
+AN  - WOS:000458132000013
+ER  -
+
+TY  - JOUR
+AU  - Rodríguez, J
+AU  - Laverón-Simavilla, A
+AU  - del Cura, JM
+AU  - Ezquerro, JM
+AU  - Lapuerta, V
+AU  - Cordero-Gracia, M
+TI  - Project Based Learning experiences in the space engineering education at Technical University of Madrid
+T2  - ADVANCES IN SPACE RESEARCH
+AB  - This work describes the innovation activities performed in the field of space education since the academic year 2009/10 at the Technical University of Madrid (UPM), in collaboration with the Spanish User Support and Operations Center (E-USOC), the center assigned by the European Space Agency (ESA) in Spain to support the operations of scientific experiments on board the International Space Station. These activities have been integrated within the last year of the UPM Aerospace Engineering degree.
+   A laboratory has been created, where students have to validate and integrate the subsystems of a microsatellite using demonstrator satellites. In parallel, the students participate in a Project Based Learning (PBL) training process in which they work in groups to develop the conceptual design of a space mission. One student in each group takes the role of project manager, another one is responsible for the mission design and the rest are each responsible for the design of one of the satellite subsystems. A ground station has also been set up with the help of students developing their final thesis, which will allow future students to perform training sessions and learn how to communicate with satellites, how to receive telemetry and how to process the data.
+   Several surveys have been conducted along two academic years to evaluate the impact of these techniques in engineering learning. The surveys evaluate the acquisition of specific and generic competences, as well as the students' degree of satisfaction with respect to the use of these learning methodologies.
+   The results of the surveys and the perception of the lecturers show that PBL encourages students' motivation and improves their results. They not only acquire better technical training, but also improve their transversal skills. It is also pointed out that this methodology requires more dedication from lecturers than traditional methods. (C) 2015 COSPAR. Published by Elsevier Ltd. All rights reserved.
+SN  - 0273-1177
+SN  - 1879-1948
+DA  - OCT 1
+PY  - 2015
+VL  - 56
+IS  - 7
+SP  - 1319
+EP  - 1330
+DO  - 10.1016/j.asr.2015.07.003
+AN  - WOS:000361402300005
+ER  -
+
+TY  - CPAPER
+AU  - Rupakheti, CR
+AU  - Chenoweth, S
+A1  - IEEE
+TI  - Teaching Software Architecture to Undergraduate Students: An Experience Report
+T2  - 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering, Vol 2
+CP  - IEEE/ACM 2nd International Workshop on Software Architecture and Metrics (SAM)
+AB  - Software architecture lies at the heart of system thinking skills for software. Teaching software architecture requires contending with the problem of how to make the learning realistic - most systems which students can learn quickly are too simple for them to express architectural issues. We address here the ten years' history of teaching an undergraduate software architecture course, as a part of a bachelor's program in software engineering. Included are descriptions of what we perceive the realistic goals to be, of teaching software architecture at this level. We go on to analyze the successes and issues of various approaches we have taken over the years. We finish with recommendations for others who teach this same subject, either as a standalone undergraduate course or integrated into a software engineering course.
+SN  - 978-1-4799-1934-5
+PY  - 2015
+SP  - 445
+EP  - 454
+DO  - 10.1109/ICSE.2015.177
+AN  - WOS:000380572400053
+ER  -
+
+TY  - JOUR
+AU  - Chatwattana, P
+AU  - Nilsook, P
+TI  - A Web-based Learning System using Project-based Learning and Imagineering
+T2  - INTERNATIONAL JOURNAL OF EMERGING TECHNOLOGIES IN LEARNING
+AB  - A web-based learning system using project-based learning and Imagineering relies on the online operation, which can be operated on all kinds of computers and mobile devices. The objectives of the development of this web-based learning system are to encourage the freedom of self-learning, to promote interaction and cooperation based on the concepts and theories of project-based learning and Imagineering learning, and to create instructional activities based on the new concepts corresponding to characteristic development of learners in the 21st century, which enables the learners to have creativity and ability to generate new innovation. Regarding the architecture design, the researcher employed the concepts of mixed learning process, which is the combination of project-based learning and Imagineering learning, in order to support the instructional process within the system. Also, the researcher relied on the flexible instructional activities and instructional management system so that the learners could acquire the efficient learning from the system. Moreover, there was a variety of communication devices to support and promote the collaboration and activities within the system. The results of this research can be summarized as follow: (1) The system architecture consists of three main elements, i.e. 1.1) Stakeholders; 1.2) System Components, i.e. Learning process, Activity, System Element, and Communication Tools; and 1.3) Database; (2) Learning process within the system consists of six steps, corresponding to the Imagineering learning, i.e. 1) Imagine 2) Design 3) Develop 4) Present 5) Improvement and 6) Evaluate; and (3) The web-based learning system, can be divided into two systems: 1) Student system; and 2) Lecturer system and administrator system.
+SN  - 1863-0383
+PY  - 2017
+VL  - 12
+IS  - 5
+SP  - 4
+EP  - 22
+DO  - 10.3991/ijet.v12i05.6344
+AN  - WOS:000406456900001
+ER  -
+
+TY  - CPAPER
+AU  - Ju, A
+AU  - Fox, A
+ED  - Polycarpou, I
+ED  - Read, JC
+ED  - Andreou, P
+ED  - Armoni, M
+TI  - TEAMSCOPE: Measuring Software Engineering Processes with Teamwork Telemetry
+T2  - ITICSE'18: PROCEEDINGS OF THE 23RD ANNUAL ACM CONFERENCE ON INNOVATION AND TECHNOLOGY IN COMPUTER SCIENCE EDUCATION
+CP  - 23rd Annual ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE)
+AB  - Project-based learning is an important teaching method in software engineering education. However, it is unclear how student projects can be evaluated objectively and systematically in classrooms. Measurements used in industry, such as quality of the codebase, are not the only expected outcomes in classrooms; informative assessments in project-based learning require more details about how students behave as individuals and as a team. In this paper, we establish the importance of measuring processes in project-based software engineering courses and present metrics mined from software development tools for monitoring and observing processes to facilitate teaching. A case study at a US university confirms that 1) teams with better conformance to software development processes achieve better outcomes, and 2) our approach can be used to design metrics that serve as early detectors of violations to software development processes. Our results suggest that instructors for software engineering courses can use our approach to design process metrics for systematic, targeted, and automatic evaluation of team projects. Furthermore, metrics designed using our approach can be used as building blocks for automated systems, and thus increase the scalability of project-based software engineering courses.
+SN  - 978-1-4503-5707-4
+PY  - 2018
+SP  - 123
+EP  - 128
+DO  - 10.1145/3197091.3197107
+AN  - WOS:000543991900018
+ER  -
+
+TY  - CPAPER
+AU  - Abdelwahab, O
+AU  - Bance, J
+AU  - Behan, C
+AU  - Bowden, B
+AU  - Crites, S
+AU  - Dhillon, A
+AU  - Dimond, E
+AU  - Eliopoulos, I
+AU  - Fawcett, A
+AU  - Friesen, M
+AU  - Hossain, N
+AU  - Jantzen, K
+AU  - Kelly, A
+AU  - Kenny, D
+AU  - Kernaghan, K
+AU  - Kim, S
+AU  - Kruger, B
+AU  - Lysov, A
+AU  - Ma, SY
+AU  - McGregor, B
+AU  - Meston, L
+AU  - Pham, R
+AU  - Phan, QA
+AU  - Rehman, Z
+AU  - Sawatzky, M
+AU  - Schulze, P
+AU  - Seguin, S
+AU  - Senger, R
+AU  - Settle, P
+AU  - Shabash, Y
+AU  - Syed, M
+AU  - Tarannum, M
+AU  - Thompson, C
+AU  - Tomar, S
+AU  - Unarce, K
+AU  - van Egmond, J
+AU  - Verwaayen, M
+AU  - Vogelaar, S
+AU  - Williamson, A
+AU  - Yu, S
+AU  - Giv, MJ
+AU  - Kawash, J
+A1  - IEEE
+TI  - Experience Report on an Undergraduate Project in Distributed Systems
+T2  - 2019 6TH INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCE AND COMPUTATIONAL INTELLIGENCE (CSCI 2019)
+CP  - 6th Annual Conference on Computational Science and Computational Intelligence (CSCI)
+AB  - We describe our experience in building an openended, loosely-defined distributed systems project in a terminal year course. The class had forty students organized into eight groups, producing eight projects. The direct objective of the project was to build a distributed application incorporating forms for synchronization, replication, consistency, and fault tolerance. The indirect objectives were to explore in more details concepts and algorithms studied in the lectures and to learn and utilize new concepts and algorithm not covered in the lectures. We briefly describe each project and reflect on this experience. This paper shows with a dominant student voice that the students took on the challenge to higher levels, raising their own expectation, bringing out their creativity to its best, tackling domain-specific research, and demonstrating their resourcefulness with available technologies.
+SN  - 978-1-7281-5584-5
+PY  - 2019
+SP  - 837
+EP  - 842
+DO  - 10.1109/CSCI49370.2019.00159
+AN  - WOS:000569996300152
+ER  -
+
+TY  - CPAPER
+AU  - Ruffaldi, E
+AU  - Dabisias, G
+AU  - Landolfi, L
+AU  - Spikol, D
+A1  - IEEE
+TI  - Data collection and processing for a multimodal Learning Analytic System
+T2  - PROCEEDINGS OF THE 2016 SAI COMPUTING CONFERENCE (SAI)
+CP  - SAI Computing Conference (SAI)
+AB  - Learning Analytic (LA) systems are aimed at supporting teachers in understanding the learning process by analyzing the information and the interaction of students with computer systems. In the case of a project-based learning process there is a need of introducing measure the student' activity as acquired via multiple modalities and then processed. The acquisition and processing needs to take into account the specificities of the learning context and deployment at schools, in particular in terms of system architecture. The paper proposes an architecture for the acquisition and processing of data for project-based LA designed to be interoperable and scalable. System design, details of the solutions and brief examples of acquired data are presented.
+SN  - 978-1-4673-8460-5
+PY  - 2016
+SP  - 858
+EP  - 863
+AN  - WOS:000389451900122
+ER  -
+
+TY  - JOUR
+AU  - Tsur, EE
+TI  - Delivering the fundamentals of software architecture, design and abstraction by developing a ray tracer for 3-dimensional graphical scenes
+T2  - COMPUTER APPLICATIONS IN ENGINEERING EDUCATION
+AB  - Software architects and designers develop abstract models of problems in the aim of designing software-based solutions in the context of customer's needs. Current paradigms for software engineering education are often providing a narrow interpretation of the field, neglecting the art of conceiving useful abstractions of new-often discipline-oriented-problems. Here, an introductory course to software engineering, design and architecture is described. The course is based on designing and modeling a ray tracer for a virtual 3-dimensional graphical renderer, including the realization of the physics involved (light sources, rays, reflections, refractions, colors, occlusions, etc.). During the course, students integrate their fundamental knowledge of mathematics and physics, with their basic understanding of algorithms, data structures, object-oriented design and programming. Multi-phase surveys (n = 312) show increased level of interest, challenge, and relevance. Course materials are available in and shared under the creative common agreement.
+SN  - 1061-3773
+SN  - 1099-0542
+DA  - NOV
+PY  - 2018
+VL  - 26
+IS  - 6
+SP  - 2002
+EP  - 2011
+DO  - 10.1002/cae.21963
+AN  - WOS:000450361800005
+ER  -
+
+TY  - CPAPER
+AU  - Paturca, SV
+AU  - Grigorescu, SD
+AU  - Banica, CK
+AU  - Gheorghe, S
+AU  - Danescu, C
+A1  - IEEE
+TI  - A Project Oriented Laboratory of Embedded Control Systems
+T2  - 2018 INTERNATIONAL SYMPOSIUM ON FUNDAMENTALS OF ELECTRICAL ENGINEERING (ISFEE)
+CP  - International Symposium on Fundamentals of Electrical Engineering (ISFEE)
+AB  - This paper presents a laboratory of Embedded Control Systems, for the Electrical Engineering students. The laboratory is project oriented, whose final goal is to develop a complete platform of motion control, with well-defined specification, including simple mechanics and quite complex drive system, consisting in motor and motion control, making use of feedback sensors. Our desire, sustained by many studies proving the benefits of "learning-by-doing" approach, is to motivate the students to rapidly acquire/recall knowledge and develop skills, mainly related to electronics and software design and implementation, having a clear image of what and why they are doing in order to complete every project stage. Moreover, we gave an equal importance to make the students learn and work with "the big picture" in mind - the system purpose, its functionality and related knowledge, all perceived and integrated as a whole, with the motivation to "make it work". The project includes hardware development, simulation, software design and implementation, and finally testing. This paper details the project stages, emphasizing the students' activities, and it presents some relevant results.
+SN  - 978-1-5386-7212-9
+PY  - 2018
+AN  - WOS:000480396400002
+ER  -
+
+TY  - CPAPER
+AU  - Chorfi, A
+AU  - Zidani, A
+AU  - Lezzar, F
+A1  - IEEE Comp Soc
+TI  - Project-Based learning with a shared editor
+T2  - PROCEEDINGS OF THE 2012 IEEE SECOND INTERNATIONAL WORKSHOP ON ADVANCED INFORMATION SYSTEMS FOR ENTERPRISES (IWAISE 2012)
+CP  - IEEE 2nd International Workshop on Advanced Information Systems for Enterprises (IWAISE)
+AB  - Current networking advances have opened highly interesting perspectives for remote social interaction in a wide range of areas. Especially in the field of initiation courses in programming and data structures which may benefit from the efficient provided ways of communication and collaboration. This paper discusses a shared environment design enabling code sharing among several separated students involved in a common programming project. Being conscious that our students' academic preparation and cognitive development affects our teaching strategies, we decided that human factors should be taken into account as well as flexibility. Such way will likely enable us to significantly increase our environment usability. The environment embeds thus basic concepts for synchronous and asynchronous cooperative code editing and group interaction. It is designed on modular distributed software architecture, implying supports for resources management, interaction, communication and cooperation between students. To achieve group awareness, we designed an events controller that exploit the project design structure with a notification mechanism diffusing each student action into the shared workspace to his friends. We first survey ongoing research, and then present the main concepts and features of our java-based environment.
+SN  - 978-0-7695-4845-6
+PY  - 2012
+SP  - 48
+EP  - 56
+DO  - 10.1109/IWAISE.2012.18
+AN  - WOS:000332186800010
+ER  -
+
+TY  - CPAPER
+AU  - Muyanja, A
+AU  - Musasizi, PI
+AU  - Tibatemwa, LE
+AU  - Muwanga, EF
+A1  - IEEE
+TI  - Development and Piloting of Online Student Evaluation of Teaching at Makerere University
+T2  - 2012 IEEE INTERNATIONAL CONFERENCE ON TECHNOLOGY ENHANCED EDUCATION (ICTEE 2012)
+CP  - IEEE International Conference on Technology Enhanced Education (ICTEE)
+AB  - This paper presents the experience of Makerere University in developing and piloting an Online Student Evaluation of Teaching System. The pilot revealed that On-Line Student Evaluation of Teaching can go a long way in enhancing the productivity of the Student Evaluation of Teaching Process if the implementation is carefully planned and executed. Consultation and involvement of key stakeholders at every stage of the system implementation is paramount. Training of the users is equally important. Ensuring that the system has correct primary data for Student Evaluation of Teaching is key to successful implementation of an Online Student Evaluation of Teaching System.
+SN  - 978-1-4577-0726-1
+SN  - 978-1-4577-0725-4
+PY  - 2012
+AN  - WOS:000320562200030
+ER  -
+
+TY  - JOUR
+AU  - Martínez-Santos, JC
+AU  - Acevedo-Patino, O
+AU  - Contreras-Ortiz, SH
+TI  - Influence of Arduino on the Development of Advanced Microcontrollers Courses
+T2  - IEEE REVISTA IBEROAMERICANA DE TECNOLOGIAS DEL APRENDIZAJE-IEEE RITA
+AB  - This paper describes the development of courses in the field of digital design that use Arduino boards as their main platforms. Arduino offers an intuitive development environment and multiple hardware and software resources that allow rapid development of microcontroller-based projects. However, due to the vast amount of information available, students were losing the capability to design their own prototypes. We propose a methodology that introduces the study of microcontrollers using Arduino to develop different types of projects and proceeds to study the system architecture to gain control on the device. This methodology has been used in an undergraduate course in microcontrollers and a graduate course in advanced techniques in digital design. The students of the microcontrollers course showed improved design skills and motivation compared to the students from previous versions of the course. With respect to the advanced techniques in digital design course, the students were able to take advantage of Arduino platform to gain a deep understanding of hardware/software co-design of embedded systems.
+SN  - 1932-8540
+DA  - NOV
+PY  - 2017
+VL  - 12
+IS  - 4
+SP  - 208
+EP  - 217
+DO  - 10.1109/RITA.2017.2776444
+AN  - WOS:000419025500008
+ER  -
+
+TY  - CPAPER
+AU  - Ryadchikov, I
+AU  - Sechenev, S
+AU  - Svidlov, A
+AU  - Sinitsa, S
+AU  - Volkodav, P
+AU  - Mamelin, Y
+AU  - Popko, K
+AU  - Nikulchev, E
+ED  - Malykh, SB
+ED  - Nikulchev, EV
+TI  - PROJECT-BASED INTEGRATION OF ROBOTICS PLATFORMS INTO EDUCATIONAL PROCESS IN UNIVERSITIES
+T2  - ICPE 2017: INTERNATIONAL CONFERENCE ON PSYCHOLOGY AND EDUCATION
+CP  - International Conference on Psychology and Education (ICPE)
+AB  - There is a lack of a number of relevant technologies relevant to modern development of curriculum in robotics for secondary and higher educational institutions in Russia. In the presented work, the question of the creation educational materials on robotics, mechatronics, control theory and the introduction of a design-based learning in the teaching of robotics is being studied. Ultra-mobile chassis for service robots that can overcome obstacles up to a meter in height was developed. It has open hardware and software architecture and can be a platform for student start-ups, experiments, diploma works. Simple integration with other existing technologies and algorithms for mobile robots. Simulation environment for virtual programming of each hardware complex is provided. Educational and methodological materials and laboratory work on robotics, control theory, mechatronics, mathematical modeling. Separation of tasks, the joint construction of a mathematical model and the programming of a complex robotic system. The main emphasis in training is on the solution of model problems, the project approach is widely used. Such tasks can become a basis for individual course and diploma papers, for example, creating robots for the various scenarios. This educational platform is tested in the course "Introduction to Robotics and Artificial Intelligence" at the Kuban State University, Krasnodar. (C) 2017 Published by Future Academy www.FutureAcademy.org.UK
+SN  - 2357-1330
+PY  - 2017
+VL  - 33
+SP  - 299
+EP  - 303
+DO  - 10.15405/epsbs.2017.12.30
+AN  - WOS:000426869900030
+ER  -
+
+TY  - JOUR
+AU  - Glazunova, OI
+AU  - Gromyko, YV
+TI  - Two Approaches to Assessing Interactions in Cooperative Work: From PISA Monitoring Studies to Activity-Based Analysis of Collaboration in Project Teams
+T2  - PSIKHOLOGICHESKAYA NAUKA I OBRAZOVANIE-PSYCHOLOGICAL SCIENCE AND EDUCATION
+AB  - In the article the evaluation of interactions in the OECD Programme for International Student Assessment (PISA) is compared with the evaluation of cooperation on the basis of activity approach. The authors argue that in PISA, the problem and the interactions between those working on it are two separate subject matters of analysis, whereas in activity-based research on cooperation, cognitive and social components of problem solving in joint activity form one single reality for the participants of group work, with specific semantic, operational and subject attributes. Using the activity approach, the authors define the principles of monitoring and assessing abilities of the project team members in the process of team work. It is argued that the key integral construct that should be monitored in the process of team work is the design concept, its specification and the role it plays in the transformation of team activity. Assessing the development of abilities in the activity of project teams must as well be based on the typology of project teams.
+SN  - 1814-2052
+SN  - 2311-7273
+PY  - 2019
+VL  - 24
+IS  - 5
+SP  - 58
+EP  - 70
+DO  - 10.17759/pse.2019240506
+AN  - WOS:000496953300006
+ER  -
+
+TY  - CPAPER
+AU  - Gama, K
+A1  - ACM
+TI  - Developing Course Projects in a Hack Day: An Experience Report
+T2  - PROCEEDINGS OF THE 2019 ACM CONFERENCE ON INNOVATION AND TECHNOLOGY IN COMPUTER SCIENCE EDUCATION (ITICSE '19)
+CP  - 24th ACM Working Group Reports Annual Conference on Innovation and Technology in Computer Science Education (ITiCSE-WGR)
+AB  - Some researchers are starting to point out the importance of hackathons as an alternative venue for college students practicing and learning. Many positive aspects were highlighted such as peer learning and improvements in problem-solving, project management and task priority analysis. However, this hackathon phenomena is something that is happening outside the curriculum, with scarce reports of teachers taking advantage of similar approaches in undergraduate courses. In this article, we present our experience of an undergraduate introductory course on Distributed Systems where students have to participate in a "hack day" at the end of the semester. The goal is to take advantage of the hackathon model to bring a more realistic and engaging scenario where students can develop their course project and put into practice what they have learned in the semester. With this model, they have to do face-to-face group work and also have the opportunity to share knowledge with other groups. Our experience indicates positive results with this approach. Students reported a high level of engagement and enthusiasm. There were different situations of peer learning being reported, and according to their perception, students felt they learned more in the hack day than in lectures or laboratory practice.
+SN  - 978-1-4503-6301-3
+PY  - 2019
+SP  - 388
+EP  - 394
+DO  - 10.1145/3304221.3319777
+AN  - WOS:000532563500114
+ER  -
+
+TY  - CPAPER
+AU  - Bumblis, JR
+ED  - Arabnia, HR
+ED  - Reza, H
+TI  - Apollo 11 revisited - An example of problem-based learning
+T2  - SERP '05: PROCEEDINGS OF THE 2005 INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING RESEARCH AND PRACTICE, VOLS 1 AND 2
+CP  - International Conference on Software Engineering Research and Practice (SERP 05)
+AB  - Problem-Based Learning (PBL) is defined as a learning concept where "the problem drives the learning. "[1] It has been observed that students learning the medical profession learn through solving actual medical problems. Students are presented a problem (or case) whereby they confirm old knowledge before they can learn new knowledge. This process allows students discover what they need to learn and to discover what they need to change. The main steps of Problem-Based Learning include:
+   1. Explore the issues (Student Discussion VS Fact-cramming)
+   2. Define the problem
+   3. Discuss and investigate the possible solutions
+   4. Research supporting knowledge
+   5. Choose a. solution
+   6. Review the solutions and the reasons behind the solution choice
+   This paper describes the Problem-based Learning techniques presented to a graduate Software Engineering class. The class was presented the problem of landing safely on the moon...Apollo 11.
+SN  - 1-932415-51-3
+PY  - 2005
+SP  - 590
+EP  - 595
+AN  - WOS:000236081000085
+ER  -
+
+TY  - CPAPER
+AU  - Popescu, DA
+AU  - Bold, N
+AU  - Ileana, M
+ED  - Kubincova, Z
+ED  - Hao, T
+ED  - Capuano, N
+ED  - Temperini, M
+ED  - Ge, S
+ED  - Mu, Y
+ED  - Fantozzi, P
+ED  - Yang, J
+TI  - Performance and Scalability Challenges of an Revised Implementation Model of Assessment Test Generation Using Distributed Systems
+T2  - EMERGING TECHNOLOGIES FOR EDUCATION, PT II, SETE 2023
+CP  - 8th International Conference on Emerging Technologies for Education (SETE)
+AB  - The addition of the performance characteristic to an implementation is a crucial step in delivering the best results. In this matter, the current paper presents a description of a model which uses concepts related to web distribution systems in order to improve the performance and scalability of an implementation of a system that will be used in educational assessment and which generates assessment tests using genetic algorithms. The distributed systems could be used as a modality of implementing parallel operations for the genetic algorithm, such as mutation or crossover, but also for specific parts of the implementation, such as the selection process of the items within the assessment test. This paper has the aim to describe an improved model for this system, in order to be used for implementation and results.
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 978-981-97-4245-5
+SN  - 978-981-97-4246-2
+PY  - 2024
+VL  - 14607
+SP  - 167
+EP  - 181
+DO  - 10.1007/978-981-97-4246-2_15
+AN  - WOS:001314966100021
+ER  -
+
+TY  - JOUR
+AU  - Liu, CH
+AU  - Ikeda, K
+AU  - Thompson, G
+AU  - Rasmussen, R
+AU  - Dudhia, J
+TI  - High-Resolution Simulations of Wintertime Precipitation in the Colorado Headwaters Region: Sensitivity to Physics Parameterizations
+T2  - MONTHLY WEATHER REVIEW
+AB  - An investigation was conducted on the effects of various physics parameterizations on wintertime precipitation predictions using a high-resolution regional climate model. The objective was to evaluate the sensitivity of cold-season mountainous snowfall to cloud microphysics schemes, planetary boundary layer (PBL) schemes, land surface schemes, and radiative transfer schemes at a 4-km grid spacing applicable to the next generation of regional climate models.
+   The results indicated that orographically enhanced precipitation was highly sensitive to cloud microphysics parameterizations. Of the tested 7 parameterizations, 2 schemes clearly outperformed the others that over-predicted the snowfall amount by as much as similar to 30%-60% on the basis of snow telemetry observations. Significant differences among these schemes were apparent in domain averages, spatial distributions of hydrometeors, latent heating profiles, and cloud fields. In comparison, model results showed relatively weak dependency on the land surface. PBL, and radiation schemes, roughly in the order of decreasing level of sensitivity.
+SN  - 0027-0644
+SN  - 1520-0493
+DA  - NOV
+PY  - 2011
+VL  - 139
+IS  - 11
+SP  - 3533
+EP  - 3553
+DO  - 10.1175/MWR-D-11-00009.1
+AN  - WOS:000296475700011
+ER  -
+
+TY  - JOUR
+AU  - Nielsen-Gammon, JW
+AU  - Hu, XM
+AU  - Zhang, FQ
+AU  - Pleim, JE
+TI  - Evaluation of Planetary Boundary Layer Scheme Sensitivities for the Purpose of Parameter Estimation
+T2  - MONTHLY WEATHER REVIEW
+AB  - Meteorological model errors caused by imperfect parameterizations generally cannot be overcome simply by optimizing initial and boundary conditions. However, advanced data assimilation methods are capable of extracting significant information about parameterization behavior from the observations, and thus can be used to estimate model parameters while they adjust the model state. Such parameters should be identifiable, meaning that they must have a detectible impact on observable aspects of the model behavior, their individual impacts should be a monotonic function of the parameter values, and the various impacts should be clearly distinguishable from each other.
+   A sensitivity analysis is conducted for the parameters within the Asymmetrical Convective Model, version 2 (ACM2) planetary boundary layer (PBL) scheme in the Weather Research and Forecasting model in order to determine the parameters most suited for estimation. A total of 10 candidate parameters are selected from what is, in general, an infinite number of parameters, most being implicit or hidden. Multiple sets of model simulations are performed to test the sensitivity of the simulations to these 10 particular ACM2 parameters within their plausible physical bounds. The most identifiable parameters are found to govern the vertical profile of local mixing within the unstable PBL, the minimum allowable diffusivity, the definition of the height of the unstable PBL, and the Richardson number criterion used to determine the onset of turbulent mixing in stable stratification. Differences in observability imply that the specific choice of parameters to be estimated should depend upon the characteristics of the observations being assimilated.
+SN  - 0027-0644
+SN  - 1520-0493
+DA  - SEP
+PY  - 2010
+VL  - 138
+IS  - 9
+SP  - 3400
+EP  - 3417
+DO  - 10.1175/2010MWR3292.1
+AN  - WOS:000282303700003
+ER  -
+
+TY  - JOUR
+AU  - Murakowski, J
+AU  - Hallak, A
+AU  - Mercante, A
+AU  - Zablocki, MJ
+AU  - Creazzo, T
+AU  - Shi, SY
+AU  - Shreve, K
+AU  - Gallion, M
+AU  - Creavin, C
+AU  - Harrity, CE
+AU  - Gehl, M
+AU  - Ogut, M
+AU  - Brown, ST
+AU  - Misra, S
+AU  - Kangaslahti, P
+AU  - Kittlaus, E
+AU  - Prather, DW
+TI  - Ultra-Wideband RF-Photonics Technology for Microwave Spectrometry
+T2  - IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+AB  - We describe an RF-photonic system architecture to measure microwave spectrum over a wide bandwidth with high resolution. The approach relies on the up-conversion of the electronic signal to the optical domain using a high-speed electro-optic modulator, and an arrayed-waveguide grating (AWG) for spectral analysis. The modulator is implemented in lithium niobate whereas the AWG takes the form of a photonic integrated circuit fabricated in a silicon-on-insulator material platform. We present experimental results showing high-frequency response, in excess of 200 GHz, for the modulator, and broadband response of the AWG with the free spectral range of 81 GHz. The system is suitable for the measurement of atmospheric radiation between the oxygen and water vapor absorption lines for the monitoring of the planetary boundary layer to aid in weather prediction and the modeling of climate dynamics.
+SN  - 1939-1404
+SN  - 2151-1535
+PY  - 2024
+VL  - 17
+SP  - 16100
+EP  - 16107
+DO  - 10.1109/JSTARS.2024.3452033
+AN  - WOS:001317815400009
+ER  -
+
+TY  - JOUR
+AU  - Sannino, A
+AU  - Amoruso, S
+AU  - Boselli, A
+AU  - Wang, X
+AU  - Zhao, YM
+TI  - Aerosol Monitoring at High Mountains Remote Station: A Case Study on the Yunnan Plateau (China)
+T2  - REMOTE SENSING
+AB  - In January 2016, a measurement campaign was carried out by the China Meteorological Administration, the Beijing Research Institute of Telemetry, and the Physics Department of the University of Naples "Federico II" in the Yulong Naxi Autonomous County (China) at 3200 m above sea level to evaluate the air quality in the high mountains with the lidar technique. Here we report on an interesting event that occurred on 16 January between 12.00 and 00.00 UTC, when a striking aerosol stratification was observed on the site. Aerosol transport events are studied starting from lidar characterization of different aerosol masses. From lidar signals at 355 and 532 nm, integrated on 30 min, the aerosol characterization is done in terms of aerosol depolarization ratio with a spatial resolution of 60 m and color ratio; these parameters allow for highlighting a phenomenon of aerosol transport from the Tibetan plateau planetary boundary layer and from northern India. The initial layer is composed of a mixture of aerosols characterized by average values of the aerosol depolarization ratio and the color ratio of (30 +/- 2)% and (0.9 +/- 0.2), respectively, indicating a large non-spherical aerosol composition. Then, the deposition of this aerosol load ensues, and aerosols with such features are progressively observed at lower altitudes.
+SN  - 2072-4292
+DA  - AUG
+PY  - 2022
+VL  - 14
+IS  - 15
+C7  - 3773
+DO  - 10.3390/rs14153773
+AN  - WOS:000839947900001
+ER  -
+
+TY  - CPAPER
+AU  - O'Donnell, SJ
+AU  - Anzile, P
+A1  - IEEE
+TI  - TPS Solutions for Aircraft Controller System LRIs in Conjunction with LM-STAR®
+T2  - 2013 IEEE AUTOTESTCON
+CP  - 48th Annual AUTOTESTCON Conference
+AB  - The new tester selected by the Italian Air Force to be the standard platform for depot level testing on several Line Replaceable Units (LRU) of European Fighter (EF2000) Tranche 2 configuration is the LM-STAR (R). This solution, applicable for the second level of maintenance, is the result of joint cooperation between Lockheed Martin and Selex-ES, a Finmeccanica Company. To date, the acceptance and the delivery of seven LM-STAR stations (Galileo Euro Test Set variant) has occurred; two more are in progress. Currently, more than 25 Test Program Sets (TPS) have been designed, developed, integrated, and fielded using LMSTAR.
+   For more complex LRU, which are part of Armament Controller or Visual and Display System, a new hardware solution has been designed and purchased, also based both on development and in-service experience of previous Tranche 1 TPS with another ATE. Redesigned holding fixtures with new internal circuit cards in addition to LM-STAR capabilities improved the TPS performances with results (self-check, execution time, automatic tests, software loading) better than the ones on dedicated platforms for LRU manufacturing.
+   In this paper a brief overview will be provided about these choices and the benefits on TPS hardware composition and test management. The LM-STAR TPS development environment, which supports both C and ATLAS TPS, will also be analyzed. The underlying system software architecture that protects the TPS from costly hardware obsolescence will also be described. An overview of the support of a complex international program will be explored. We will describe both hardware and software technological obstacles that had to be overcome to achieve mission success while maintaining cost and schedule requirements.
+SN  - 1088-7725
+SN  - 978-1-4673-5681-7
+SN  - 978-1-4673-5683-1
+PY  - 2013
+AN  - WOS:000369728800040
+ER  -
+
+TY  - JOUR
+AU  - Rao, W
+TI  - Design and implementation of college students' physical education teaching information management system by data mining technology
+T2  - HELIYON
+AB  - This study intends to improve the efficiency of physical education teaching management, accelerate the normal teaching process, and meet the modern management requirements that traditional teaching management methods cannot meet. Based on data mining technology, this study designs a college student physical education teaching information management system, and makes a detailed design of each functional module. The main task of this study is to investigate how to effectively integrate data mining techniques with existing university student physical education teaching databases. Then, this study finds useful data information from massive data information to provide information support for university student physical education teaching. In order to effectively mine the relevant information of the data, the student evaluation module in the system is designed based on decision trees, and the teacher-student related data analysis module in the system is designed based on association rules. The research results indicate that 1039 records and 8205 student records are extracted from the teaching management database as mining objects. Rule 1: The support rate for "a professor's degree is a doctoral degree" is 20.4 %, indicating that there are 20.4 % of records in the teacher database that "the title is a professor and a doctoral degree"; the confidence level of Rule 1 is 78.2 %, indicating that 78.2 % of professors have a doctoral degree. Through the analysis of the rules that evaluate teaching as good, it can be found that the three attributes of professional title, education level, and teaching experience are the most important relevant factors affecting teaching effectiveness. Research has shown that the longer and richer the teaching experience, the stronger the teaching ability. Secondly, the mining results obtained through data mining techniques are analyzed. The maximum difference between the original algorithm's support mining results and the true values is 0.08, while the maximum difference between the improved algorithm's support mining results and the true values is 0.01. Compared to the original algorithm, the improved algorithm's mining results are accurate and effective. The application of data mining ideas in this system has laid a solid foundation for the development of physical education and teaching. Moreover, a three-layer system architecture model is adopted to better adapt to the development of school physical education, which is beneficial for later system maintenance and greatly reduces the work pressure of teachers. The system has been successfully launched and running in universities, and it is in good working condition.
+SN  - 2405-8440
+DA  - AUG 30
+PY  - 2024
+VL  - 10
+IS  - 16
+C7  - e36393
+DO  - 10.1016/j.heliyon.2024.e36393
+C6  - AUG 2024
+AN  - WOS:001297958800001
+ER  -
+
