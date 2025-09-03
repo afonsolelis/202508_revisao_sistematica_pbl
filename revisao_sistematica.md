@@ -4,18 +4,29 @@
 
 ### 1.1 Justificativa
 
-A Aprendizagem Baseada em Projetos (ABP) apresenta desafios significativos para professores orientadores responsáveis pela avaliação dos estudantes, especialmente em contextos complexos de engenharia de software onde os estudantes trabalham em equipes durante períodos prolongados (frequentemente 6-12 semanas) com papéis rotativos e requisitos em constante evolução.
+A Aprendizagem Baseada em Projetos (ABP) representa uma mudança paradigmática no ensino superior, especialmente em áreas tecnológicas, onde a formação de profissionais capazes de enfrentar os desafios complexos do mercado contemporâneo se torna imperativa. No contexto brasileiro, a experiência do Instituto de Tecnologia e Liderança (Inteli) evidencia tanto o potencial transformador da ABP quanto os desafios significativos enfrentados por professores orientadores na implementação eficaz dessa metodologia.
 
-Professores orientadores enfrentam dificuldades para:
-- Avaliar contribuições individuais dentro de equipes colaborativas
-- Mensurar competências transversais ao longo do processo
-- Fornecer feedback contínuo durante cronogramas de projeto estendidos
-- Monitorar simultaneamente qualidade do código, dinâmica das equipes e progresso individual
-- Tomar decisões informadas sobre intervenções pedagógicas com base em informações em tempo real
+Conforme documentado por Valente et al. (2025), "a qualidade dos concluintes dos cursos de computação tradicionais não está atendendo às necessidades do mercado e do país", evidenciando a necessidade crítica de abordagens pedagógicas mais eficazes. A estrutura curricular do Inteli, organizada em Learning BackLogs (LBLs), ilustra a complexidade inerente à ABP contemporânea, onde os módulos integram conhecimentos técnicos de computação, matemática e física com competências transversais de liderança, negócios e design de experiência do usuário (INTELI PPC, 2024).
 
-Soluções tecnológicas existentes operam de forma isolada, focando em aspectos específicos da experiência em ABP em vez de proporcionar uma visão holística do processo educativo que apoie efetivamente o trabalho do professor orientador.
+A implementação prática da ABP no contexto do Inteli revela desafios metodológicos específicos que requerem "um planejamento integrado de todas as vertentes e uma revisão constante para assegurar que todos os conteúdos essenciais sejam cobertos de maneira adequada". Esta complexidade operacional gera questões fundamentais sobre como realizar a evolução sistemática dos módulos de aprendizagem e quais aspectos da aprendizagem devem ser utilizados como base para compor os requisitos de revisão.
 
-A tecnologia de Gêmeos Digitais, que se originou em contextos industriais, oferece uma abordagem promissora para apoiar professores orientadores na avaliação abrangente em ABP. Embora amplamente aplicados na indústria, seus usos educacionais permanecem amplamente inexplorados.
+A experiência prática de implementação da ABP em engenharia de software revela questões fundamentais que emergem da complexidade metodológica. Conforme documentado por Arakaki et al. (2025): "Como realizar a evolução sistemática dos módulos de aprendizagem baseados em projetos (LBLs)? Quais aspectos da aprendizagem devem ser utilizados como base para compor os requisitos de revisão? Como os pacotes de conceitos e práticas podem ser reconfigurados sem prejuízo das disciplinas essenciais?" 
+
+A complexidade dessa implementação é amplificada pelos desafios inerentes à engenharia de software moderna. Pressman & Maxim (2021) destacam que os sistemas de informação enfrentaram uma "esfera crescente de desafios" à medida que os problemas se tornaram mais complexos, demandando programas cada vez mais sofisticados. Esta realidade técnica, combinada com a necessidade de formar profissionais capazes de "lidar com a complexidade e a rápida evolução do mercado de trabalho" (Arakaki et al., 2025), cria um contexto educacional onde professores orientadores enfrentam dificuldades operacionais específicas:
+
+**Avaliação de Contribuições Individuais em Equipes Colaborativas**: A natureza colaborativa dos projetos em ABP torna complexa a identificação e mensuração das contribuições específicas de cada membro da equipe, especialmente quando o trabalho é interdependente e os papéis são rotativos ao longo dos módulos.
+
+**Mensuração de Competências Transversais ao Longo do Processo**: A necessidade de avaliar tanto hard skills quanto soft skills de forma integrada apresenta desafios significativos, pois essas competências se manifestam de forma processual e contextual, requerendo instrumentos específicos que capturam sua evolução temporal.
+
+**Fornecimento de Feedback Contínuo em Projetos Estendidos**: O fornecimento de feedback formativo durante cronogramas prolongados demanda monitoramento constante e personalizado, representando um desafio de escalabilidade quando aplicado a contextos complexos com múltiplas equipes.
+
+**Monitoramento Multidimensional Integrado**: A necessidade simultânea de monitorar qualidade técnica do código, dinâmica das equipes, progresso individual e desenvolvimento de competências transversais revela a inadequação de ferramentas isoladas que abordam apenas aspectos específicos da experiência em ABP.
+
+**Tomada de Decisões Informadas sobre Intervenções Pedagógicas**: A falta de visibilidade integrada sobre o processo educativo limita a capacidade dos professores orientadores de tomar decisões baseadas em informações em tempo real, comprometendo a eficácia das intervenções pedagógicas necessárias.
+
+Soluções tecnológicas existentes operam de forma isolada, focando em aspectos específicos da experiência em ABP em vez de proporcionar uma visão holística do processo educativo que apoie efetivamente o trabalho do professor orientador. Esta fragmentação impede uma abordagem integrada que considere as múltiplas dimensões da aprendizagem em contextos de ABP.
+
+A tecnologia de Gêmeos Digitais, que se originou em contextos industriais, oferece uma abordagem promissora para apoiar professores orientadores na avaliação abrangente em ABP. Embora amplamente aplicados na indústria, seus usos educacionais permanecem amplamente inexplorados, representando uma lacuna significativa na literatura.
 
 Esta revisão sistemática visa mapear o estado da arte sobre os desafios metodológicos, instrumentos e tecnologias para auxiliar professores orientadores na avaliação em ambientes de Aprendizagem Baseada em Projetos, identificando como superar as dificuldades enfrentadas na avaliação de aprendizagem em contextos colaborativos e processuais.
 
@@ -708,10 +719,18 @@ A identificação desta lacuna de pesquisa, fundamentada na ausência de abordag
 
 ## Referências
 
-Kitchenham, B. (2004). Procedures for performing systematic reviews. Keele University Technical Report TR/SE-0401.
+Arakaki, R. et al. (2025). Aprimoramento Sistemático do PBL na Engenharia de Software: Um Método Baseado em Objetivos de Aprendizagem e Visões Arquiteturais. In: CONGRESSO BRASILEIRO DE EDUCAÇÃO EM ENGENHARIA (COBENGE), 53., 2025, Campinas. Anais [...]. Campinas: PUC-Campinas, 2025.
 
-Santos, C. M. C., Pimenta, C. A. M., & Nobre, M. R. C. (2007). A estratégia PICO para a construção da pergunta de pesquisa e busca de evidências. Revista Latino-Americana de Enfermagem, 15(3), 502-507.
+INTELI PPC. (2024). Projeto Pedagógico do Curso de Bacharelado em Engenharia de Software. Instituto de Tecnologia e Liderança. Disponível em: https://www.inteli.edu.br/engenharia-de-software. Acesso em: set. 2025.
+
+ISO. (1997). ISO 10746:1997 Information technology — Open Systems Interconnection — Reference model for development and specification of distributed applications.
 
 ISO/IEC/IEEE. (2022). ISO/IEC/IEEE 42010:2022 Systems and software engineering — Architecture description.
 
-ISO. (1997). ISO 10746:1997 Information technology — Open Systems Interconnection — Reference model for development and specification of distributed applications.
+Kitchenham, B. (2004). Procedures for performing systematic reviews. Keele University Technical Report TR/SE-0401.
+
+Pressman, R.; Maxim, B. (2021). Engenharia de Software: Uma Abordagem Profissional. 8. ed. Porto Alegre: AMGH. Revisão técnica: Reginaldo Arakaki.
+
+Santos, C. M. C., Pimenta, C. A. M., & Nobre, M. R. C. (2007). A estratégia PICO para a construção da pergunta de pesquisa e busca de evidências. Revista Latino-Americana de Enfermagem, 15(3), 502-507.
+
+Valente, J. A.; Bittencourt, I. I.; Santoro, F. M.; Garcia, M.; Isotani, S.; Garcia, A.; Habimorad, M. (2025). O Ensino Superior de Computação Baseado em Projetos: o Inteli no caminho da inovação. Revista Brasileira de Informática na Educação, v. 33, p. 605-642.
