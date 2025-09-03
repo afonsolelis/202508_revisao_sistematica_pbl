@@ -2,76 +2,70 @@
 
 ## Aprimoramentos Realizados
 
-A revisão sistemática foi aprimorada com a incorporação de fundamentos teóricos baseados nas normas ISO, fortalecendo significativamente a justificativa e a originalidade da pesquisa proposta.
+A revisão sistemática foi aprimorada com a incorporação de fundamentos teóricos baseados nas normas ISO, tornando a justificativa mais direta e focada.
 
-### 1. Fundamentação Teórica nas Normas ISO
+### 1. Fundamentação Teórica Concisa nas Visões Arquiteturais da Norma ISO 10746
 
-#### ISO/IEC/IEEE 42010:2022 - Arquitetura de Sistemas e Software
-- Incorporação das cinco visões arquiteturais como base para a estratégia de busca:
-  1. Visão Estrutural
-  2. Visão Comportamental
-  3. Visão de Dados
-  4. Visão de Implementação
-  5. Visão de Implantação
+#### ISO 10746 - Especificação de Sistemas Distribuídos como Base Arquitetural
+- Aplicação das cinco visões arquiteturais (Business Drive, Information View, Computational View, Engineering View, Technology View) como base para a estratégia de busca
+- Integração imediata com os desafios de avaliação em ABP através da orientação pelo "Business Drive" educacional
+- Modelagem do ABP como sistema distribuído orientado por objetivos educacionais
 
-#### ISO 10746 - Especificação de Sistemas Distribuídos
-- Aplicação do conceito de "Business Drive" ao contexto educacional
-- Modelagem de processos colaborativos e distribuídos no ABP
+### 2. Foco Direto no Papel do Professor Orientador
 
-### 2. Justificativa Reforçada para o Papel do Professor Orientador
+Abordagem direta das necessidades do professor orientador:
+- Monitoramento de progresso em projetos complexos
+- Avaliação multidimensional do desempenho através de múltiplas visões arquiteturais
+- Tomada de decisão informada em tempo real
+- Escalabilidade da supervisão com suporte arquitetural
 
-A necessidade da pesquisa foi aprimorada com:
-- Análise detalhada das responsabilidades multifacetadas do professor orientador
-- Identificação dos desafios específicos em contextos complexos de ABP
-- Justificativa baseada na exigência de visibilidade multidimensional do processo educativo
+### 3. Estratégia de Busca Fundamentada em Visões Arquiteturais
 
-### 3. Estratégia de Busca Aprimorada
+#### Alinhamento Direto com Visões ISO 10746 nas Strings de Busca
+- Cada camada de busca explicitamente ligada a uma visão arquitetural da norma ISO 10746
+- Incorporação do conceito de "Business Drive" como elemento orientador em todas as strings
+- Terminologia técnica precisa das normas arquiteturais
 
-#### Fundamentação ISO nas Strings de Busca
-- Cada uma das 5 camadas de busca agora está explicitamente alinhada com uma visão arquitetural da norma ISO 42010
-- Incorporação do conceito de "Business Drive" da norma ISO 10746 em todas as strings
-- Adição de termos específicos relacionados às visões arquiteturais
+### 4. Metodologia com Referências Apropriadas
 
-### 4. Identificação Mais Clara da Lacuna de Pesquisa
+#### Framework PICO corretamente focado no professor orientador
+- Utilização do framework PICO (Santos, Pimenta & Nobre, 2007) com foco nas dificuldades do professor orientador
+- Estruturação clara dos componentes Population (professores orientadores), Intervention (métodos e tecnologias de apoio), Comparison (métodos tradicionais sem suporte), Outcome (superar dificuldades na avaliação)
+- Base metodológica sólida em referências reconhecidas
 
-A lacuna identificada foi aprimorada com:
-- Especificação da ausência de abordagens arquiteturais padronizadas na literatura
-- Identificação da falta de integração entre as cinco visões arquiteturais no contexto educacional
-- Destaque para a ausência de modelagem do "Business Drive" educacional
+### 5. Identificação Clara da Lacuna
 
-### 5. Oportunidade de Pesquisa com Fundamentação Padrão
-
-A oportunidade de pesquisa foi reforçada com:
-- Ênfase na aplicação de padrões internacionais reconhecidos
-- Justificativa baseada na transferência de conceitos validados na indústria para contextos educacionais
-- Destaque para a originalidade de combinar normas ISO com Gêmeos Digitais em educação
+Lacuna identificada de forma direta:
+- Ausência de soluções integradas com fundamentação arquitetural padronizada baseada em ISO 10746 para apoio a professores orientadores
+- Falta de abordagens multivisão integradas na literatura educacional
+- Deficiência na modelagem do "Business Drive" educacional como elemento orientador de todas as visões arquiteturais
 
 ## Benefícios das Melhorias
 
-### 1. Fortalecimento da Originalidade
-- A aplicação das normas ISO confere caráter pioneiro à pesquisa
-- Fundamentação em padrões internacionais reconhecidos aumenta a credibilidade
+### 1. Clareza e Foco
+- Texto mais direto e objetivo
+- Eliminação de generalidades desnecessárias
+- Foco imediato nos pontos essenciais
 
-### 2. Justificativa Mais Sólida
-- Base teórica robusta fundamentada em normas estabelecidas
-- Alinhamento com práticas industriais validadas
+### 2. Fundamentação Técnica Sólida
+- Base em normas internacionais reconhecidas (ISO 10746)
+- Conexão direta com engenharia de software e arquitetura de sistemas
+- Terminologia precisa e técnica baseada em padrões arquiteturais
+- Referências metodológicas apropriadas
 
-### 3. Estruturação Metodológica Aprimorada
-- Estratégia de busca sistematicamente fundamentada
-- Cobertura abrangente das dimensões do problema através das visões arquiteturais
-
-### 4. Valor Prático Reforçado
-- Soluções que respeitam princípios arquiteturais padronizados
-- Abordagem escalável e replicável em diferentes contextos
+### 3. Relevância Prática Imediata
+- Solução direta para problemas reais de professores orientadores
+- Abordagem escalável e replicável com fundamentação arquitetural
+- Fundamentação em padrões industriais validados (ISO 10746)
 
 ## Contribuições para o Trabalho de Doutorado
 
-Estas melhorias fortalecem significativamente o trabalho de doutorado ao:
+Estas melhorias fortalecem o trabalho de doutorado ao:
 
-1. **Estabelecer uma base teórica sólida** fundamentada em normas internacionais
-2. **Demonstrar a originalidade** da abordagem proposta
-3. **Justificar contundentemente a necessidade** da investigação
-4. **Fornecer uma estrutura metodológica robusta** para a pesquisa
-5. **Posicionar a pesquisa como inovadora** na intersecção de normas ISO, Gêmeos Digitais e educação
+1. **Fornecer uma base teórica concisa** mas robusta fundamentada em normas arquiteturais internacionais (ISO 10746)
+2. **Demonstrar a originalidade** através da aplicação inédita de visões arquiteturais ISO 10746 à educação
+3. **Justificar diretamente a necessidade** com foco nas necessidades reais dos professores orientadores
+4. **Oferecer uma estrutura metodológica clara** para a pesquisa com referências apropriadas
+5. **Posicionar a pesquisa como inovadora** na intersecção de normas arquiteturais ISO 10746, Gêmeos Digitais e educação
 
-A revisão sistemática atualizada fornece uma fundamentação teórica e metodológica sólida que justifica contundentemente a investigação proposta no doutorado, posicionando-a como uma contribuição original e significativa para a área.
+A revisão sistemática atualizada fornece uma fundamentação teórica e metodológica direta que justifica claramente a investigação proposta no doutorado, com foco específico nas dificuldades dos professores orientadores e fundamentação arquitetural baseada na norma ISO 10746.

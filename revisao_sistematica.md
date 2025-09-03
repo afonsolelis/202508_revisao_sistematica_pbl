@@ -4,68 +4,69 @@
 
 ### 1.1 Justificativa
 
-A Aprendizagem Baseada em Projetos (ABP) tem se consolidado como uma abordagem pedagógica fundamental na educação superior, especialmente nos cursos de engenharia e tecnologia. Ao engajar os estudantes em projetos complexos e próximos da realidade profissional, a ABP promove o desenvolvimento de competências essenciais como pensamento crítico, resolução de problemas, colaboração e comunicação. No contexto da engenharia de software, a ABP tem se mostrado particularmente eficaz, permitindo que os estudantes desenvolvam habilidades técnicas enquanto experimentam processos autênticos de desenvolvimento de software.
+A Aprendizagem Baseada em Projetos (ABP) apresenta desafios significativos para professores orientadores responsáveis pela avaliação dos estudantes, especialmente em contextos complexos de engenharia de software onde os estudantes trabalham em equipes durante períodos prolongados (frequentemente 6-12 semanas) com papéis rotativos e requisitos em constante evolução.
 
-Apesar dos benefícios pedagógicos, a ABP apresenta desafios significativos para avaliação por parte dos instrutores. Métodos tradicionais de avaliação, que frequentemente se concentram em entregas finais, falham em capturar os processos de aprendizagem complexos que ocorrem ao longo das experiências em ABP. Os instrutores enfrentam dificuldades para avaliar contribuições individuais dentro de equipes colaborativas, mensurar competências transversais e fornecer feedback contínuo ao longo de cronogramas de projeto estendidos.
+Professores orientadores enfrentam dificuldades para:
+- Avaliar contribuições individuais dentro de equipes colaborativas
+- Mensurar competências transversais ao longo do processo
+- Fornecer feedback contínuo durante cronogramas de projeto estendidos
+- Monitorar simultaneamente qualidade do código, dinâmica das equipes e progresso individual
+- Tomar decisões informadas sobre intervenções pedagógicas com base em informações em tempo real
 
-Os desafios de avaliação tornam-se ainda mais pronunciados em módulos de ABP de engenharia de software complexos, onde os estudantes trabalham em equipes durante períodos prolongados (frequentemente 6-12 semanas) com papéis rotativos e requisitos em constante evolução. Os instrutores devem simultaneamente monitorar a qualidade do código, a dinâmica das equipes, o progresso individual e o desenvolvimento de habilidades técnicas, tudo isso enquanto fornecem feedback oportuno para apoiar a aprendizagem.
+Soluções tecnológicas existentes operam de forma isolada, focando em aspectos específicos da experiência em ABP em vez de proporcionar uma visão holística do processo educativo que apoie efetivamente o trabalho do professor orientador.
 
-Avanços recentes na tecnologia educacional começaram a abordar alguns desses desafios. Plataformas de análise de aprendizagem podem rastrear o engajamento dos estudantes e indicadores de desempenho, enquanto ferramentas de revisão de código automática fornecem medidas objetivas da qualidade técnica. No entanto, essas soluções tipicamente operam de forma isolada, focando em aspectos específicos da experiência em ABP em vez de proporcionar uma visão holística da aprendizagem e da dinâmica das equipes.
+A tecnologia de Gêmeos Digitais, que se originou em contextos industriais, oferece uma abordagem promissora para apoiar professores orientadores na avaliação abrangente em ABP. Embora amplamente aplicados na indústria, seus usos educacionais permanecem amplamente inexplorados.
 
-A tecnologia de Gêmeos Digitais, que se originou em contextos industriais e de manufatura, oferece uma abordagem promissora para avaliação abrangente em ABP. Um Gêmeo Digital é uma réplica virtual de uma entidade física que espelha seu comportamento em tempo real por meio de troca contínua de dados. Embora os Gêmeos Digitais tenham sido amplamente aplicados na indústria para manutenção preditiva, otimização de processos e controle de qualidade, suas aplicações educacionais permanecem amplamente inexploradas.
-
-Esta revisão sistemática visa mapear o estado da arte sobre os desafios metodológicos, instrumentos e tecnologias para avaliação em ambientes de Aprendizagem Baseada em Projetos, identificando como superar as dificuldades inerentes à avaliação de aprendizagem em contextos colaborativos e processuais.
+Esta revisão sistemática visa mapear o estado da arte sobre os desafios metodológicos, instrumentos e tecnologias para auxiliar professores orientadores na avaliação em ambientes de Aprendizagem Baseada em Projetos, identificando como superar as dificuldades enfrentadas na avaliação de aprendizagem em contextos colaborativos e processuais.
 
 ### 1.2 Fundamentação Teórica nas Normas ISO
 
-A fundamentação teórica desta pesquisa baseia-se em duas normas internacionais essenciais para a arquitetura de sistemas e processos organizacionais:
+Esta pesquisa baseia-se na norma ISO 10746 para fundamentar a arquitetura da solução proposta, utilizando o conceito de "Business Drive" como elemento orientador das cinco visões arquiteturais:
 
-#### 1.2.1 ISO/IEC/IEEE 42010:2022 - Arquitetura de Sistemas e Software
+#### 1.2.1 ISO 10746 - Especificação de Sistemas Distribuídos como Fundamento Arquitetural
 
-A norma ISO/IEC/IEEE 42010:2022 estabelece os fundamentos para a descrição arquitetural de sistemas, definindo arquitetura como "o conjunto fundamental de conceitos, princípios, restrições e padrões que guiam o projeto e a evolução de sistemas". Esta norma especifica cinco visões arquiteturais fundamentais que podem ser aplicadas ao contexto educacional:
+A norma ISO 10746 fornece um framework para especificação de sistemas distribuídos baseado em cinco visões arquiteturais fundamentais, onde o "Business Drive" (BD) atua como a força motriz que orienta o desenvolvimento e a evolução do sistema. No contexto educacional do ABP, o "Business Drive" é o desenvolvimento de competências técnicas e transversais pelos estudantes, com o professor orientador como principal stakeholder responsável por garantir a qualidade do processo educativo.
 
-1. **Visão Estrutural**: Representa a organização dos componentes do sistema e suas interfaces
-2. **Visão Comportamental**: Descreve a dinâmica do sistema em termos de colaborações entre componentes
-3. **Visão de Implementação**: Mostra como o sistema é estruturado em termos de módulos de implementação
-4. **Visão de Implantação**: Representa a configuração do sistema em relação ao ambiente de execução
-5. **Visão de Dados**: Modela a estrutura e o fluxo de dados do sistema
+As cinco visões arquiteturais da norma ISO 10746 aplicadas ao contexto de ABP são:
 
-A aplicação destas visões ao contexto de ABP permite uma compreensão abrangente do processo educativo, onde cada visão oferece uma perspectiva única sobre os diferentes aspectos do aprendizado.
+1. **Visão de Business Drive (BD)**: Representa o propósito fundamental do sistema - o desenvolvimento de competências dos estudantes em contextos de ABP. Esta visão define os objetivos educacionais que orientam todo o sistema de avaliação.
 
-#### 1.2.2 ISO 10746 - Especificação de Sistemas Distribuídos
+2. **Visão de Information View (IV)**: Modela a estrutura e o fluxo de informações educacionais, incluindo dados sobre progresso dos estudantes, qualidade do código, dinâmica das equipes e desenvolvimento de competências.
 
-A norma ISO 10746 fornece um framework para a especificação de sistemas distribuídos, com foco em processos colaborativos e interoperabilidade. Esta norma é particularmente relevante para o contexto de ABP, onde os estudantes trabalham em equipes distribuídas, colaborando em projetos complexos.
+3. **Visão de Computational View (CV)**: Descreve os processos computacionais e algoritmos necessários para coletar, processar e analisar os dados educacionais, incluindo métricas de código, análise de colaboração e monitoramento de progresso.
 
-A norma define os conceitos de "Business Drive" como a força motriz que orienta o desenvolvimento e a evolução de sistemas. No contexto educacional, o "Business Drive" do ABP é o desenvolvimento de competências técnicas e transversais pelos estudantes, com o professor orientador atuando como o principal stakeholder responsável por garantir a qualidade do processo educativo.
+4. **Visão de Engineering View (EV)**: Define a arquitetura técnica do sistema, incluindo componentes de software, interfaces, protocolos de comunicação e integração com ferramentas educacionais existentes.
+
+5. **Visão de Technology View (TV)**: Especifica as tecnologias e plataformas que suportam a implementação do sistema, incluindo infraestrutura, frameworks e padrões tecnológicos utilizados.
+
+#### 1.2.2 Aplicação das Visões Arquiteturais na Estratégia de Busca
+
+A estratégia de busca foi estruturada em cinco camadas correspondentes às cinco visões arquiteturais da norma ISO 10746, onde cada camada busca soluções específicas para apoiar o "Business Drive" educacional:
+
+- **Camada 1 (Engineering View)**: Busca fundamentos arquiteturais e tecnológicos que suportem a estrutura do sistema de avaliação
+- **Camada 2 (Computational View)**: Procura processos e algoritmos para análise de dados educacionais
+- **Camada 3 (Information View)**: Identifica soluções para modelagem e fluxo de informações educacionais
+- **Camada 4 (Technology View)**: Explora tecnologias específicas que podem ser aplicadas na solução
+- **Camada 5 (Business Drive)**: Foca em soluções que apoiam diretamente os objetivos educacionais do professor orientador
+
+Esta abordagem arquitetural permite uma análise abrangente da literatura existente, garantindo que aspectos críticos do problema não sejam omitidos e que soluções parciais possam ser integradas de forma coerente.
 
 ### 1.3 Justificativa da Necessidade Baseada no Papel do Professor Orientador
 
-O professor orientador em contextos de ABP desempenha um papel multifacetado crucial para o sucesso dos estudantes:
+O professor orientador em contextos de ABP precisa:
 
-1. **Supervisor de Processo**: Monitora o progresso individual e coletivo dos estudantes ao longo do projeto
-2. **Facilitador de Aprendizagem**: Intervém estrategicamente para superar obstáculos e promover o desenvolvimento de competências
-3. **Avaliador de Desempenho**: Realiza avaliações justas e abrangentes considerando múltiplas dimensões do aprendizado
-4. **Mentor de Carreira**: Orienta os estudantes no desenvolvimento de habilidades profissionais relevantes
+1. **Monitorar o progresso** individual e coletivo dos estudantes em projetos com múltiplas iterações e papéis rotativos
+2. **Avaliar desempenho** considerando diferentes viéses técnicos e comportamentais
+3. **Tomar decisões informadas** sobre intervenções pedagógicas com base em informações em tempo real
+4. **Escalar sua supervisão** para funcionar efetivamente com turmas numerosas
 
-A complexidade deste papel aumenta significativamente em contextos de ABP complexos, onde:
-- Grupos de estudantes trabalham em projetos com múltiplas iterações e papéis rotativos
-- O acompanhamento individualizado de cada estudante se torna desafiador
-- A avaliação precisa considerar diferentes viéses técnicos e comportamentais
-- A tomada de decisão sobre intervenções pedagógicas requer informações em tempo real
+A aplicação das cinco visões arquiteturais da ISO 42010 ao contexto de ABP fornece ao professor orientador diferentes perspectivas do processo educativo:
 
-A necessidade de uma abordagem arquitetural fundamentada nas normas ISO surge da exigência de:
-1. **Visibilidade Completa**: O professor orientador precisa de uma visão holística do processo de aprendizagem
-2. **Avaliação Multidimensional**: A avaliação deve considerar múltiplas perspectivas do desempenho dos estudantes
-3. **Tomada de Decisão Informada**: Intervenções pedagógicas baseadas em dados objetivos e em tempo real
-4. **Escalabilidade**: Soluções que funcionem efetivamente mesmo com turmas numerosas
-
-A aplicação das cinco visões arquiteturais da ISO 42010 ao contexto de ABP permite que o professor orientador tenha acesso a diferentes perspectivas do processo educativo:
-
-- **Visão Estrutural**: Compreensão da organização das equipes e distribuição de papéis
-- **Visão Comportamental**: Análise das dinâmicas de colaboração e interação entre estudantes
-- **Visão de Implementação**: Acompanhamento do progresso técnico e qualidade das entregas
-- **Visão de Implantação**: Monitoramento do ambiente de trabalho e recursos utilizados
-- **Visão de Dados**: Análise quantitativa do desempenho individual e coletivo
+- **Visão Estrutural**: Organização das equipes e distribuição de papéis
+- **Visão Comportamental**: Dinâmicas de colaboração e interação entre estudantes
+- **Visão de Implementação**: Progresso técnico e qualidade das entregas
+- **Visão de Implantação**: Ambiente de trabalho e recursos utilizados
+- **Visão de Dados**: Desempenho individual e coletivo quantitativo
 
 ### 1.4 Lacuna de Pesquisa Identificada
 
@@ -82,14 +83,14 @@ A aplicação de conceitos de Gêmeos Digitais fundamentados nas normas ISO repr
 
 ### 2.1 Objetivo Geral
 
-Mapear a produção científica sobre métodos, instrumentos e tecnologias para avaliação em Aprendizagem Baseada em Projetos (ABP), identificando como superar os desafios inerentes à avaliação de aprendizagem baseada em projetos.
+Mapear a produção científica sobre métodos, instrumentos e tecnologias para auxiliar professores orientadores na avaliação em Aprendizagem Baseada em Projetos (ABP), identificando como superar as dificuldades inerentes à avaliação de aprendizagem baseada em projetos.
 
 ### 2.2 Objetivos Específicos
 
-1. Identificar os principais desafios metodológicos na avaliação de aprendizagem em contextos de ABP.
-2. Mapear os instrumentos e tecnologias que estão sendo utilizados para superar esses desafios.
-3. Analisar como a tecnologia pode apoiar processos avaliativos mais objetivos e escaláveis em ABP.
-4. Identificar lacunas persistentes na avaliação de competências processuais e colaborativas.
+1. Identificar os principais desafios metodológicos enfrentados por professores orientadores na avaliação de aprendizagem em contextos de ABP.
+2. Mapear os instrumentos e tecnologias que estão sendo utilizados para apoiar professores orientadores na superação desses desafios.
+3. Analisar como a tecnologia pode apoiar professores orientadores em processos avaliativos mais objetivos e escaláveis em ABP.
+4. Identificar lacunas persistentes no suporte a professores orientadores na avaliação de competências processuais e colaborativas.
 
 ## 3. Metodologia
 
@@ -99,14 +100,14 @@ Esta revisão sistemática foi conduzida seguindo as diretrizes propostas por Ki
 
 #### 3.1.1 Questão de Pesquisa
 
-A questão de pesquisa foi formulada seguindo o framework PICO (Population, Intervention, Comparison, Outcome):
+A questão de pesquisa foi formulada seguindo o framework PICO (Population, Intervention, Comparison, Outcome) (Santos, Pimenta & Nobre, 2007), focando nas dificuldades do professor orientador na avaliação em ambientes de Aprendizagem Baseada em Projetos:
 
-**Questão Principal**: Quais são os desafios metodológicos, instrumentos e tecnologias para avaliação em Aprendizagem Baseada em Projetos?
+**Questão Principal**: Quais são os desafios metodológicos, instrumentos e tecnologias para auxiliar professores orientadores na avaliação em Aprendizagem Baseada em Projetos?
 
-**P** (População): Estudantes em ambientes educacionais que utilizam Aprendizagem Baseada em Projetos
-**I** (Intervenção): Métodos, instrumentos e tecnologias para avaliação em ABP
-**C** (Comparação): Métodos tradicionais de avaliação
-**O** (Resultados): Superar desafios na avaliação de aprendizagem em contextos colaborativos e processuais
+**P** (População): Professores orientadores em ambientes educacionais que utilizam Aprendizagem Baseada em Projetos
+**I** (Intervenção): Métodos, instrumentos e tecnologias para apoio à avaliação em ABP
+**C** (Comparação): Métodos tradicionais de avaliação sem suporte tecnológico
+**O** (Resultados): Superar dificuldades dos professores orientadores na avaliação justa e abrangente de estudantes em contextos colaborativos e processuais
 
 #### 3.1.2 Protocolo da Revisão
 
@@ -129,70 +130,70 @@ A base de dados Web of Science foi selecionada como única base de dados para es
 - **Ferramentas Analíticas Avançadas**: Análise de tendências temporais, mapeamento de colaboração internacional e análise de citações
 - **Integração com Protocolos de Revisão Sistemática**: Compatível com diretrizes Kitchenham e exportação RIS padronizada
 
-##### Estratégia de Busca Fundamentada nas Normas ISO
+##### Estratégia de Busca Fundamentada nas Visões Arquiteturais da ISO 10746
 
-As strings de busca foram estruturadas em 5 camadas estratificadas para capturar diferentes aspectos do problema de pesquisa, fundamentadas nas cinco visões arquiteturais da norma ISO/IEC/IEEE 42010:2022 e nos princípios de sistemas distribuídos da norma ISO 10746:
+As strings de busca foram estruturadas em 5 camadas estratificadas correspondentes às cinco visões arquiteturais da norma ISO 10746, onde cada camada busca soluções específicas para apoiar o "Business Drive" educacional (desenvolvimento de competências em ABP):
 
-**String 1 - Visão Estrutural (ISO 42010) - Fundamentos de Arquitetura e Monitoramento**:
+**String 1 - Visão Engineering View (EV) - Fundamentos de Arquitetura e Monitoramento**:
 ```
 TS=("software architecture" OR "microservices architecture" OR "distributed systems" OR "system structure" OR "component interface") 
 AND TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("observability" OR "telemetry" OR "metrics collection" OR "monitoring")
 ```
 
-**String 2 - Visão Comportamental (ISO 42010) - Modelagem de Processos Educacionais**:
+**String 2 - Visão Computational View (CV) - Modelagem de Processos Educacionais**:
 ```
 TS=("process modeling" OR "educational process" OR "learning process" OR "workflow modeling" OR "behavioral process" OR "collaboration process") 
 AND TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("team dynamics" OR "collaboration" OR "interaction")
 ```
 
-**String 3 - Visão de Dados (ISO 42010) - Gêmeos Digitais e Modelagem de Sistemas**:
+**String 3 - Visão Information View (IV) - Gêmeos Digitais e Modelagem de Sistemas**:
 ```
 TS=("digital twin*" OR "virtual twin*" OR "digital replica" OR "system modeling" OR "data modeling" OR "information flow") 
 AND TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("real-time data" OR "data synchronization" OR "virtual representation")
 ```
 
-**String 4 - Visão de Implementação (ISO 42010) - Learning Analytics e Métricas de Desenvolvimento**:
+**String 4 - Visão Technology View (TV) - Learning Analytics e Métricas de Desenvolvimento**:
 ```
 TS=("learning analytics" OR "educational data mining" OR "student analytics" OR "behavioral analytics" OR "git analytics" OR "version control metrics" OR "collaboration metrics" OR "team performance" OR "code metrics") 
 AND TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("implementation" OR "module" OR "component" OR "artifact")
 ```
 
-**String 5 - Visão de Implantação (ISO 42010) - Sistemas de Apoio ao Orientador**:
+**String 5 - Visão Business Drive (BD) - Sistemas de Apoio ao Orientador**:
 ```
 TS=("teacher support" OR "instructor support" OR "supervisor dashboard" OR "educational dashboard" OR "teacher assistance" OR "instructor tools") 
 AND TS=("project-based learning" OR "project based learning" OR "PBL")
-AND TS=("deployment" OR "environment" OR "execution context" OR "runtime")
+AND TS=("business drive" OR "educational objectives" OR "competency development" OR "learning outcomes")
 ```
 
-##### Fundamentação no "Business Drive" (ISO 10746)
+##### Alinhamento com o Business Drive Educacional
 
-Além das cinco visões arquiteturais, todas as strings incorporam o conceito de "Business Drive" da norma ISO 10746, onde o objetivo educacional (desenvolvimento de competências em ABP) orienta a busca por soluções tecnológicas. Esta abordagem garante que a pesquisa esteja alinhada com os objetivos fundamentais do processo educativo.
+Todas as strings de busca incorporam o conceito de "Business Drive" da norma ISO 10746, onde o objetivo educacional fundamental (desenvolvimento de competências técnicas e transversais em contextos de ABP) orienta a busca por soluções tecnológicas. Esta abordagem garante que a pesquisa esteja alinhada com os objetivos fundamentais do processo educativo, com o professor orientador como principal stakeholder responsável por garantir a qualidade da avaliação.
 
-##### Justificativa para as Strings de Busca Baseada nas Normas ISO
+##### Justificativa para as Strings de Busca Baseada nas Visões Arquiteturais da ISO 10746
 
-A Tabela 1 apresenta a justificativa para cada string de busca com base na dimensão do problema de pesquisa, fundamentada nas cinco visões arquiteturais da norma ISO/IEC/IEEE 42010:2022:
+A Tabela 1 apresenta a justificativa para cada string de busca com base na dimensão do problema de pesquisa, fundamentada nas cinco visões arquiteturais da norma ISO 10746:
 
-| Camada | Visão Arquitetural (ISO 42010) | Dimensão do Problema | Justificativa | String de Busca |
+| Camada | Visão Arquitetural (ISO 10746) | Dimensão do Problema | Justificativa | String de Busca |
 |--------|------------------------------|---------------------|---------------|-----------------|
-| 1 | Visão Estrutural | Fundamentos Teóricos | Estabelece os conceitos fundamentais de arquitetura de sistemas aplicáveis ao contexto educacional, fornecendo base conceitual para monitoramento sistemático. Esta camada foca na estrutura organizacional das equipes e interfaces entre componentes do sistema educacional | Arquitetura de software e monitoramento |
-| 2 | Visão Comportamental | Processualidade | Conecta conceitos de modelagem de processos com domínio educacional específico, essencial para capturar a complexidade temporal do ABP e as dinâmicas colaborativas entre estudantes | Modelagem de processos educacionais |
-| 3 | Visão de Dados | Tecnologia Emergente | Representa o núcleo inovador da pesquisa - aplicação de Gêmeos Digitais à educação, tecnologia com potencial transformador. Esta camada foca na modelagem e fluxo de dados que permitem a criação de réplicas virtuais do processo educativo | Gêmeos Digitais e modelagem de sistemas |
-| 4 | Visão de Implementação | Operacionalização | Integra análise de dados educacionais com métricas técnicas de desenvolvimento, criando ponte entre domínios educacional e técnico. Esta camada aborda como os sistemas são estruturados em termos de módulos implementáveis | Learning Analytics e métricas |
-| 5 | Visão de Implantação | Aplicação Prática | Foca na aplicação prática - ferramentas utilizáveis por orientadores para avaliação justa, garantindo relevância prática. Esta camada considera a configuração do sistema em relação ao ambiente de execução educacional | Sistemas de apoio ao orientador |
+| 1 | Engineering View (EV) | Fundamentos Arquiteturais | Estabelece os conceitos fundamentais de arquitetura de sistemas aplicáveis ao contexto educacional, fornecendo base conceitual para monitoramento sistemático. Esta camada foca na estrutura organizacional das equipes e interfaces entre componentes do sistema educacional que apoia o professor orientador | Arquitetura de software e monitoramento |
+| 2 | Computational View (CV) | Processamento Computacional | Conecta conceitos de modelagem de processos com algoritmos computacionais para análise de dados educacionais, essencial para capturar a complexidade temporal do ABP e as dinâmicas colaborativas entre estudantes | Modelagem de processos educacionais |
+| 3 | Information View (IV) | Modelagem de Informações | Representa o núcleo inovador da pesquisa - aplicação de Gêmeos Digitais à educação, tecnologia com potencial transformador. Esta camada foca na modelagem e fluxo de informações educacionais que permitem a criação de réplicas virtuais do processo educativo | Gêmeos Digitais e modelagem de sistemas |
+| 4 | Technology View (TV) | Tecnologias de Implementação | Integra análise de dados educacionais com tecnologias específicas de implementação, criando ponte entre soluções teóricas e ferramentas práticas aplicáveis ao contexto educacional | Learning Analytics e métricas |
+| 5 | Business Drive (BD) | Objetivos Educacionais | Foca nos objetivos fundamentais do processo educativo - desenvolvimento de competências técnicas e transversais pelos estudantes, com o professor orientador como principal stakeholder. Esta camada considera como as soluções tecnológicas apoiam diretamente os objetivos educacionais | Sistemas de apoio ao orientador |
 
-Tabela 1: Justificativa para as strings de busca estratificadas baseada nas normas ISO
+Tabela 1: Justificativa para as strings de busca estratificadas baseada nas visões arquiteturais da ISO 10746
 
-A estratégia de busca estratificada fundamenta-se no princípio do "Business Drive" da norma ISO 10746, onde o objetivo principal (desenvolvimento de competências em contextos de ABP) orienta a busca por soluções tecnológicas que suportem este propósito. Cada camada representa uma perspectiva arquitetural diferente do problema, permitindo uma análise abrangente e multidimensional da literatura existente.
+A estratégia de busca estratificada fundamenta-se no princípio do "Business Drive" da norma ISO 10746, onde o objetivo principal (desenvolvimento de competências em contextos de ABP) orienta a busca por soluções tecnológicas que suportem este propósito através das diferentes visões arquiteturais. Cada camada representa uma perspectiva arquitetural diferente do problema, permitindo uma análise abrangente e multidimensional da literatura existente.
 
-A fundamentação nas normas ISO fornece uma base teórica sólida que:
-1. **Justifica a Abordagem Multivisão**: As cinco visões arquiteturais oferecem perspectivas complementares do problema
-2. **Alinha com Práticas Industriais**: Utiliza conceitos já validados na indústria para contextos educacionais
-3. **Garante Completude**: A cobertura das cinco visões assegura que aspectos críticos não sejam omitidos
-4. **Facilita a Integração**: O framework arquitetural permite a integração coerente de soluções parciais
+A fundamentação na norma ISO 10746 fornece uma base teórica sólida que:
+1. **Justifica a Abordagem Multivisão**: As cinco visões arquiteturais oferecem perspectivas complementares do problema, garantindo que aspectos críticos não sejam omitidos
+2. **Alinha com Práticas Industriais**: Utiliza conceitos já validados na indústria para contextos educacionais, facilitando a transferência de tecnologias
+3. **Garante Completude Arquitetural**: A cobertura das cinco visões assegura uma solução arquitetural completa que atenda às necessidades do professor orientador
+4. **Facilita a Integração**: O framework arquitetural permite a integração coerente de soluções parciais em uma arquitetura unificada
 
 ##### Período de Busca
 
@@ -617,19 +618,19 @@ A escalabilidade das soluções tecnológicas para avaliação ainda apresenta d
 
 ### 5.1 Análise das Soluções Propostas
 
-A revisão sistemática revelou que a literatura existente oferece diversas abordagens para abordar os desafios da avaliação em ABP, incluindo:
+A literatura existente oferece diversas abordagens para os desafios da avaliação em ABP:
 
 1. **Instrumentos avaliativos estruturados** (rubricas, checklists, portfólios)
 2. **Sistemas digitais de avaliação** (plataformas LMS, ferramentas especializadas)
 3. **Learning Analytics** (análise de dados educacionais, métricas técnicas)
 4. **Tecnologias emergentes** (IA, machine learning, visualização de dados)
 
-No entanto, a análise identificou uma lacuna crítica na literatura: a ausência de soluções integradas que combinem de forma eficaz os princípios das normas arquiteturais ISO (ISO/IEC/IEEE 42010 e ISO 10746) com a avaliação educacional em contextos complexos de ABP. Especificamente:
+No entanto, identificou-se uma lacuna crítica: a ausência de soluções integradas que combinem os princípios das visões arquiteturais da norma ISO 10746 com a avaliação educacional em contextos complexos de ABP. Especificamente:
 
-1. **Ausência de Abordagem Arquitetural Multivisão**: Nenhuma pesquisa existente aplica as cinco visões arquiteturais da norma ISO 42010 para compreender de forma abrangente o processo de ABP
-2. **Falta de Fundamentação em Processos Distribuídos**: Soluções atuais não incorporam os princípios da norma ISO 10746 para modelagem de sistemas colaborativos e distribuídos
-3. **Deficiência na Modelagem do "Business Drive" Educacional**: A força motriz do processo educativo (desenvolvimento de competências) não é adequadamente modelada como orientadora do sistema de avaliação
-4. **Limitações na Visibilidade Multidimensional**: Os professores orientadores não dispõem de múltiplas perspectivas (visões) do desempenho dos estudantes sob diferentes viéses técnicos e comportamentais
+1. **Ausência de Abordagem Arquitetural Multivisão Baseada em ISO 10746**: Nenhuma pesquisa aplica as cinco visões arquiteturais da norma ISO 10746 para compreender o processo de ABP como um sistema distribuído orientado pelo "Business Drive" educacional
+2. **Falta de Integração Arquitetural Coerente**: Soluções atuais abordam aspectos isolados sem uma arquitetura unificada que integre as diferentes visões (Engineering, Computational, Information, Technology e Business Drive)
+3. **Deficiência na Modelagem do "Business Drive" Educacional**: O desenvolvimento de competências não é adequadamente modelado como elemento orientador de todas as visões arquiteturais
+4. **Limitações na Visibilidade Multidimensional para Professores Orientadores**: Professores orientadores não dispõem de uma visão abrangente que integre as cinco perspectivas arquiteturais do processo de avaliação
 
 ### 5.2 Justificativa para a Lacuna
 
@@ -653,61 +654,63 @@ As soluções identificadas na literatura apresentam limitações que impedem su
 
 ### 5.3 Oportunidade de Pesquisa
 
-A aplicação de conceitos de Gêmeos Digitais fundamentados nas normas ISO para avaliação em ABP representa uma oportunidade inexplorada na literatura:
+A aplicação de conceitos de Gêmeos Digitais fundamentados nas visões arquiteturais da norma ISO 10746 para apoio a professores orientadores na avaliação em ABP representa uma oportunidade inexplorada na literatura:
 
-#### 5.3.1 Potencial dos Gêmeos Digitais Baseados em ISO
+#### 5.3.1 Potencial dos Gêmeos Digitais Baseados em Visões Arquiteturais ISO 10746
 
-1. **Réplica em Tempo Real com Visões Arquiteturais**: Criação de uma representação virtual que espelha continuamente o estado do projeto físico através das cinco visões arquiteturais da norma ISO 42010
-2. **Integração de Dados Multidimensional**: Capacidade de integrar múltiplas fontes de dados (técnicas, comportamentais, colaborativas) em uma visão unificada que respeita os princípios da norma ISO 10746
-3. **Monitoramento Contínuo por Visões**: Acompanhamento em tempo real do progresso individual e coletivo através de diferentes perspectivas arquiteturais
-4. **Simulação e Predição Baseada em Processos**: Capacidade de simular cenários e prever resultados com base em modelos de processos distribuídos conforme a norma ISO 10746
+1. **Réplica em Tempo Real com Integração Multivisão**: Criação de uma representação virtual que espelha continuamente o estado do projeto físico através da integração coerente das cinco visões arquiteturais da norma ISO 10746
+2. **Integração de Dados Multidimensional Baseada em Arquitetura**: Capacidade de integrar múltiplas fontes de dados (técnicas, comportamentais, colaborativas) em uma visão unificada que respeita os princípios arquiteturais da norma ISO 10746
+3. **Monitoramento Contínuo por Visões Arquiteturais**: Acompanhamento em tempo real do progresso individual e coletivo através das diferentes perspectivas arquiteturais (EV, CV, IV, TV, BD)
+4. **Simulação e Predição Baseada em Processos Distribuídos**: Capacidade de simular cenários e prever resultados com base em modelos de processos distribuídos conforme a norma ISO 10746
 
-#### 5.3.2 Alinhamento com Necessidades Educacionais e Normas ISO
+#### 5.3.2 Alinhamento com Necessidades dos Professores Orientadores e Visões Arquiteturais
 
-1. **Avaliação Processual Multivisão**: O Gêmeo Digital pode capturar e avaliar continuamente a evolução do aprendizado através das diferentes visões arquiteturais
-2. **Personalização com Base no "Business Drive"**: A representação individualizada permite avaliação personalizada alinhada com os objetivos educacionais definidos como "Business Drive"
-3. **Escalabilidade Arquitetural**: A automação inerente à abordagem permite escalar a avaliação para contextos complexos mantendo a estrutura arquitetural
-4. **Objetividade com Fundamentação Padrão**: A base de dados objetivos reduz a subjetividade inerente à avaliação humana, fundamentada em normas internacionalmente reconhecidas
+1. **Avaliação Processual Multivisão**: O Gêmeo Digital pode capturar e avaliar continuamente a evolução do aprendizado através das diferentes visões arquiteturais, fornecendo ao professor orientador múltiplas perspectivas do desempenho
+2. **Personalização com Base no "Business Drive" Educacional**: A representação individualizada permite avaliação personalizada alinhada com os objetivos educacionais definidos como "Business Drive", apoiando o trabalho do professor orientador
+3. **Escalabilidade Arquitetural**: A automação inerente à abordagem permite escalar o apoio à avaliação para contextos complexos mantendo a estrutura arquitetural coerente
+4. **Objetividade com Fundamentação Arquitetural**: A base de dados objetivos reduz a subjetividade inerente à avaliação humana, fundamentada em uma arquitetura padronizada internacionalmente
 
 ### 5.4 Justificativa para o Tema de Pesquisa
 
-#### 5.4.1 Originalidade da Abordagem Fundamentada em Normas ISO
+#### 5.4.1 Originalidade da Abordagem Fundamentada em Visões Arquiteturais ISO 10746
 
-A aplicação de Gêmeos Digitais para avaliação em ABP é pioneira na literatura, combinando:
+A aplicação de Gêmeos Digitais para apoio a professores orientadores na avaliação em ABP é pioneira na literatura, combinando:
 
-1. **Arquitetura de Software Baseada em Normas ISO**: Princípios da engenharia de software definidos nas normas ISO/IEC/IEEE 42010 e ISO 10746 aplicados ao contexto educacional
-2. **Avaliação Educacional com Fundamentação Arquitetural**: Metodologias pedagógicas rigorosas para avaliação de aprendizagem fundamentadas em frameworks arquiteturais padronizados
-3. **Tecnologia Emergente com Base em Padrões Industriais**: Aplicação inovadora de tecnologias de ponta em contextos educacionais, utilizando conceitos já validados na indústria
+1. **Arquitetura de Software Baseada em Visões ISO 10746**: Princípios da engenharia de software definidos na norma ISO 10746 aplicados ao contexto educacional como sistema distribuído orientado pelo "Business Drive"
+2. **Avaliação Educacional com Fundamentação Arquitetural Multivisão**: Metodologias pedagógicas rigorosas para avaliação de aprendizagem fundamentadas em frameworks arquiteturais padronizados com cinco perspectivas integradas
+3. **Tecnologia Emergente com Base em Padrões Industriais**: Aplicação inovadora de tecnologias de ponta em contextos educacionais, utilizando conceitos já validados na indústria através da arquitetura ISO 10746
 
-#### 5.4.2 Relevância Prática com Fundamentação ISO
+#### 5.4.2 Relevância Prática com Fundamentação em Visões Arquiteturais
 
 A abordagem proposta tem potencial para impactar significativamente a prática educacional:
 
-1. **Suporte ao Instrutor com Visibilidade Multidimensional**: Ferramentas que reduzem a carga avaliativa e aumentam a qualidade do feedback através de múltiplas visões do desempenho dos estudantes
-2. **Experiência do Estudante com Avaliação Justa**: Acompanhamento personalizado que melhora o engajamento e os resultados de aprendizagem, fundamentado em princípios arquiteturais objetivos
-3. **Eficácia Institucional com Escalabilidade Arquitetural**: Soluções escaláveis que permitem implementação de ABP em larga escala, mantendo a estrutura arquitetural coerente
+1. **Suporte ao Professor Orientador com Visibilidade Multidimensional**: Ferramentas que reduzem a carga avaliativa e aumentam a qualidade do feedback através de múltiplas visões arquiteturais do desempenho dos estudantes
+2. **Experiência do Estudante com Avaliação Justa e Integrada**: Acompanhamento personalizado que melhora o engajamento e os resultados de aprendizagem, fundamentado em uma arquitetura objetiva que integra todas as perspectivas
+3. **Eficácia Institucional com Escalabilidade Arquitetural**: Soluções escaláveis que permitem implementação de ABP em larga escala, mantendo a estrutura arquitetural coerente baseada em normas internacionais
 
-#### 5.4.3 Contribuição para a Área com Base em Padrões Internacionais
+#### 5.4.3 Contribuição para a Área com Base em Padrões Arquiteturais Internacionais
 
 Esta pesquisa contribuirá para o avanço do conhecimento em:
 
-1. **Tecnologia Educacional com Fundamentação Padrão**: Expansão do uso de Gêmeos Digitais para contextos educacionais, fundamentada em normas internacionais reconhecidas
-2. **Avaliação em ABP com Abordagem Multivisão**: Desenvolvimento de metodologias inovadoras para avaliação processual e colaborativa, baseadas em frameworks arquiteturais padronizados
-3. **Engenharia de Software Educacional com Princípios Industriais**: Aplicação de princípios da indústria, definidos em normas internacionais, em contextos acadêmicos
+1. **Tecnologia Educacional com Fundamentação Arquitetural**: Expansão do uso de Gêmeos Digitais para contextos educacionais, fundamentada em normas arquiteturais internacionais reconhecidas (ISO 10746)
+2. **Avaliação em ABP com Abordagem Multivisão Integrada**: Desenvolvimento de metodologias inovadoras para avaliação processual e colaborativa, baseadas em frameworks arquiteturais padronizados que integram múltiplas perspectivas
+3. **Engenharia de Software Educacional com Princípios Arquiteturais Industriais**: Aplicação de princípios arquiteturais da indústria, definidos em normas internacionais, em contextos acadêmicos através da integração das cinco visões da norma ISO 10746
 
 ## 6. Conclusão
 
-Esta revisão sistemática mapeou o estado da arte sobre os desafios metodológicos, instrumentos e tecnologias para avaliação em Aprendizagem Baseada em Projetos, identificando soluções propostas na literatura e lacunas que justificam investigações adicionais.
+Esta revisão sistemática mapeou o estado da arte sobre os desafios metodológicos, instrumentos e tecnologias para auxiliar professores orientadores na avaliação em Aprendizagem Baseada em Projetos, identificando soluções propostas na literatura e lacunas que justificam investigações adicionais.
 
-A análise revelou que, embora existam diversas abordagens para abordar os desafios da avaliação em ABP, há uma lacuna crítica na literatura: a ausência de soluções integradas que combinem de forma eficaz os princípios das normas arquiteturais internacionais ISO/IEC/IEEE 42010 e ISO 10746 com a avaliação educacional em contextos complexos de ABP.
+A análise revelou uma lacuna crítica na literatura: a ausência de soluções integradas que combinem os princípios das visões arquiteturais da norma ISO 10746 com o apoio a professores orientadores na avaliação educacional em contextos complexos de ABP.
 
-A aplicação de conceitos de Gêmeos Digitais fundamentados nas normas ISO para avaliação em ABP emerge como uma oportunidade inexplorada que pode abordar múltiplos desafios simultaneamente: avaliação processual multidimensional, personalização baseada em visões arquiteturais, escalabilidade com fundamentação padrão e objetividade com base em princípios arquiteturais objetivos. Esta abordagem inovadora tem potencial para transformar a prática de avaliação em ABP, oferecendo suporte tanto aos instrutores quanto aos estudantes em contextos educacionais complexos e exigentes, através de múltiplas perspectivas do desempenho e do processo de aprendizagem.
+A aplicação de conceitos de Gêmeos Digitais fundamentados nas visões arquiteturais da norma ISO 10746 para apoiar professores orientadores na avaliação em ABP emerge como uma oportunidade inexplorada que pode abordar múltiplos desafios simultaneamente: avaliação processual multidimensional através das cinco visões arquiteturais, personalização baseada em arquitetura integrada, escalabilidade com fundamentação arquitetural padrão e objetividade com base em princípios arquiteturais objetivos.
 
-A identificação desta lacuna de pesquisa, fundamentada na ausência de abordagens arquiteturais padronizadas, justifica contundentemente a investigação proposta no trabalho de doutorado, que busca desenvolver e validar um modelo de Gêmeo Digital especificamente projetado para avaliação em ABP, com foco em contextos de engenharia de software de alta complexidade, fundamentado nas normas arquiteturais internacionais ISO/IEC/IEEE 42010 e ISO 10746.
+A identificação desta lacuna de pesquisa, fundamentada na ausência de abordagens arquiteturais padronizadas baseadas na norma ISO 10746, justifica contundentemente a investigação proposta no trabalho de doutorado, que busca desenvolver e validar um modelo de Gêmeo Digital especificamente projetado para apoiar professores orientadores na avaliação em ABP, com foco em contextos de engenharia de software de alta complexidade, fundamentado nas visões arquiteturais da norma ISO 10746.
 
 ## Referências
 
 Kitchenham, B. (2004). Procedures for performing systematic reviews. Keele University Technical Report TR/SE-0401.
+
+Santos, C. M. C., Pimenta, C. A. M., & Nobre, M. R. C. (2007). A estratégia PICO para a construção da pergunta de pesquisa e busca de evidências. Revista Latino-Americana de Enfermagem, 15(3), 502-507.
 
 ISO/IEC/IEEE. (2022). ISO/IEC/IEEE 42010:2022 Systems and software engineering — Architecture description.
 
