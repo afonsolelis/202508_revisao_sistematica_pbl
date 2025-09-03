@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 RIS File Analyzer for PBL Assessment Articles
-Filters articles based on specific criteria related to Project-Based Learning assessment
+Filters articles based on specific criteria related to Project-Based Learning assessment challenges
 """
 
 import os
@@ -11,31 +11,49 @@ from typing import List, Dict, Set
 
 class RISAnalyzer:
     def __init__(self):
+        # Keywords aligned with PBL assessment challenges
         self.pbl_keywords = [
             'project-based learning', 'project based learning', 'pbl', 
             'project learning', 'project-oriented learning'
         ]
         
+        # Assessment-related keywords aligned with research questions
         self.assessment_keywords = [
             'assessment', 'evaluation', 'formative assessment', 'summative assessment',
             'grading', 'scoring', 'feedback', 'rubric', 'criteria', 'measurement',
             'performance evaluation', 'student evaluation', 'peer assessment',
-            'self-assessment', 'authentic assessment', 'portfolio assessment'
+            'self-assessment', 'authentic assessment', 'portfolio assessment',
+            'process assessment', 'ongoing assessment', 'continuous assessment'
         ]
         
-        self.teacher_support_keywords = [
-            'teacher', 'instructor', 'supervisor', 'educator', 'faculty',
-            'teaching support', 'educational support', 'supervision',
-            'mentor', 'facilitator'
+        # Challenges and difficulties keywords
+        self.challenge_keywords = [
+            'challenge', 'difficulty', 'problem', 'issue', 'barrier', 'obstacle',
+            'dilemma', 'complexity', 'limitation', 'constraint', 'gap'
         ]
         
+        # Instruments and tools keywords
+        self.instrument_keywords = [
+            'instrument', 'tool', 'method', 'rubric', 'framework', 'model',
+            'scale', 'questionnaire', 'survey', 'protocol', 'approach'
+        ]
+        
+        # Technology keywords for objective/scalable assessment
         self.technology_keywords = [
-            'digital tool', 'technology', 'automated', 'system', 'platform',
-            'software', 'application', 'tool', 'framework', 'model',
-            'artificial intelligence', 'machine learning', 'analytics',
-            'dashboard', 'interface'
+            'technology', 'automated', 'system', 'platform', 'software', 
+            'application', 'artificial intelligence', 'machine learning', 
+            'analytics', 'dashboard', 'interface', 'objective', 'scalable'
         ]
         
+        # Collaborative and processual assessment keywords
+        self.collaborative_keywords = [
+            'collaborative', 'team', 'group', 'peer', 'individual', 
+            'cooperative', 'collective', 'process', 'formative', 'ongoing',
+            'continuous', 'competenc', 'skill', 'critical thinking', 
+            'creativity', 'communication', 'transversal'
+        ]
+        
+        # Exclusion keywords
         self.excluded_keywords = [
             'meta-analysis', 'systematic review', 'literature review',
             'industrial application', 'manufacturing', 'production',
@@ -132,14 +150,16 @@ class RISAnalyzer:
         return found_keywords
     
     def is_relevant_article(self, article: Dict) -> Dict:
-        """Check if article is relevant based on criteria"""
+        """Check if article is relevant based on PBL assessment challenges criteria"""
         result = {
             'relevant': False,
             'reasons': [],
             'pbl_keywords': [],
             'assessment_keywords': [],
-            'teacher_keywords': [],
+            'challenge_keywords': [],
+            'instrument_keywords': [],
             'tech_keywords': [],
+            'collaborative_keywords': [],
             'excluded_keywords': [],
             'year': 0
         }
@@ -180,33 +200,57 @@ class RISAnalyzer:
         assessment_found = self.contains_keywords(searchable_text, self.assessment_keywords)
         result['assessment_keywords'] = assessment_found
         
-        # Check for teacher support keywords
-        teacher_found = self.contains_keywords(searchable_text, self.teacher_support_keywords)
-        result['teacher_keywords'] = teacher_found
+        # Check for challenge keywords
+        challenge_found = self.contains_keywords(searchable_text, self.challenge_keywords)
+        result['challenge_keywords'] = challenge_found
+        
+        # Check for instrument keywords
+        instrument_found = self.contains_keywords(searchable_text, self.instrument_keywords)
+        result['instrument_keywords'] = instrument_found
         
         # Check for technology keywords
         tech_found = self.contains_keywords(searchable_text, self.technology_keywords)
         result['tech_keywords'] = tech_found
         
-        # Determine relevance
+        # Check for collaborative/processual keywords
+        collaborative_found = self.contains_keywords(searchable_text, self.collaborative_keywords)
+        result['collaborative_keywords'] = collaborative_found
+        
+        # Determine relevance based on research questions
         has_pbl = len(pbl_found) > 0
         has_assessment = len(assessment_found) > 0
-        has_support_aspect = len(teacher_found) > 0 or len(tech_found) > 0
         
+        # For RQ1: PBL + assessment + challenges
+        has_challenges = len(challenge_found) > 0
+        
+        # For RQ2: PBL + assessment + instruments
+        has_instruments = len(instrument_found) > 0
+        
+        # For RQ3: PBL + assessment + technology
+        has_technology = len(tech_found) > 0
+        
+        # For RQ4: PBL + assessment + collaborative/processual
+        has_collaborative = len(collaborative_found) > 0
+        
+        # Main relevance criteria - must have PBL and assessment
         if has_pbl and has_assessment:
             result['relevant'] = True
             result['reasons'].append("Contains PBL and assessment keywords")
-            if has_support_aspect:
-                result['reasons'].append("Also contains teacher/technology support aspects")
-        elif has_pbl and has_support_aspect:
-            # Consider relevant if has PBL and support aspects, even without explicit assessment
-            result['relevant'] = True
-            result['reasons'].append("Contains PBL and teacher/technology support keywords")
+            
+            # Add specific reasons based on what else was found
+            if has_challenges:
+                result['reasons'].append("Addresses assessment challenges")
+            if has_instruments:
+                result['reasons'].append("Discusses assessment instruments")
+            if has_technology:
+                result['reasons'].append("Involves technology for assessment")
+            if has_collaborative:
+                result['reasons'].append("Covers collaborative/processual assessment")
         else:
             if not has_pbl:
                 result['reasons'].append("No PBL keywords found")
-            if not has_assessment and not has_support_aspect:
-                result['reasons'].append("No assessment or support keywords found")
+            if not has_assessment:
+                result['reasons'].append("No assessment keywords found")
         
         return result
     
@@ -308,10 +352,14 @@ class RISAnalyzer:
                         results['statistics']['themes'][f"PBL: {keyword}"] += 1
                     for keyword in relevance['assessment_keywords']:
                         results['statistics']['themes'][f"Assessment: {keyword}"] += 1
-                    for keyword in relevance['teacher_keywords']:
-                        results['statistics']['themes'][f"Teacher: {keyword}"] += 1
+                    for keyword in relevance['challenge_keywords']:
+                        results['statistics']['themes'][f"Challenge: {keyword}"] += 1
+                    for keyword in relevance['instrument_keywords']:
+                        results['statistics']['themes'][f"Instrument: {keyword}"] += 1
                     for keyword in relevance['tech_keywords']:
                         results['statistics']['themes'][f"Technology: {keyword}"] += 1
+                    for keyword in relevance['collaborative_keywords']:
+                        results['statistics']['themes'][f"Collaborative: {keyword}"] += 1
         
         return results
     
@@ -389,6 +437,10 @@ class RISAnalyzer:
                 report.append(f"   PBL keywords: {', '.join(relevance['pbl_keywords'])}")
             if relevance['assessment_keywords']:
                 report.append(f"   Assessment keywords: {', '.join(relevance['assessment_keywords'])}")
+            if relevance['challenge_keywords']:
+                report.append(f"   Challenge keywords: {', '.join(relevance['challenge_keywords'])}")
+            if relevance['instrument_keywords']:
+                report.append(f"   Instrument keywords: {', '.join(relevance['instrument_keywords'])}")
             report.append("")
         
         if len(results['relevant_articles']) > 10:
@@ -399,13 +451,13 @@ class RISAnalyzer:
 
 if __name__ == "__main__":
     analyzer = RISAnalyzer()
-    base_directory = "/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/"
+    base_directory = "/home/afonsolelis/202508_revisao_sistematica_pbl/busca/"
     
     print("Starting RIS analysis...")
     results = analyzer.analyze_directory(base_directory)
     
     # Generate consolidated RIS file
-    output_ris = "/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/consolidado/artigos_relevantes_pbl_avaliacao.ris"
+    output_ris = "/home/afonsolelis/202508_revisao_sistematica_pbl/busca/consolidado/artigos_relevantes_pbl_avaliacao.ris"
     os.makedirs(os.path.dirname(output_ris), exist_ok=True)
     analyzer.generate_consolidated_ris(results, output_ris)
     
@@ -413,7 +465,7 @@ if __name__ == "__main__":
     report = analyzer.generate_report(results)
     
     # Save report
-    report_path = "/home/afonsolelis/pesquisa_modelo_gd_apb/artigos/revisao_sistematica/busca/consolidado/analysis_report.txt"
+    report_path = "/home/afonsolelis/202508_revisao_sistematica_pbl/busca/consolidado/analysis_report.txt"
     with open(report_path, 'w', encoding='utf-8') as f:
         f.write(report)
     
