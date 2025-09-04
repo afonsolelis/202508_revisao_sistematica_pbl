@@ -83,7 +83,7 @@ Seguindo as diretrizes de Kitchenham (2004) para formulação de questões de pe
 A estratégia de busca foi desenvolvida seguindo as recomendações de Kitchenham (2004), incluindo consulta com bibliotecários especializados e uso de processo iterativo com:
 
 - **Buscas preliminares** para identificar revisões sistemáticas existentes e avaliar o volume de estudos potencialmente relevantes
-- **Buscas experimentais** usando várias combinações de termos de busca derivados da questão de pesquisa  
+- **Buscas experimentais** usando várias combinações de termos de busca derivados da questão de pesquisa
 - **Revisão dos resultados** de pesquisa
 - **Consultas com especialistas** na área
 
@@ -109,7 +109,7 @@ Conforme as diretrizes de Kitchenham (2004), a estratégia de busca foi desenvol
 
 **Fundamentação Arquitetural das Camadas** (baseada na ISO 10746):
 - **Camada 1** (Visão Empresarial): Foca nos desafios organizacionais e metodológicos do processo educativo
-- **Camada 2** (Visão de Informação): Aborda o fluxo de dados e instrumentos de informação educacional  
+- **Camada 2** (Visão de Informação): Aborda o fluxo de dados e instrumentos de informação educacional
 - **Camada 3** (Visão Computacional): Examina algoritmos e processos computacionais para avaliação
 - **Camada 4** (Visão de Engenharia): Investiga a arquitetura de sistemas de apoio à avaliação
 - **Camada 5** (Visão de Tecnologia): Explora tecnologias específicas aplicáveis ao contexto
@@ -117,45 +117,46 @@ Conforme as diretrizes de Kitchenham (2004), a estratégia de busca foi desenvol
 **Camada 1 - Desafios Metodológicos** (Visão Empresarial - ISO 10746):
 *Justificativa*: A Visão Empresarial da ISO 10746 foca nos objetivos organizacionais e requisitos de negócio. No contexto educacional, corresponde aos desafios metodológicos que professores orientadores enfrentam na implementação eficaz da avaliação em ABP.
 ```
-TS=("project-based learning" OR "project based learning" OR "PBL") 
-AND TS=("assessment" OR "evaluation" OR "grading") 
+TS=("project-based learning" OR "project based learning" OR "PBL")
+AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("challenge*" OR "difficult*" OR "problem*" OR "issue*" OR "barrier*")
 ```
 
 **Camada 2 - Instrumentos e Tecnologias** (Visão de Informação - ISO 10746):
 *Justificativa*: A Visão de Informação modela a estrutura e fluxo de dados. Esta camada busca instrumentos e tecnologias que processam e estruturam informações educacionais para apoiar a avaliação.
 ```
-TS=("project-based learning" OR "project based learning" OR "PBL") 
-AND TS=("assessment" OR "evaluation" OR "grading") 
+TS=("project-based learning" OR "project based learning" OR "PBL")
+AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("instrument*" OR "tool*" OR "method*" OR "rubric*" OR "framework*" OR "technology")
 ```
 
 **Camada 3 - Objetividade e Escalabilidade** (Visão Computacional - ISO 10746):
 *Justificativa*: A Visão Computacional descreve os processos e algoritmos necessários. Esta camada foca em soluções computacionais que garantem objetividade e escalabilidade na avaliação.
 ```
-TS=("project-based learning" OR "project based learning" OR "PBL") 
-AND TS=("assessment" OR "evaluation" OR "grading") 
+TS=("project-based learning" OR "project based learning" OR "PBL")
+AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("objective*" OR "scalab*" OR "automat*" OR "reliab*" OR "valid*")
 ```
 
 **Camada 4 - Avaliação Processual e Colaborativa** (Visão de Engenharia - ISO 10746):
 *Justificativa*: A Visão de Engenharia define a arquitetura técnica do sistema. Esta camada investiga arquiteturas de sistemas que suportam avaliação processual e colaborativa em tempo real.
 ```
-TS=("project-based learning" OR "project based learning" OR "PBL") 
-AND TS=("process*" OR "formative" OR "ongoing" OR "continuous") 
+TS=("project-based learning" OR "project based learning" OR "PBL")
+AND TS=("process*" OR "formative" OR "ongoing" OR "continuous")
 AND TS=("assessment" OR "evaluation") AND TS=("collaborat*" OR "team*" OR "competenc*")
 ```
 
 **Camada 5 - Competências Transversais** (Visão de Tecnologia - ISO 10746):
 *Justificativa*: A Visão de Tecnologia especifica as tecnologias e plataformas de implementação. Esta camada explora tecnologias específicas para avaliação de competências transversais e habilidades interpessoais.
 ```
-TS=("project-based learning" OR "project based learning" OR "PBL") 
-AND TS=("assessment" OR "evaluation" OR "grading") 
+TS=("project-based learning" OR "project based learning" OR "PBL")
+AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("critical thinking" OR "creativity" OR "communication" OR "soft skills")
 ```
 
 **Período de Busca**: 2015-2025
-**Idiomas**: Inglês, português e espanhol
+
+**Idiomas**: Todos, mas vieram apenas resultados na lingua inglesa.
 
 ##### 3.2.1.3 Documentação do Processo de Busca
 
@@ -245,7 +246,7 @@ Os critérios de seleção foram definidos para identificar estudos primários q
 
 **Critérios de Inclusão:**
 - IC1: Artigos que abordem avaliação em contextos de ABP/PBL
-- IC2: Estudos sobre desafios avaliativos enfrentados por educadores em ABP  
+- IC2: Estudos sobre desafios avaliativos enfrentados por educadores em ABP
 - IC3: Pesquisas sobre tecnologias digitais aplicadas à avaliação educacional
 - IC4: Métodos ou instrumentos para avaliação processual e colaborativa
 - IC5: Estudos empíricos com validação em contextos educacionais reais
@@ -253,7 +254,7 @@ Os critérios de seleção foram definidos para identificar estudos primários q
 **Critérios de Exclusão:**
 - EC1: Artigos focados apenas em avaliação de produtos finais sem considerar processos
 - EC2: Estudos exclusivamente sobre avaliação somativa tradicional
-- EC3: Pesquisas sem componente educacional  
+- EC3: Pesquisas sem componente educacional
 - EC4: Artigos sem metodologia clara ou validação empírica
 - EC5: Estudos que não abordem especificamente desafios ou soluções para professores orientadores
 
@@ -287,7 +288,7 @@ Formulários padronizados de extração de dados foram desenvolvidos durante o p
 
 **Informações do Estudo:**
 - Identificação (autores, ano, periódico)
-- Contexto educacional (nível, disciplina, duração)  
+- Contexto educacional (nível, disciplina, duração)
 - Metodologia de pesquisa
 - Tamanho da amostra
 
