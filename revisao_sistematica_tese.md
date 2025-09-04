@@ -62,15 +62,17 @@ Um protocolo de revisão foi desenvolvido seguindo as recomendações de Kitchen
 
 ##### 3.1.2.1 Questão de Pesquisa
 
-Seguindo as diretrizes de Kitchenham (2004) para formulação de questões de pesquisa em engenharia de software, a questão foi estruturada considerando:
+Seguindo as diretrizes de Kitchenham (2004) para formulação de questões de pesquisa em engenharia de software, a questão foi formulada utilizando o framework PICO (Population, Intervention, Comparison, Outcome) (Santos, Pimenta & Nobre, 2007), focando nas dificuldades do professor orientador na avaliação em ambientes de Aprendizagem Baseada em Projetos:
 
 **Questão Principal**: Quais desafios metodológicos enfrentam os professores orientadores na avaliação em Aprendizagem Baseada em Projetos e como as tecnologias existentes podem apoiar a superação desses desafios?
 
-**Population**: Professores orientadores e estudantes em ambientes educacionais que utilizam Aprendizagem Baseada em Projetos, incluindo diferentes contextos (ensino superior, técnico, profissional) e disciplinas (engenharia, ciência da computação, etc.).
+**P** (População): Professores orientadores e estudantes em ambientes educacionais que utilizam Aprendizagem Baseada em Projetos, incluindo diferentes contextos (ensino superior, técnico, profissional) e disciplinas (engenharia, ciência da computação, etc.).
 
-**Intervention**: Métodos, instrumentos e tecnologias digitais para apoio à avaliação em ABP, incluindo sistemas de avaliação, learning analytics, ferramentas de feedback e plataformas de monitoramento.
+**I** (Intervenção): Métodos, instrumentos e tecnologias digitais para apoio à avaliação em ABP, incluindo sistemas de avaliação, learning analytics, ferramentas de feedback e plataformas de monitoramento.
 
-**Outcomes**: Melhoria na eficácia, objetividade e escalabilidade da avaliação; redução de viés avaliativo; aumento da qualidade do feedback formativo; superação de desafios específicos identificados na literatura.
+**C** (Comparação): Métodos tradicionais de avaliação sem suporte tecnológico ou abordagens convencionais de avaliação em contextos educacionais não baseados em projetos.
+
+**O** (Resultados): Melhoria na eficácia, objetividade e escalabilidade da avaliação; redução de viés avaliativo; aumento da qualidade do feedback formativo; superação de desafios específicos identificados na literatura relativos à avaliação justa e abrangente de estudantes em contextos colaborativos e processuais.
 
 ### 3.2 Condução da Revisão
 
