@@ -74,6 +74,27 @@ Seguindo as diretrizes de Kitchenham (2004) para formulação de questões de pe
 
 **O** (Resultados): Melhoria na eficácia, objetividade e escalabilidade da avaliação; redução de viés avaliativo; aumento da qualidade do feedback formativo; superação de desafios específicos identificados na literatura relativos à avaliação justa e abrangente de estudantes em contextos colaborativos e processuais.
 
+##### 3.1.2.2 Questões de Pesquisa (RQs)
+
+- RQ1 — Desafios: Quais são os principais desafios metodológicos para avaliar aprendizagem em PBL/PbL no Ensino Superior (p.ex., avaliação processual, colaboração/contribuição individual, competências transversais, feedback contínuo)?
+  Justificativa: fundamenta o mapeamento de necessidades (Visões ISO: Empresarial e de Engenharia) e orienta critérios de seleção/extração.
+
+- RQ2 — Instrumentos/Tecnologias: Que instrumentos e tecnologias têm sido propostos/avaliados para apoiar a avaliação em PBL/PbL (rubricas digitais, peer/self assessment estruturado, telemetria de equipes, dashboards, learning analytics, automação)?
+  Justificativa: permite identificar soluções operacionais (Visões ISO: Informação e Tecnologia) e sua aplicabilidade para docentes orientadores.
+
+- RQ3 — Objetividade/Escalabilidade: De que modo as abordagens avaliativas alcançam maior objetividade e escalabilidade (padronização de critérios, confiabilidade interavaliadores, validade de instrumentos, automação, analytics)?
+  Justificativa: foca a Visão Computacional e aspectos de qualidade/escala exigidos em turmas grandes e projetos longos.
+
+- RQ4 — Lacunas/Oportunidades: Quais lacunas persistem e que oportunidades de pesquisa permanecem abertas (p.ex., integração multi‑perspectiva, mensuração de competências processuais, generalização/transferibilidade, replicabilidade e abertura de dados/artefatos)?
+  Justificativa: orienta pesquisa futura e a posição da contribuição pretendida nesta tese no ecossistema de evidências.
+
+##### 3.1.2.3 Mapeamento PICO → RQs
+
+- P (População: docentes orientadores/estudantes em PBL/PbL, HE) → contextualiza RQ1 (desafios) e RQ4 (lacunas), definindo atores e ambientes onde os desafios emergem.
+- I (Intervenção: métodos/instrumentos/tecnologias de avaliação) → fundamenta RQ2 (instrumentos/tecnologias) e parte de RQ3 (como alcançam objetividade/escala).
+- C (Comparação: práticas tradicionais/sem suporte) → informa RQ3, ao contrastar ganhos de objetividade, escalabilidade e qualidade com abordagens de referência.
+- O (Resultados: objetividade, escalabilidade, feedback, aprendizagem) → ancora RQ3 (medidas e RNFs) e RQ2 (eficácia dos instrumentos) e fecha com RQ4 (onde resultados ainda são insuficientes).
+
 ### 3.2 Condução da Revisão
 
 #### 3.2.1 Identificação de Pesquisas
@@ -105,50 +126,50 @@ A base de dados Web of Science foi selecionada como única fonte para esta revis
 
 **Strings de Busca Estruturadas em Camadas**:
 
-Conforme as diretrizes de Kitchenham (2004), a estratégia de busca foi desenvolvida em múltiplas camadas para garantir cobertura abrangente. A estruturação em camadas fundamenta-se nos princípios da norma ISO 10746, que define cinco visões arquiteturais complementares para especificação de sistemas complexos. Adaptada ao contexto de avaliação em ABP, cada camada de busca corresponde a uma perspectiva específica do problema de pesquisa:
+Conforme as diretrizes de Kitchenham (2004), a estratégia de busca foi desenvolvida em múltiplas camadas para garantir cobertura abrangente. A estruturação em camadas foi criada com base nos preceitos da norma ISO 10746, que define cinco visões arquiteturais complementares para especificação de sistemas complexos. Adaptada ao contexto de avaliação em ABP, cada camada de busca corresponde a uma perspectiva específica do problema de pesquisa:
 
 **Fundamentação Arquitetural das Camadas** (baseada na ISO 10746):
-- **Camada 1** (Visão Empresarial): Foca nos desafios organizacionais e metodológicos do processo educativo
+- **Camada 1** (Visão Empresarial): Foca nos objetivos educacionais e organizacionais do PBL/PbL (propósito da avaliação no currículo, stakeholders, papéis do professor orientador)
 - **Camada 2** (Visão de Informação): Aborda o fluxo de dados e instrumentos de informação educacional
 - **Camada 3** (Visão Computacional): Examina algoritmos e processos computacionais para avaliação
 - **Camada 4** (Visão de Engenharia): Investiga a arquitetura de sistemas de apoio à avaliação
 - **Camada 5** (Visão de Tecnologia): Explora tecnologias específicas aplicáveis ao contexto
 
-**Camada 1 - Desafios Metodológicos** (Visão Empresarial - ISO 10746):
-*Justificativa*: A Visão Empresarial da ISO 10746 foca nos objetivos organizacionais e requisitos de negócio. No contexto educacional, corresponde aos desafios metodológicos que professores orientadores enfrentam na implementação eficaz da avaliação em ABP.
-```
+**Camada 1 - PBL no nível organizacional** (Visão Empresarial — inspirada na ISO 10746):
+*Justificativa*: A Visão Empresarial explicita propósito e valor do PBL/PbL no curso (competências-alvo, resultados de aprendizagem, papéis/necessidades do professor orientador e stakeholders). Aqui o foco é situar a avaliação como função central do PBL/PbL e levantar desafios organizacionais e metodológicos decorrentes dessa centralidade.
+```text
 TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("challenge*" OR "difficult*" OR "problem*" OR "issue*" OR "barrier*")
 ```
 
-**Camada 2 - Instrumentos e Tecnologias** (Visão de Informação - ISO 10746):
+**Camada 2 - Instrumentos e Tecnologias** (Visão de Informação — inspirada na ISO 10746):
 *Justificativa*: A Visão de Informação modela a estrutura e fluxo de dados. Esta camada busca instrumentos e tecnologias que processam e estruturam informações educacionais para apoiar a avaliação.
-```
+```text
 TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("instrument*" OR "tool*" OR "method*" OR "rubric*" OR "framework*" OR "technology")
 ```
 
-**Camada 3 - Objetividade e Escalabilidade** (Visão Computacional - ISO 10746):
+**Camada 3 - Objetividade e Escalabilidade** (Visão Computacional — inspirada na ISO 10746):
 *Justificativa*: A Visão Computacional descreve os processos e algoritmos necessários. Esta camada foca em soluções computacionais que garantem objetividade e escalabilidade na avaliação.
-```
+```text
 TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("objective*" OR "scalab*" OR "automat*" OR "reliab*" OR "valid*")
 ```
 
-**Camada 4 - Avaliação Processual e Colaborativa** (Visão de Engenharia - ISO 10746):
+**Camada 4 - Avaliação Processual e Colaborativa** (Visão de Engenharia — inspirada na ISO 10746):
 *Justificativa*: A Visão de Engenharia define a arquitetura técnica do sistema. Esta camada investiga arquiteturas de sistemas que suportam avaliação processual e colaborativa em tempo real.
-```
+```text
 TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("process*" OR "formative" OR "ongoing" OR "continuous")
 AND TS=("assessment" OR "evaluation") AND TS=("collaborat*" OR "team*" OR "competenc*")
 ```
 
-**Camada 5 - Competências Transversais** (Visão de Tecnologia - ISO 10746):
+**Camada 5 - Competências Transversais** (Visão de Tecnologia — inspirada na ISO 10746):
 *Justificativa*: A Visão de Tecnologia especifica as tecnologias e plataformas de implementação. Esta camada explora tecnologias específicas para avaliação de competências transversais e habilidades interpessoais.
-```
+```text
 TS=("project-based learning" OR "project based learning" OR "PBL")
 AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("critical thinking" OR "creativity" OR "communication" OR "soft skills")
@@ -168,75 +189,60 @@ Seguindo as diretrizes de Kitchenham (2004) para documentação transparente e r
 - URLs e condições específicas quando aplicável
 - Resultados de busca não filtrados salvos para possível reanálise
 
-O diagrama a seguir ilustra o processo de busca estruturado em camadas baseado na ISO 10746:
+O fluxograma a seguir ilustra o processo de busca estruturado em camadas criadas com base nos preceitos da ISO 10746 e a etapa de seleção manual que levou ao conjunto final de 25 estudos primários:
 
-```
-                         ┌─────────────────────────────┐
-                         │    Web of Science Database  │
-                         └──────────────┬──────────────┘
-                                        │
-                         ┌──────────────▼──────────────┐
-                         │   Estruturação baseada em   │
-                         │  Visões Arquiteturais ISO   │
-                         │           10746             │
-                         └──────────────┬──────────────┘
-                                        │
-        ┌───────────────┬───────────────┼───────────────┬───────────────┐
-        │               │               │               │               │
-        ▼               ▼               ▼               ▼               ▼
-┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-│   Camada 1   │ │   Camada 2   │ │   Camada 3   │ │   Camada 4   │ │   Camada 5   │
-│    Visão     │ │    Visão     │ │    Visão     │ │    Visão     │ │    Visão     │
-│ Empresarial  │ │    de        │ │Computacional │ │    de        │ │    de        │
-│   Desafios   │ │ Informação   │ │Objetividade  │ │ Engenharia   │ │ Tecnologia   │
-│Metodológicos │ │Instrumentos  │ │     e        │ │ Avaliação    │ │Competências  │
-│  n=334       │ │      e       │ │Escalabilidade│ │ Processual   │ │Transversais  │
-│   artigos    │ │ Tecnologias  │ │   n=400      │ │    n=34      │ │    n=22      │
-└──────┬───────┘ │   n=21       │ │   artigos    │ │   artigos    │ │   artigos    │
-       │         │   artigos    │ └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
-       │         └──────┬───────┘        │                │                │
-       │                │                │                │                │
-       └────────────────┼────────────────┼────────────────┼────────────────┘
-                        │                │                │
-                        ▼                ▼                ▼
-                 ┌──────────────────────────────────────────────┐
-                 │          Total de Registros                  │
-                 │              n=811 artigos                   │
-                 └─────────────────┬────────────────────────────┘
-                                   │
-                                   ▼
-                 ┌──────────────────────────────────────────────┐
-                 │    Aplicação de Critérios de Inclusão/      │
-                 │         Exclusão - Triagem por              │
-                 │           Título e Resumo                   │
-                 └─────────────────┬────────────────────────────┘
-                                   │
-        ┌──────────────┬───────────┼───────────┬──────────────┐
-        │              │           │           │              │
-        ▼              ▼           ▼           ▼              ▼
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│ Empresarial │ │ Informação  │ │Computacional│ │ Engenharia  │ │ Tecnologia  │
-│ 146/334     │ │   9/21      │ │   3/400     │ │   18/34     │ │    3/22     │
-│ 43.7%       │ │  42.9%      │ │   0.8%      │ │   52.9%     │ │   13.6%     │
-└─────┬───────┘ └─────┬───────┘ └─────┬───────┘ └─────┬───────┘ └─────┬───────┘
-      │               │               │               │               │
-      └───────────────┼───────────────┼───────────────┼───────────────┘
-                      │               │               │
-                      ▼               ▼               ▼
-            ┌──────────────────────────────────────────────┐
-            │         Total Selecionado para               │
-            │        Análise Multivisão                    │
-            │           n=179 artigos                      │
-            └─────────────────┬────────────────────────────┘
-                              │
-                              ▼
-            ┌──────────────────────────────────────────────┐
-            │      Síntese baseada em Princípios          │
-            │      Arquiteturais ISO 10746                │
-            └──────────────────────────────────────────────┘
-```
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.10\textwidth} >{\raggedright\arraybackslash}p{0.44\textwidth} >{\raggedleft\arraybackslash}p{0.16\textwidth} >{\raggedleft\arraybackslash}p{0.16\textwidth} >{\raggedleft\arraybackslash}p{0.12\textwidth}}
+\caption{Estruturação da Busca por Camadas (inspirada na ISO 10746)}\label{tab:camadas}\\
+\hline
+Camada & Visão & Artigos Identificados & Artigos Triados & Taxa de Triagem \\
+\hline
+\endfirsthead
+\hline
+Camada & Visão & Artigos Identificados & Artigos Triados & Taxa de Triagem \\
+\hline
+\endhead
+1 & Visão Empresarial (Desafios Metodológicos) & 334 & 146 & 43.7\% \\
+2 & Visão de Informação (Instrumentos e Tecnologias) & 21 & 9 & 42.9\% \\
+3 & Visão Computacional (Objetividade e Escalabilidade) & 400 & 3 & 0.8\% \\
+4 & Visão de Engenharia (Avaliação Processual) & 34 & 18 & 52.9\% \\
+5 & Visão de Tecnologia (Competências Transversais) & 22 & 3 & 13.6\% \\
+\textbf{Total} &  & \textbf{811} & \textbf{179} & \textbf{22.1\%} \\
+\hline
+\end{longtable}
 
-**Justificativa Arquitetural**: Esta estruturação baseada na ISO 10746 garante cobertura sistemática de todas as perspectivas relevantes para o problema de pesquisa, desde os requisitos organizacionais (Visão Empresarial) até as tecnologias específicas de implementação (Visão de Tecnologia), passando pela modelagem de dados (Visão de Informação), algoritmos (Visão Computacional) e arquitetura de sistemas (Visão de Engenharia). Esta abordagem assegura que nenhum aspecto crítico da avaliação em ABP seja omitido na revisão sistemática.
+Fonte: Elaboração própria (2025).
+
+**Processo de Seleção**
+
+1. **Identificação**: 811 artigos identificados na base Web of Science
+2. **Triagem**: 179 artigos triados após análise de título e resumo
+3. **Avaliação Completa**: Leitura completa dos 179 artigos
+4. **Seleção Manual Baseada em Critérios (Kitchenham)**:
+   - Alinhamento às RQs
+   - Qualidade metodológica
+   - Foco avaliativo
+   - Evidência empírica
+   - Replicabilidade
+   - Transferibilidade
+5. **Síntese Qualitativa**: 25 artigos selecionados para análise final
+
+![Fluxo de pesquisa e seleção de artigos](assets/fluxo_filtro.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
+
+**Justificativa Arquitetural**: Esta estruturação, baseada nos preceitos da ISO 10746, garante cobertura sistemática de todas as perspectivas relevantes para o problema de pesquisa, desde os requisitos organizacionais (Visão Empresarial) até as tecnologias específicas de implementação (Visão de Tecnologia), passando pela modelagem de dados (Visão de Informação), algoritmos (Visão Computacional) e arquitetura de sistemas (Visão de Engenharia). Esta abordagem assegura que nenhum aspecto crítico da avaliação em ABP seja omitido na revisão sistemática.
+
+##### 3.2.1.4 Camadas de Busca (visões inspiradas na ISO 10746)
+
+Para dar transparência ao papel de cada camada na seleção, apresentamos os volumes identificados e a taxa de triagem por camada (título/resumo):
+
+- Camada 1 — Visão Empresarial (Desafios Metodológicos): 334 identificados → 146 triados (43,7%)
+- Camada 2 — Visão de Informação (Instrumentos e Tecnologias): 21 identificados → 9 triados (42,9%)
+- Camada 3 — Visão Computacional (Objetividade e Escalabilidade): 400 identificados → 3 triados (0,8%)
+- Camada 4 — Visão de Engenharia (Avaliação Processual): 34 identificados → 18 triados (52,9%)
+- Camada 5 — Visão de Tecnologia (Competências Transversais): 22 identificados → 3 triados (13,6%)
+
+Essas camadas guiaram toda a estratégia de busca e justificam o recorte final: o baixo aproveitamento na Camada 3 (objetividade/escala) evidencia a lacuna que motivou a etapa de seleção manual baseada em critérios (alinhamento às RQs, foco avaliativo, qualidade metodológica, evidência, replicabilidade e transferibilidade), culminando em 25 estudos selecionados para a síntese qualitativa.
 
 #### 3.2.2 Seleção de Estudos Primários
 
@@ -262,13 +268,13 @@ Os critérios de seleção foram definidos para identificar estudos primários q
 
 O processo de seleção seguiu a abordagem multifásica recomendada por Kitchenham (2004):
 
-**Fase 1 - Triagem Inicial**: Dois revisores independentes examinaram títulos e resumos, interpretando critérios de seleção de forma liberal para evitar exclusões prematuras.
+**Fase 1 - Triagem Inicial**: Os títulos e resumos de todos os 811 artigos identificados foram examinados utilizando a plataforma Rayyan (https://new.rayyan.ai/) com os arquivos RIS exportados da base Web of Science. A plataforma foi utilizada para facilitar o processo de triagem em cada uma das camadas de busca definidas. Foram identificados 179 artigos potencialmente relevantes após esta triagem inicial. Os critérios de seleção foram interpretados de forma liberal para evitar exclusões prematuras.
 
-**Fase 2 - Avaliação de Texto Completo**: Decisões finais de inclusão/exclusão foram tomadas após obtenção dos textos completos, com manutenção de lista de estudos excluídos identificando razão para exclusão.
+**Fase 2 - Avaliação de Texto Completo**: Dos 179 artigos triados, os 30 artigos finais tiveram seus textos completos baixados em formato PDF para leitura detalhada. Decisões finais de inclusão/exclusão foram tomadas após análise completa destes artigos, com manutenção de lista de estudos excluídos identificando razão para exclusão. A seção de discussão foi elaborada com base na leitura completa destes 30 artigos finais.
 
 ##### 3.2.2.3 Confiabilidade das Decisões de Inclusão
 
-A confiabilidade das decisões de inclusão foi medida usando o coeficiente Kappa de Cohen (κ ≥ 0.70), com todas as discordâncias discutidas e resolvidas conforme recomendado por Kitchenham (2004).
+A confiabilidade das decisões de inclusão foi verificada conforme recomendado por Kitchenham (2004), com análise reflexiva das decisões tomadas durante o processo de seleção.
 
 #### 3.2.3 Avaliação da Qualidade dos Estudos
 
@@ -299,7 +305,7 @@ Formulários padronizados de extração de dados foram desenvolvidos durante o p
 - Resultados obtidos
 - Limitações reportadas
 
-Sempre que possível, a extração foi realizada independentemente por dois pesquisadores, com comparação de dados e resolução de discordâncias por consenso.
+A extração foi realizada com revisão reflexiva dos dados extraídos para garantir consistência e precisão.
 
 #### 3.2.5 Síntese de Dados
 
@@ -337,7 +343,11 @@ Dos 179 artigos incluídos, a distribuição por ano de publicação foi:
 - 2024: 17 artigos (9,5%)
 - 2025: 16 artigos (8,9%)
 
-A distribuição temporal demonstra um interesse crescente na temática ao longo dos anos, com pico de publicações em 2016 e 2019, e manutenção consistente nos anos subsequentes.
+A distribuição temporal demonstra um interesse relativamente estável na temática ao longo dos anos, sem crescimento acentuado, com picos de publicações em 2016 e 2019, mas mantendo uma frequência consistente nos anos subsequentes.
+
+![Distribuição temporal dos artigos incluídos na revisão sistemática](assets/Distribuição Temporal dos Artigo.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
 
 #### 4.2.2 Distribuição por Tipo de Publicação
 
@@ -347,6 +357,10 @@ A distribuição temporal demonstra um interesse crescente na temática ao longo
 - Outros tipos: 6 (3,4%)
 
 A predominância de artigos de periódico indica a relevância acadêmica do tema na literatura científica consolidada.
+
+![Distribuição por tipo de publicação dos estudos incluídos na revisão sistemática](assets/Distribuição por Tipo de Publicação.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
 
 #### 4.2.3 Distribuição por Contexto Educacional
 
@@ -364,6 +378,8 @@ A análise dos 179 artigos selecionados revela padrões consistentes nos desafio
 
 #### 4.3.1 Categorização Tecnológica dos Estudos
 
+Table: Categorização tecnológica dos estudos incluídos na revisão sistemática
+
 | Categoria Tecnológica | Artigos | Percentual |
 |---------------------|---------|-------------|
 | Programming Tools | 120 | 67,0% |
@@ -376,7 +392,15 @@ A análise dos 179 artigos selecionados revela padrões consistentes nos desafio
 | Learning Analytics | 1 | 0,6% |
 | Automated Assessment | 1 | 0,6% |
 
+Fonte: Elaboração própria (2025).
+
+![Categorização tecnológica dos estudos incluídos na revisão sistemática](assets/Categorização Tecnológica dos Estudos.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
+
 #### 4.3.2 Classificação Metodológica
+
+Table: Classificação metodológica dos estudos incluídos na revisão sistemática
 
 | Tipo de Avaliação | Artigos | Percentual |
 |------------------|---------|-------------|
@@ -389,7 +413,15 @@ A análise dos 179 artigos selecionados revela padrões consistentes nos desafio
 | Project Assessment | 4 | 2,2% |
 | Portfolio Assessment | 2 | 1,1% |
 
+Fonte: Elaboração própria (2025).
+
+![Classificação metodológica dos estudos incluídos na revisão sistemática](assets/Classificação Metodológica.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
+
 #### 4.3.3 Distribuição Geográfica
+
+Table: Distribuição geográfica dos estudos incluídos na revisão sistemática
 
 | País/Região | Artigos | Percentual |
 |-------------|---------|-------------|
@@ -400,6 +432,12 @@ A análise dos 179 artigos selecionados revela padrões consistentes nos desafio
 | Spain | 7 | 6,1% |
 | Brazil | 2 | 1,8% |
 | Outros | 13 | 7,2% |
+
+Fonte: Elaboração própria (2025).
+
+![Distribuição geográfica dos estudos incluídos na revisão sistemática](assets/Distribuição Geográfica dos Estudos.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
 
 #### 4.3.4 Principais Lacunas Identificadas
 
@@ -447,6 +485,46 @@ Apesar dos avanços, a avaliação eficaz de processos de aprendizagem em ABP ai
 
 3. **Contextualização**: Desafios em adaptar critérios avaliativos para diferentes contextos e domínios de projeto.
 
+### 4.6 Seleção Final dos Artigos
+
+- Registros identificados (busca inicial): 811
+- Conjunto triado para análise temática (título/resumo, por camadas ISO): 179
+- Selecionados para síntese qualitativa após leitura completa e aplicação dos critérios de inclusão/exclusão: 25
+
+#### 4.6.1 Estudos Incluídos (Top‑25)
+
+Table: Estudos primários incluídos na revisão sistemática
+
+| # | Ano | Título |
+| - | --- | ------ |
+| 1 | 2024 | Harnessing Generative AI to Enhance Feedback Quality in Peer Evaluations within Project-Based Learning Contexts |
+| 2 | 2023 | An online progressive peer assessment approach to project-based learning: a constructivist perspective |
+| 3 | 2023 | The Role of Group Project-Based Learning in Engineering Training |
+| 4 | 2019 | Implementation of Project Based Learning: Lessons Learned |
+| 5 | 2025 | Project-Based Learning Combined with Inquiry-Based Learning Using Solver Tools to Promote Computational Thinking Among Undergraduate Students |
+| 6 | 2021 | Assessing individuals within teams in project-based learning courses - Strategies, evaluation and lessons learnt |
+| 7 | 2021 | Academic Performance in University Students in Morphological Science Courses: Use of Active Problem-Based Learning (PBL) |
+| 8 | 2020 | Online Project-Based Learning and Formative Assessment |
+| 9 | 2020 | Integration of different assessment approaches: application to a project-based learning engineering course |
+| 10 | 2019 | Formative Assessment in Project-based Learning: Supporting Alternative on the Learning Outcome of Biology Students in University |
+| 11 | 2020 | Toward an Integrative Nursing Curriculum: Combining Team-Based and Problem-Based Learning with Emergency-Care Scenario Simulation |
+| 12 | 2024 | ASSESSING CREATIVE THINKING COMPETENCIES OF PRE-SERVICE TEACHERS VIA PROJECT-BASED LEARNING MODELS |
+| 13 | 2024 | Examining the Impact of Project-Based Learning on Students' Self-Reported and Actual Learning Outcomes |
+| 14 | 2023 | Data Science Course Design for a Large-Scale Cohort using Individual Project-Based Learning |
+| 15 | 2022 | Gaining Student Engagement Through Project-Based Learning: A Competitive 2D Game Construction Case Study |
+| 16 | 2022 | A comparison of face-to-face and fully online problem-based learning: Student results and staff experiences, 2014-2020 |
+| 17 | 2020 | A Project-Based Learning Approach for Enhancing Learning Skills and Motivation in Software Engineering |
+| 18 | 2019 | Combining Flipped Classroom, Project-Based Learning, and Formative Assessment Strategies in Engineering Studies |
+| 19 | 2023 | Beyond technology: factors influencing the effects of teachers' audio feedback on students' project-based learning |
+| 20 | 2023 | Assessment of Students' Creative Thinking Skill on the Implementation of Project-Based Learning |
+| 21 | 2025 | Innovating forest science education through problem-based learning: Insights from a public university in Brazil |
+| 22 | 2025 | Comparison of learning outcomes: Team-based vs. problem-based learning with high-Fidelity simulation in a critical care nursing course-a mixed-methods design |
+| 23 | 2024 | Enhancing Chinese Language Education Through AI-Assisted Project-Based Learning: A Qualitative Study on Learning Values and Multimedia Skills Development |
+| 24 | 2021 | DILEMMS IN EVALUATIVE PRACTICES AND TRAINING NEEDS FOR TUTORS IN THE PROBLEM-BASED LEARNING (PBL) METHOD |
+| 25 | 2020 | Testing the "Grandma Hypothesis": Characterizing Skin Microbiome Diversity as a Project-Based Learning Approach to Genomics |
+
+Fonte: Elaboração própria (2025).
+
 ## 5. Discussão
 
 ### 5.1 Identificação da Lacuna de Pesquisa
@@ -460,12 +538,22 @@ A literatura existente oferece diversas abordagens para os desafios da avaliaç�
 3. **Learning Analytics** (análise de dados educacionais, métricas técnicas)
 4. **Tecnologias emergentes** (IA, machine learning, visualização de dados)
 
-No entanto, identificou-se uma lacuna crítica: a ausência de soluções integradas que combinem princípios arquiteturais estabelecidos com a avaliação educacional em contextos complexos de ABP. Especificamente:
+No entanto, identificou-se uma lacuna crítica: a ausência de soluções integradas que combinem princípos arquiteturais estabelecidos com a avaliação educacional em contextos complexos de ABP. Especificamente:
 
 1. **Ausência de Abordagem Arquitetural Integrada**: Nenhuma pesquisa aplica frameworks arquiteturais estruturados para compreender o processo de ABP como um sistema complexo
 2. **Falta de Integração Coerente**: Soluções atuais abordam aspectos isolados sem uma arquitetura unificada
 3. **Deficiência na Modelagem de Objetivos Educacionais**: O desenvolvimento de competências não é adequadamente modelado como elemento orientador do sistema
 4. **Limitações na Visibilidade Multidimensional**: Professores orientadores não dispõem de uma visão abrangente que integre múltiplas perspectivas do processo de avaliação
+
+![Posicionamento da presente pesquisa no contexto das abordagens existentes para avaliação em ABP](assets/Posicionamento da Pesquisa.png){ width=100% }
+
+Fonte: Elaboração própria (2025).
+
+O gráfico de posicionamento da pesquisa utiliza uma escala normalizada entre zero e um para representar percentualmente o espaço ocupado pelos estudos analisados. No eixo horizontal está o grau de objetividade e escalabilidade, que varia de baixo, à esquerda, até alto, à direita. Estudos posicionados próximos de zero nesse eixo correspondem a práticas avaliativas tradicionais, como rubricas manuais ou autoavaliações pouco estruturadas, que não oferecem padronização nem automação. À medida que se aproxima de um, entram trabalhos que buscam maior confiabilidade interavaliadores, uso de métricas, validação sistemática e, em casos mais raros, alguma automação com apoio de analytics. No limite direito está a proposta, caracterizada por elevada objetividade e escalabilidade por meio de princípios arquiteturais e integração tecnológica.
+
+No eixo vertical encontra-se a cobertura de perspectivas, também de zero a um. Na base do gráfico estão os estudos que olham apenas para um aspecto da aprendizagem em projetos, como o produto final ou uma competência específica. Valores intermediários indicam tentativas de combinar duas ou três dimensões, como qualidade técnica e colaboração em equipe. Na parte superior do eixo estão as abordagens capazes de oferecer uma visão holística, reunindo dimensões organizacionais, informacionais, computacionais, de engenharia e tecnológicas. A proposta se localiza nesse ponto alto por integrar dados multidimensionais em tempo real e permitir monitoramento processual abrangente.
+
+As abordagens existentes, dispersas na parte inferior esquerda e central do gráfico, representam soluções fragmentadas, sem conexão entre si e limitadas tanto na objetividade quanto na abrangência. O espaço vazio entre esses pontos e a posição da proposta indica a lacuna de pesquisa: a falta de uma solução arquitetural integrada que una escala, objetividade e visão holística. É exatamente esse vazio que a proposta busca preencher, trazendo valor agregado pela integração entre perspectivas que antes apareciam de forma isolada.
 
 #### 5.1.2 Justificativa para a Lacuna Baseada nas Referências Fundamentais
 
@@ -499,7 +587,7 @@ Baseado na análise comprehensiva da literatura, emerge o potencial de abordagen
 
 Tecnologias emergentes como Gêmeos Digitais, que criam representações virtuais de sistemas físicos em tempo real, poderiam ser exploradas para integrar múltiplas perspectivas em uma solução coerente para apoio à avaliação em ABP, fundamentada nos princípios identificados através das experiências do Inteli, metodologias propostas por Arakaki et al. (2025) e fundamentos de engenharia de software de Pressman & Maxim (2021).
 
-## 6. Conclusão
+## 6 Considerações Finais
 
 Esta revisão sistemática mapeou o estado da arte sobre os desafios metodológicos, instrumentos e tecnologias para auxiliar professores orientadores na avaliação em Aprendizagem Baseada em Projetos, identificando soluções propostas na literatura e lacunas que justificam investigações adicionais.
 
