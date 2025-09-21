@@ -4,7 +4,9 @@
 
 ### 1.1 Justificativa
 
-A Aprendizagem Baseada em Projetos (ABP) representa uma mudança paradigmática no ensino superior, especialmente em áreas tecnológicas, onde a formação de profissionais capazes de enfrentar os desafios complexos do mercado contemporâneo se torna imperativa. No contexto brasileiro, a experiência do Instituto de Tecnologia e Liderança (Inteli) evidencia tanto o potencial transformador da ABP quanto os desafios significativos enfrentados por professores orientadores na implementação eficaz dessa metodologia.
+A Aprendizagem Baseada em Projetos (ABP) representa uma mudança paradigmática no ensino superior, especialmente em áreas tecnológicas, onde a formação de profissionais capazes de enfrentar os desafios complexos do mercado contemporâneo se torna imperativa. Desde os primórdios de sua conceituação moderna, desafios como a sustentação do engajamento e o suporte efetivo à aprendizagem já eram apontados como pontos críticos (Blumenfeld et al., 1991). No contexto brasileiro, a experiência do Instituto de Tecnologia e Liderança (Inteli) evidencia tanto o potencial transformador da ABP quanto os desafios significativos enfrentados por professores orientadores na implementação eficaz dessa metodologia.
+
+Adicionalmente, a necessidade de abordagens como a ABP é reforçada pelas próprias Diretrizes Curriculares Nacionais (DCNs) para os cursos de graduação da área de Computação. A Resolução CNE/CES nº 5, de 16 de novembro de 2016, determina que os egressos devem possuir competências para "projetar e desenvolver soluções computacionais" e "gerenciar projetos de software" (BRASIL, 2016). Contudo, ao mesmo tempo em que a ABP se apresenta como uma via eficaz para atender a essas exigências formais, ela impõe uma sobrecarga operacional significativa aos professores orientadores. O acompanhamento contínuo e detalhado, necessário para garantir que essas competências sejam de fato formadas, demanda um volume de coleta e análise de dados que muitas vezes excede a capacidade humana em turmas de grande porte, criando um desafio de escalabilidade para a própria implementação das diretrizes.
 
 Conforme documentado por Valente et al. (2025), "a qualidade dos concluintes dos cursos de computação tradicionais não está atendendo às necessidades do mercado e do país", evidenciando a necessidade crítica de abordagens pedagógicas mais eficazes. A estrutura curricular do Inteli, organizada em Learning BackLogs (LBLs), ilustra a complexidade inerente à ABP contemporânea, onde os módulos integram conhecimentos técnicos de computação, matemática e física com competências transversais de liderança, negócios e design de experiência do usuário (INTELI PPC, 2024).
 
@@ -12,7 +14,7 @@ A implementação prática da ABP no contexto do Inteli revela desafios metodol�
 
 A experiência prática revela questões metodológicas centrais que emergem da complexidade da ABP: "Como realizar a evolução sistemática dos módulos de aprendizagem baseados em projetos (LBLs)? Quais aspectos da aprendizagem devem ser utilizados como base para compor os requisitos de revisão? Como os pacotes de conceitos e práticas podem ser reconfigurados sem prejuízo das disciplinas essenciais?" (Arakaki et al., 2025).
 
-A complexidade dessa implementação é amplificada pelos desafios inerentes à engenharia de software moderna. Pressman & Maxim (2021) destacam que os sistemas de informação enfrentaram uma "esfera crescente de desafios" à medida que os problemas se tornaram mais complexos, demandando programas cada vez mais sofisticados. Esta realidade técnica, combinada com a necessidade de formar profissionais capazes de "lidar com a complexidade e a rápida evolução do mercado de trabalho" (Arakaki et al., 2025), cria um contexto educacional onde professores orientadores enfrentam dificuldades operacionais específicas:
+A complexidade dessa implementação é amplificada pelos desafios inerentes à engenharia de software moderna. Pressman & Maxim (2021) destacam que os sistemas de informação enfrentaram uma "esfera crescente de desafios" à medida que os problemas se tornaram mais complexos, demandando programas cada vez mais sofisticados. Esta realidade técnica, combinada com a necessidade de formar profissionais capazes de "lidar com a complexidade e a rápida evolução do mercado de trabalho" (Arakaki et al., 2025), cria um contexto educacional onde professores orientadores enfrentam dificuldades operacionais específicas. Tais dificuldades são consistentes com as apontadas em revisões da literatura, que identificam a mensuração de resultados de aprendizagem como um desafio persistente no PBL (Guo et al., 2020). Dentre os principais desafios, destacam-se:
 
 **Desafios na Avaliação de Contribuições Individuais**: A natureza colaborativa dos projetos em ABP torna complexa a identificação e mensuração das contribuições específicas de cada membro da equipe, especialmente quando o trabalho é interdependente e os papéis são rotativos ao longo dos módulos.
 
@@ -175,7 +177,7 @@ AND TS=("assessment" OR "evaluation" OR "grading")
 AND TS=("critical thinking" OR "creativity" OR "communication" OR "soft skills")
 ```
 
-**Período de Busca**: 2015-2025
+**Período de Busca**: 1990-2025
 
 **Idiomas**: Todos, mas vieram apenas resultados na lingua inglesa.
 
@@ -243,6 +245,40 @@ Para dar transparência ao papel de cada camada na seleção, apresentamos os vo
 - Camada 5 — Visão de Tecnologia (Competências Transversais): 22 identificados → 3 triados (13,6%)
 
 Essas camadas guiaram toda a estratégia de busca e justificam o recorte final: o baixo aproveitamento na Camada 3 (objetividade/escala) evidencia a lacuna que motivou a etapa de seleção manual baseada em critérios (alinhamento às RQs, foco avaliativo, qualidade metodológica, evidência, replicabilidade e transferibilidade), culminando em 25 estudos selecionados para a síntese qualitativa.
+
+##### 3.2.1.5 Expansão de Estratégias de Busca com CEP e Tempo Real
+
+Com o objetivo de capturar a literatura que propõe soluções objetivas e escaláveis em contextos de ABP, ampliamos as estratégias de busca para incluir termos relacionados a processamento de eventos e observabilidade em tempo real:
+
+```text
+TS=("project-based learning" OR "project based learning" OR "PBL" OR "capstone" OR "studio-based" OR "integrated projects")
+AND TS=("assessment" OR "evaluation" OR "grading" OR "analytics")
+AND TS=("complex event processing" OR "event stream processing" OR "stream processing" OR "event-driven" OR "real-time analytics" OR "observability" OR telemetry)
+```
+
+Complementarmente, para camadas específicas:
+
+- Camada 3 (objetividade/escala):
+```text
+TS=("complex event processing" OR "stream processing" OR "real-time" OR telemetry OR "automated assessment")
+AND TS=("project-based learning" OR PBL)
+```
+- Camada 4 (processual):
+```text
+TS=(rubric* OR "formative feedback" OR "continuous assessment" OR "process mining")
+AND TS=("project-based learning" OR PBL)
+```
+- Camada 5 (competências transversais):
+```text
+TS=("soft skills" OR teamwork OR communication OR coordination)
+AND TS=("project-based learning" OR PBL)
+```
+
+Termos em português, visando bases nacionais: "Aprendizagem Baseada em Projetos", "projetos integradores", "rubrica", "avaliação processual", "avaliação por pares", "processamento complexo de eventos", "processamento de fluxos", "observabilidade", "tempo real".
+
+##### 3.2.1.6 Bases e Fontes Adicionais
+
+Além da Web of Science (base principal), consideramos, para análises de sensibilidade, as bases: Scopus, ERIC, IEEE Xplore, ACM Digital Library e SciELO. O uso adicional dessas bases visa aumentar o recall sem comprometer a rastreabilidade do protocolo.
 
 #### 3.2.2 Seleção de Estudos Primários
 
@@ -529,63 +565,82 @@ Fonte: Elaboração própria (2025).
 
 ### 5.1 Identificação da Lacuna de Pesquisa
 
-#### 5.1.1 Análise das Soluções Propostas
+A análise da literatura revela que, embora existam diversas abordagens para os desafios da avaliação em ABP — como rubricas, sistemas de avaliação e learning analytics —, uma lacuna crítica e de natureza técnica permanece aberta. As soluções existentes tendem a operar de forma *post-hoc*, analisando dados após os fatos, ou se baseiam em percepções qualitativas que são difíceis de escalar e aplicar de forma consistente.
 
-A literatura existente oferece diversas abordagens para os desafios da avaliação em ABP:
+Falta ao professor orientador um ferramental que permita o **monitoramento em tempo real do processo de desenvolvimento de software**. As plataformas atuais não conseguem responder a perguntas essenciais para o acompanhamento de um projeto complexo: Qual o progresso real da implementação técnica? Uma equipe está "travada" em um problema específico neste exato momento? Como a contribuição individual se manifesta nos artefatos de engenharia que estão sendo produzidos?
 
-1. **Instrumentos avaliativos estruturados** (rubricas, checklists, portfólios)
-2. **Sistemas digitais de avaliação** (plataformas LMS, ferramentas especializadas)
-3. **Learning Analytics** (análise de dados educacionais, métricas técnicas)
-4. **Tecnologias emergentes** (IA, machine learning, visualização de dados)
+A lacuna, portanto, não é apenas a ausência de uma "abordagem arquitetural integrada", mas a carência de um sistema que transforme o fluxo contínuo de **eventos de baixa granularidade** (commits, alterações em APIs, merges, etc.) em **indicadores de progresso de alta granularidade e em tempo real**, fornecendo ao professor uma visão processual e baseada em evidências concretas do projeto.
 
-No entanto, identificou-se uma lacuna crítica: a ausência de soluções integradas que combinem princípos arquiteturais estabelecidos com a avaliação educacional em contextos complexos de ABP. Especificamente:
+### 5.2 Oportunidade de Pesquisa: Um Assistente de Orientação Baseado em Gêmeos Digitais e CEP
 
-1. **Ausência de Abordagem Arquitetural Integrada**: Nenhuma pesquisa aplica frameworks arquiteturais estruturados para compreender o processo de ABP como um sistema complexo
-2. **Falta de Integração Coerente**: Soluções atuais abordam aspectos isolados sem uma arquitetura unificada
-3. **Deficiência na Modelagem de Objetivos Educacionais**: O desenvolvimento de competências não é adequadamente modelado como elemento orientador do sistema
-4. **Limitações na Visibilidade Multidimensional**: Professores orientadores não dispõem de uma visão abrangente que integre múltiplas perspectivas do processo de avaliação
+A lacuna identificada abre uma oportunidade de pesquisa para o desenvolvimento de um **Assistente de Orientação**, uma ferramenta de software concebida como um **Gêmeo Digital (Digital Twin, DT)** do processo de aprendizagem em projetos. O objetivo deste DT não é substituir o professor, mas sim empoderá-lo, fornecendo uma visão de alta fidelidade e em tempo real da "planta" do projeto de software em desenvolvimento.
 
-![Posicionamento da presente pesquisa no contexto das abordagens existentes para avaliação em ABP](assets/Posicionamento da Pesquisa.png){ width=100% }
+#### 5.2.1 Arquitetura Baseada em Processamento de Eventos Complexos (CEP)
 
-Fonte: Elaboração própria (2025).
+Propõe-se que a espinha dorsal deste Gêmeo Digital (DT) seja uma arquitetura de **Processamento de Eventos Complexos (CEP)**. Diferente de bancos de dados tradicionais que consultam dados armazenados, um sistema CEP processa continuamente fluxos de eventos à medida que eles ocorrem, identificando padrões significativos (eventos complexos) a partir de eventos simples e, à primeira vista, não relacionados.
 
-O gráfico de posicionamento da pesquisa utiliza uma escala normalizada entre zero e um para representar percentualmente o espaço ocupado pelos estudos analisados. No eixo horizontal está o grau de objetividade e escalabilidade, que varia de baixo, à esquerda, até alto, à direita. Estudos posicionados próximos de zero nesse eixo correspondem a práticas avaliativas tradicionais, como rubricas manuais ou autoavaliações pouco estruturadas, que não oferecem padronização nem automação. À medida que se aproxima de um, entram trabalhos que buscam maior confiabilidade interavaliadores, uso de métricas, validação sistemática e, em casos mais raros, alguma automação com apoio de analytics. No limite direito está a proposta, caracterizada por elevada objetividade e escalabilidade por meio de princípios arquiteturais e integração tecnológica.
+No contexto de ABP, o CEP integra três trilhas de eventos: (i) desenvolvimento (commits, merges, builds), (ii) avaliação (rubricas digitais, peer/self assessment), e (iii) coordenação (checkpoints, milestones, atas de orientação). Operacionalmente, o pipeline aplica janelas deslizantes e tumbling, com latência alvo de atualização em tempo real de até 5 minutos, para derivar estados e disparar intervenções.
 
-No eixo vertical encontra-se a cobertura de perspectivas, também de zero a um. Na base do gráfico estão os estudos que olham apenas para um aspecto da aprendizagem em projetos, como o produto final ou uma competência específica. Valores intermediários indicam tentativas de combinar duas ou três dimensões, como qualidade técnica e colaboração em equipe. Na parte superior do eixo estão as abordagens capazes de oferecer uma visão holística, reunindo dimensões organizacionais, informacionais, computacionais, de engenharia e tecnológicas. A proposta se localiza nesse ponto alto por integrar dados multidimensionais em tempo real e permitir monitoramento processual abrangente.
+Canal 4 é definido como a linha de sustentação — a trilha de evidências processuais que dá lastro às decisões avaliativas e auditoria (rubricas, marcos, registros de orientação). Canal 1 reúne os indicadores essenciais de decisão ("sinais golden"); métricas específicas marcadas como prioritárias devem ser definidas operacionalmente com a coordenação pedagógica. Os Cenários 3 e 5 materializam o CEP em tempo real: regras e padrões são compilados em alertas oportunos (por exemplo, violações de SLA de feedback, atrasos de entregas), enquanto o Cenário 6 consolida os seis pontos críticos de controle que modulam o comportamento global do sistema de aprendizagem.
 
-As abordagens existentes, dispersas na parte inferior esquerda e central do gráfico, representam soluções fragmentadas, sem conexão entre si e limitadas tanto na objetividade quanto na abrangência. O espaço vazio entre esses pontos e a posição da proposta indica a lacuna de pesquisa: a falta de uma solução arquitetural integrada que una escala, objetividade e visão holística. É exatamente esse vazio que a proposta busca preencher, trazendo valor agregado pela integração entre perspectivas que antes apareciam de forma isolada.
+Para lidar com a variabilidade inerente a dados semiestruturados, adotamos uma abordagem schema-on-read, com dicionário de eventos e metadados curriculares (turma, equipe, LBL, marco). O princípio “o dado está dentro do sistema” orienta a governança: artefatos e metadados permanecem em plataformas institucionais com coleta por conectores autorizados, preservando rastro e conformidade ética.
 
-#### 5.1.2 Justificativa para a Lacuna Baseada nas Referências Fundamentais
+Finalmente, a lógica de decisão no ensino superior pode ser parcialmente automatizada no âmbito do Gêmeo Digital (DT) por regras: por exemplo, atraso > X dias em requisito crítico ou sequência de builds falhos aciona replanejamento imediato e escalonamento ao orientador.
 
-**Fundamentação no PPC do Inteli (2024)**: A estrutura curricular do Inteli, organizada em Learning BackLogs (LBLs) que integram conhecimentos técnicos com competências transversais, demonstra a necessidade de abordagens avaliativas que capturem essa complexidade multidimensional. A experiência do Inteli evidencia que "a qualidade dos concluintes dos cursos de computação tradicionais não está atendendo às necessidades do mercado e do país" (Valente et al., 2025), justificando a necessidade de soluções inovadoras para avaliação em ABP.
+#### 5.2.2 Pontos de Ataque e a Métrica de "Requisitos Modelados"
 
-**Fundamentação no Trabalho de Arakaki et al. (2025)**: A pesquisa da Cobenge revela questões metodológicas centrais que emergem da complexidade da ABP: "Como realizar a evolução sistemática dos módulos de aprendizagem baseados em projetos? Quais aspectos da aprendizagem devem ser utilizados como base para compor os requisitos de revisão?" Estas questões fundamentam a necessidade de uma abordagem estruturada e sistemática para avaliação em ABP.
+O sistema se concentrará em monitorar um conjunto de **"pontos de ataque"** — fontes de eventos críticos que refletem o progresso real do trabalho técnico. Estes incluem, mas não se limitam a:
 
-**Fundamentação em Pressman & Maxim (2021)**: A complexidade crescente dos sistemas de informação, que enfrentaram uma "esfera crescente de desafios" à medida que os problemas se tornaram mais complexos, justifica a aplicação de princípios de engenharia de software à avaliação educacional. Esta fundamentação teórica apoia a necessidade de soluções arquiteturalmente estruturadas para ABP.
+-   Eventos de repositórios de código (e.g., `git push`, `merge request`, `branch` criada).
+-   Atividade em ferramentas de CI/CD (e.g., `build` bem-sucedido, falha em testes).
+-   Interações com APIs de gerenciamento de projetos (e.g., `card` movido para "Done", `user story` atualizada).
+-   Alterações em artefatos de infraestrutura como código (IaC).
 
-### 5.2 Oportunidade de Pesquisa
+O motor de CEP agregará esses eventos de baixo nível para alimentar uma métrica central, tangível e defensável: a **quantidade e complexidade dos requisitos de software modelados e implementados**. Por exemplo, uma sequência de *commits* em um *branch* de *feature*, seguida por um *merge request* aprovado e um *build* bem-sucedido, pode ser correlacionada pelo sistema como a "conclusão do Requisito Funcional RF-07".
 
-A aplicação de conceitos de arquitetura de sistemas e tecnologias emergentes para apoio a professores orientadores na avaliação em ABP representa uma oportunidade inexplorada na literatura:
+O resultado para o professor é um dashboard que exibe a evolução temporal dos requisitos, a cadência de entregas de cada equipe e a identificação de possíveis gargalos, permitindo intervenções mais rápidas e fundamentadas em dados concretos do processo de engenharia.
 
-#### 5.2.1 Potencial de Abordagens Arquiteturais
+Especificamos seis pontos de ataque críticos, operacionalizados como padrões de CEP:
+- Contribuição: detecção de bursts e períodos de inatividade por pessoa/equipe (janelas deslizantes por repositório).
+- Aderência a rubricas e pesos: diferença entre pesos nominais vs. pesos efetivos observados em eventos de avaliação.
+- Cadência de entregas: padrões de atraso e lead time em checkpoints e marcos (deadline_miss, cycle_time elevado).
+- Qualidade técnica: sequências de builds falhos, flakiness de testes e regressões (instability pattern).
+- Feedback formativo: tempo de resposta do orientador e densidade/temporalidade do feedback (SLA de feedback).
+- Coordenação: picos de reabertura e redistribuição de tarefas (reopen/reassign surge), indicativos de retrabalho.
 
-1. **Réplica em Tempo Real**: Criação de representações que espelham continuamente o estado do projeto através de múltiplas perspectivas integradas
-2. **Integração de Dados Multidimensional**: Capacidade de integrar múltiplas fontes de dados (técnicas, comportamentais, colaborativas) em uma visão unificada
-3. **Monitoramento Contínuo**: Acompanhamento em tempo real do progresso individual e coletivo através de diferentes perspectivas
-4. **Simulação e Predição**: Capacidade de simular cenários e prever resultados com base em modelos estruturados
+Métrica “requisitos modelados” como proxy de aprendizagem: (i) contagem, (ii) completude (traços e critérios CRUD), (iii) maturidade (vínculos a testes/CI e rubricas), (iv) evolução (delta por sprint). Plano B: quando dados de performance técnica forem escassos, utilizar densidade e qualidade de requisitos modelados como métrica primária.
 
-#### 5.2.2 Alinhamento com Necessidades dos Professores Orientadores
+Estratégia de agregação e exposição de delta: dashboards sintetizam diferenças planejado vs. realizado e peso nominal vs. efetivo, com agregação hierárquica indivíduo → equipe → turma → coorte, preservando variância intra-grupo. “População = robustez”: maior N de equipes/turmas aumenta a estabilidade das estimativas e o poder das análises.
 
-1. **Avaliação Processual Integrada**: Captura e avaliação contínua da evolução do aprendizado através de múltiplas perspectivas
-2. **Personalização Baseada em Objetivos Educacionais**: Representação individualizada que permite avaliação personalizada alinhada com os objetivos educacionais
-3. **Escalabilidade**: A automação permite escalar o apoio à avaliação para contextos complexos mantendo a qualidade
-4. **Objetividade Fundamentada**: Base de dados objetivos que reduz a subjetividade inerente à avaliação humana
+LD e Lógica de Dados: distinguimos o Learning Design (desenho pedagógico — rubricas, ciclos, checkpoints) da Lógica de Dados (esquema de eventos/entidades, metadados e governança). A interação entre ambos alinha desenho educacional às evidências capturadas pelo CEP.
+
+Canal 4 (linha de sustentação) consolida as evidências processuais auditáveis; Canal 1 marca os indicadores essenciais como prioritários no pipeline.
+
+“Priorizar o assistente”: o agente prioriza a consolidação de sinais, destaca anomalias e sugere intervenções com base nos padrões de CEP, mantendo o professor no centro das decisões.
 
 ### 5.3 Direções para Pesquisas Futuras
 
-Baseado na análise comprehensiva da literatura, emerge o potencial de abordagens integradas que combinem múltiplas perspectivas para apoiar professores orientadores. Neste contexto, frameworks arquiteturais estabelecidos na indústria podem oferecer uma estrutura conceitual valiosa para o desenvolvimento de soluções holísticas.
+A implementação do Assistente de Orientação proposto abre diversas avenidas para pesquisas futuras. Uma primeira direção seria a aplicação de técnicas de **aprendizado de máquina (Machine Learning)** sobre os dados históricos de eventos complexos para criar **modelos preditivos**. Tais modelos poderiam, por exemplo, prever a probabilidade de uma equipe não conseguir completar um requisito no prazo, permitindo intervenções ainda mais proativas.
 
-Tecnologias emergentes como Gêmeos Digitais, que criam representações virtuais de sistemas físicos em tempo real, poderiam ser exploradas para integrar múltiplas perspectivas em uma solução coerente para apoio à avaliação em ABP, fundamentada nos princípios identificados através das experiências do Inteli, metodologias propostas por Arakaki et al. (2025) e fundamentos de engenharia de software de Pressman & Maxim (2021).
+Outra área de investigação seria a criação de uma **"Planta de Referência"** dinâmica, como sugerido por [seu orientador, se aplicável, ou deixar genérico]. Esta planta seria um modelo ideal de evolução de projeto, e o sistema poderia comparar o progresso em tempo real das equipes contra este modelo, destacando não apenas o progresso, mas também a **aderência a boas práticas de engenharia de software**.
+
+Finalmente, a pesquisa futura poderia explorar a incorporação de **fontes de dados semiestruturados ou não estruturados**, como a análise de sentimento em canais de comunicação da equipe (e.g., Slack, Discord), para adicionar uma dimensão sobre a "saúde" e a dinâmica da colaboração ao Gêmeo Digital.
+
+### 5.4 Mapeamento Histórico (1990–2025)
+
+Propomos um panorama evolutivo das abordagens de avaliação em ABP: (i) 1990–2000, predominância de rubricas holísticas e avaliações somativas; (ii) 2000–2010, expansão de rubricas analíticas e peer/self assessment estruturado; (iii) 2010–2020, adoção de learning analytics e mineração de processos educacionais; (iv) 2020–2025, emergência de observabilidade e processamento de eventos/tempo real aplicados a contextos educacionais. Este percurso histórico evidencia a migração de avaliações pontuais para monitoramento processual contínuo e, mais recentemente, para arquiteturas orientadas a eventos.
+
+### 5.5 Conexão com as Diretrizes Curriculares Nacionais (DCNs)
+
+Mapeamos as competências previstas na Resolução CNE/CES nº 5/2016 às evidências do pipeline de CEP: projetar e desenvolver soluções computacionais <-> requisitos modelados/testes/CI; gerenciar projetos de software <-> cadência, coordenação e aderência a marcos. Essa matriz permite auditoria objetiva do atendimento às DCNs, com rastreabilidade de decisões (Canal 4) e indicadores essenciais priorizados (Canal 1).
+
+### 5.6 Ameaças à Validade
+
+- Validade interna: risco de confundimento por variações de contexto (domínio do projeto, tamanho da equipe). Mitigação: uso de metadados curriculares (turma, LBL, marco) e controles por coorte.
+- Validade externa: generalização limitada a instituições com maturidade de engenharia de software e ferramentas integradas. Mitigação: estratégia de agregação multi-nível e amostras amplas (população maior → maior robustez das estimativas).
+- Validade de construto/conclusão: proxies técnicas (p.ex., requisitos modelados) podem não capturar integralmente aprendizagem de competências transversais. Mitigação: triangulação com rubricas e peer/self assessment; definição explícita de indicadores essenciais com validação por especialistas.
+- Dados semiestruturados: heterogeneidade e incompletude de artefatos. Mitigação: schema-on-read, dicionário de eventos, políticas de metadados e coleta automatizada; princípio de que “o dado está dentro do sistema”.
+- Riscos operacionais e éticos: privacidade, vigilância e sobrecarga de monitoramento. Mitigação: consentimento informado, minimização de dados, finalidades claras, e foco em apoio formativo ao docente e aos estudantes.
 
 ## 6 Considerações Finais
 
@@ -600,6 +655,12 @@ A identificação desta lacuna de pesquisa, fundamentada nas três referências 
 ## Referências
 
 Arakaki, R. et al. (2025). Aprimoramento Sistemático do PBL na Engenharia de Software: Um Método Baseado em Objetivos de Aprendizagem e Visões Arquiteturais. In: CONGRESSO BRASILEIRO DE EDUCAÇÃO EM ENGENHARIA (COBENGE), 53., 2025, Campinas. Anais [...]. Campinas: PUC-Campinas, 2025.
+
+Blumenfeld, P. C., Soloway, E., Marx, R. W., Krajcik, J. S., Guzdial, M., & Palincsar, A. (1991). Motivating Project-Based Learning: Sustaining the Doing, Supporting the Learning. *Educational Psychologist, 26*(3-4), 369-398.
+
+BRASIL. (2016). Resolução CNE/CES nº 5, de 16 de novembro de 2016. Institui as Diretrizes Curriculares Nacionais para os cursos de graduação na área da Computação, abrangendo os cursos de bacharelado em Ciência da Computação, em Sistemas de Informação, em Engenharia de Computação, em Engenharia de Software e de licenciatura em Computação, e dá outras providências. Diário Oficial da União, Brasília, DF, 19 dez. 2016.
+
+Guo, P., Saab, N., Post, L. S., & Admiraal, W. (2020). A review of project-based learning in higher education: Student outcomes and measures. *International Journal of Educational Research, 102*, 101586.
 
 INTELI PPC. (2024). Projeto Pedagógico do Curso de Bacharelado em Engenharia de Software. Instituto de Tecnologia e Liderança. Disponível em: https://www.inteli.edu.br/engenharia-de-software. Acesso em: set. 2025.
 
